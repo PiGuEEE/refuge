@@ -1,0 +1,26 @@
+<header class="headerHome">
+    <div class="downloadAt">
+        <a href="#" class="link steam" title="Download Refuge on Steam"></a>
+        <a href="#" class="link itchio" title="Download Refuge on Itch.io"></a>
+    </div>
+    <div class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars">
+        <div class="left">
+            <div class="small"></div>
+            <div class="big"></div>
+        </div>
+        <div class="right">
+            <div class="big"></div>
+            <div class="small"></div>
+        </div>
+    </div>
+    <nav class="navOverlay">
+        
+
+        {% block header_extra %}{% endblock %}
+        
+        {% block header_navigation %}
+            {% include 'partials/navigation.html.twig' %}
+        {% endblock %}
+
+    </nav>
+</header>
