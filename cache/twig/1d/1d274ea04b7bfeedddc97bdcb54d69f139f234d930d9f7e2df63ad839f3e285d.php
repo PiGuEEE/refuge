@@ -16,7 +16,7 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("home.html.twig", "home.html.twig", 1, "1151136689")->display($context);
+        $this->loadTemplate("home.html.twig", "home.html.twig", 1, "1952483261")->display($context);
         // line 34
         echo "
 
@@ -83,13 +83,13 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 {% endembed %}
 
 
-", "home.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/refuge-theme/templates/home.html.twig");
+", "home.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/home.html.twig");
     }
 }
 
 
 /* home.html.twig */
-class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c01da0_1151136689 extends Twig_Template
+class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c01da0_1952483261 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -267,6 +267,6 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 {% endembed %}
 
 
-", "home.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/refuge-theme/templates/home.html.twig");
+", "home.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/home.html.twig");
     }
 }

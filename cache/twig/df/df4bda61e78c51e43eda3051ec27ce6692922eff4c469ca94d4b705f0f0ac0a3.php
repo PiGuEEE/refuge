@@ -20,44 +20,46 @@ class __TwigTemplate_92b60e599afbe9054470167d0265e92bca150eec9d448d5b2127bc09bfc
         // line 24
         echo " -->
 
-<div class=\"navigationTop\"></div>
+<div class=\"navigationTop\">
+    <div class=\"logoWhite\"></div>
+</div>
 
 <ul class=\"navigation\">
     
     ";
-        // line 30
+        // line 32
         if ($this->getAttribute($this->getAttribute((isset($context["theme_config"]) ? $context["theme_config"] : null), "dropdown", array()), "enabled", array())) {
-            // line 31
+            // line 33
             echo "        ";
             echo $this->getAttribute($this, "loop", array(0 => (isset($context["pages"]) ? $context["pages"] : null)), "method");
             echo "
     ";
         } else {
-            // line 33
+            // line 35
             echo "        ";
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["pages"]) ? $context["pages"] : null), "children", array()), "visible", array()));
             foreach ($context['_seq'] as $context["_key"] => $context["page"]) {
-                // line 34
+                // line 36
                 echo "            ";
                 $context["current_page"] = ((($this->getAttribute($context["page"], "active", array()) || $this->getAttribute($context["page"], "activeChild", array()))) ? ("active") : (""));
-                // line 35
+                // line 37
                 echo "            <li class=\"";
                 echo (isset($context["current_page"]) ? $context["current_page"] : null);
                 echo " buttonBox\">
                 <a href=\"";
-                // line 36
+                // line 38
                 echo $this->getAttribute($context["page"], "url", array());
                 echo "\">
                     <div class=\"button\">
                         ";
-                // line 38
+                // line 40
                 if ($this->getAttribute($this->getAttribute($context["page"], "header", array()), "icon", array())) {
                     echo "<i class=\"fa fa-";
                     echo $this->getAttribute($this->getAttribute($context["page"], "header", array()), "icon", array());
                     echo "\"></i>";
                 }
-                // line 39
+                // line 41
                 echo "                        ";
                 echo $this->getAttribute($context["page"], "menu", array());
                 echo "
@@ -69,29 +71,29 @@ class __TwigTemplate_92b60e599afbe9054470167d0265e92bca150eec9d448d5b2127bc09bfc
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['page'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 44
+            // line 46
             echo "    ";
         }
-        // line 45
+        // line 47
         echo "    ";
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "menu", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["mitem"]) {
-            // line 46
+            // line 48
             echo "        <li>
             <div class=\"buttonBox\">
                 <a href=\"";
-            // line 48
+            // line 50
             echo $this->getAttribute($context["mitem"], "url", array());
             echo " button\">
                     ";
-            // line 49
+            // line 51
             if ($this->getAttribute($context["mitem"], "icon", array())) {
                 echo "<i class=\"fa fa-";
                 echo $this->getAttribute($context["mitem"], "icon", array());
                 echo "\"></i>";
             }
-            // line 50
+            // line 52
             echo "                    ";
             echo $this->getAttribute($context["mitem"], "text", array());
             echo "
@@ -103,18 +105,26 @@ class __TwigTemplate_92b60e599afbe9054470167d0265e92bca150eec9d448d5b2127bc09bfc
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['mitem'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 55
+        // line 57
         echo "    ";
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "login", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "user", array()), "username", array()))) {
-            // line 56
+            // line 58
             echo "        <li><i class=\"fa fa-lock\"></i> ";
-            $this->loadTemplate("partials/login-status.html.twig", "partials/navigation.html.twig", 56)->display($context);
+            $this->loadTemplate("partials/login-status.html.twig", "partials/navigation.html.twig", 58)->display($context);
             echo "</li>
     ";
         }
-        // line 58
+        // line 60
         echo "
-</ul>";
+</ul>
+
+<div class=\"navigationBottom\">
+    <div class=\"download\">
+        <p>DOWNLOAD</p>
+        <a href=\"#\" class=\"downloadLink itchio\"></a>
+        <a href=\"#\" class=\"downloadLink steam\"></a>
+    </div>
+</div>";
     }
 
     // line 1
@@ -224,7 +234,7 @@ class __TwigTemplate_92b60e599afbe9054470167d0265e92bca150eec9d448d5b2127bc09bfc
 
     public function getDebugInfo()
     {
-        return array (  197 => 23,  189 => 19,  183 => 18,  179 => 17,  174 => 16,  167 => 12,  159 => 8,  153 => 7,  149 => 6,  144 => 5,  141 => 4,  138 => 3,  133 => 2,  121 => 1,  116 => 58,  110 => 56,  107 => 55,  95 => 50,  89 => 49,  85 => 48,  81 => 46,  76 => 45,  73 => 44,  61 => 39,  55 => 38,  50 => 36,  45 => 35,  42 => 34,  37 => 33,  31 => 31,  29 => 30,  21 => 24,  19 => 1,);
+        return array (  207 => 23,  199 => 19,  193 => 18,  189 => 17,  184 => 16,  177 => 12,  169 => 8,  163 => 7,  159 => 6,  154 => 5,  151 => 4,  148 => 3,  143 => 2,  131 => 1,  118 => 60,  112 => 58,  109 => 57,  97 => 52,  91 => 51,  87 => 50,  83 => 48,  78 => 47,  75 => 46,  63 => 41,  57 => 40,  52 => 38,  47 => 37,  44 => 36,  39 => 35,  33 => 33,  31 => 32,  21 => 24,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -262,7 +272,9 @@ class __TwigTemplate_92b60e599afbe9054470167d0265e92bca150eec9d448d5b2127bc09bfc
     {% endfor %}
 {% endmacro %} -->
 
-<div class=\"navigationTop\"></div>
+<div class=\"navigationTop\">
+    <div class=\"logoWhite\"></div>
+</div>
 
 <ul class=\"navigation\">
     
@@ -295,6 +307,14 @@ class __TwigTemplate_92b60e599afbe9054470167d0265e92bca150eec9d448d5b2127bc09bfc
         <li><i class=\"fa fa-lock\"></i> {% include 'partials/login-status.html.twig' %}</li>
     {% endif %}
 
-</ul>", "partials/navigation.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/refuge-theme/templates/partials/navigation.html.twig");
+</ul>
+
+<div class=\"navigationBottom\">
+    <div class=\"download\">
+        <p>DOWNLOAD</p>
+        <a href=\"#\" class=\"downloadLink itchio\"></a>
+        <a href=\"#\" class=\"downloadLink steam\"></a>
+    </div>
+</div>", "partials/navigation.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/partials/navigation.html.twig");
     }
 }

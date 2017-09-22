@@ -33,35 +33,34 @@ class __TwigTemplate_256c841d3e58919fe92e2545dc2227cae18861aadd989ad48b68eaff471
             <div class=\"small\"></div>
         </div>
     </div>
-    <nav class=\"navOverlay\">
-        
+    <nav class=\"navOverlay\">      
 
         ";
-        // line 19
+        // line 18
         $this->displayBlock('header_extra', $context, $blocks);
-        // line 20
+        // line 19
         echo "        
         ";
-        // line 21
+        // line 20
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 24
+        // line 23
         echo "
     </nav>
 </header>";
     }
 
-    // line 19
+    // line 18
     public function block_header_extra($context, array $blocks = array())
     {
     }
 
-    // line 21
+    // line 20
     public function block_header_navigation($context, array $blocks = array())
     {
-        // line 22
+        // line 21
         echo "            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 22)->display($context);
-        // line 23
+        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 21)->display($context);
+        // line 22
         echo "        ";
     }
 
@@ -72,7 +71,7 @@ class __TwigTemplate_256c841d3e58919fe92e2545dc2227cae18861aadd989ad48b68eaff471
 
     public function getDebugInfo()
     {
-        return array (  65 => 23,  62 => 22,  59 => 21,  54 => 19,  48 => 24,  46 => 21,  43 => 20,  41 => 19,  21 => 1,);
+        return array (  64 => 22,  61 => 21,  58 => 20,  53 => 18,  47 => 23,  45 => 20,  42 => 19,  40 => 18,  21 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -100,8 +99,7 @@ class __TwigTemplate_256c841d3e58919fe92e2545dc2227cae18861aadd989ad48b68eaff471
             <div class=\"small\"></div>
         </div>
     </div>
-    <nav class=\"navOverlay\">
-        
+    <nav class=\"navOverlay\">      
 
         {% block header_extra %}{% endblock %}
         
@@ -110,6 +108,6 @@ class __TwigTemplate_256c841d3e58919fe92e2545dc2227cae18861aadd989ad48b68eaff471
         {% endblock %}
 
     </nav>
-</header>", "partials/header.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/refuge-theme/templates/partials/header.html.twig");
+</header>", "partials/header.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/partials/header.html.twig");
     }
 }

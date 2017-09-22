@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: 'Gameplay Videos'
 content:
     items: '@self.children'
     limit: 5
