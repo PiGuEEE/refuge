@@ -61,7 +61,7 @@ class __TwigTemplate_bb468a6131a11fb33bd62a345ed7ec8fe29e0d5ff41d171a44899034564
         ";
         // line 55
         $this->displayBlock('footer', $context, $blocks);
-        // line 63
+        // line 73
         echo "    </div>
 
     <!--
@@ -72,9 +72,9 @@ class __TwigTemplate_bb468a6131a11fb33bd62a345ed7ec8fe29e0d5ff41d171a44899034564
         </div>
     </div> 
     ";
-        // line 72
+        // line 82
         $this->displayBlock('bottom', $context, $blocks);
-        // line 84
+        // line 94
         echo "-->
 </body>
 </html>
@@ -232,18 +232,28 @@ class __TwigTemplate_bb468a6131a11fb33bd62a345ed7ec8fe29e0d5ff41d171a44899034564
     {
         // line 56
         echo "        <footer id=\"footer\">
-            <div class=\"totop\">
-                <span><a href=\"#\" id=\"toTop\"><i class=\"fa fa-arrow-up\"></i></a></span>
+
+            <div class=\"symbol\"></div>
+            <p class=\"downloadNow\">Download it now</p>
+            
+            <div class=\"downloadBtns\">
+                <a href=\"#\" class=\"downloadBtn steam\">refugethegame</a>
+                <a href=\"#\" class=\"downloadBtn itchio\">refugethegame</a>
             </div>
-            <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
+
+            <div class=\"copyright\">
+                <p class=\"refuge\">Refuge</p>
+                <p>Copyright 2017 - All rights reserved.</p>
+            </div>
+
         </footer>
         ";
     }
 
-    // line 72
+    // line 82
     public function block_bottom($context, array $blocks = array())
     {
-        // line 73
+        // line 83
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -272,7 +282,7 @@ class __TwigTemplate_bb468a6131a11fb33bd62a345ed7ec8fe29e0d5ff41d171a44899034564
 
     public function getDebugInfo()
     {
-        return array (  247 => 73,  244 => 72,  234 => 56,  231 => 55,  226 => 51,  221 => 52,  219 => 51,  214 => 50,  211 => 49,  206 => 47,  202 => 45,  199 => 44,  196 => 43,  192 => 36,  189 => 35,  186 => 34,  183 => 33,  180 => 32,  177 => 31,  173 => 28,  170 => 27,  167 => 26,  164 => 25,  161 => 24,  158 => 23,  155 => 22,  153 => 21,  150 => 20,  147 => 19,  144 => 18,  141 => 17,  138 => 16,  135 => 15,  132 => 14,  124 => 37,  122 => 31,  116 => 29,  114 => 14,  108 => 11,  104 => 10,  101 => 9,  99 => 8,  91 => 7,  88 => 6,  85 => 5,  78 => 84,  76 => 72,  65 => 63,  63 => 55,  60 => 54,  58 => 49,  53 => 47,  50 => 46,  48 => 43,  43 => 41,  40 => 40,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  257 => 83,  254 => 82,  234 => 56,  231 => 55,  226 => 51,  221 => 52,  219 => 51,  214 => 50,  211 => 49,  206 => 47,  202 => 45,  199 => 44,  196 => 43,  192 => 36,  189 => 35,  186 => 34,  183 => 33,  180 => 32,  177 => 31,  173 => 28,  170 => 27,  167 => 26,  164 => 25,  161 => 24,  158 => 23,  155 => 22,  153 => 21,  150 => 20,  147 => 19,  144 => 18,  141 => 17,  138 => 16,  135 => 15,  132 => 14,  124 => 37,  122 => 31,  116 => 29,  114 => 14,  108 => 11,  104 => 10,  101 => 9,  99 => 8,  91 => 7,  88 => 6,  85 => 5,  78 => 94,  76 => 82,  65 => 73,  63 => 55,  60 => 54,  58 => 49,  53 => 47,  50 => 46,  48 => 43,  43 => 41,  40 => 40,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -341,10 +351,20 @@ class __TwigTemplate_bb468a6131a11fb33bd62a345ed7ec8fe29e0d5ff41d171a44899034564
 
         {% block footer %}
         <footer id=\"footer\">
-            <div class=\"totop\">
-                <span><a href=\"#\" id=\"toTop\"><i class=\"fa fa-arrow-up\"></i></a></span>
+
+            <div class=\"symbol\"></div>
+            <p class=\"downloadNow\">Download it now</p>
+            
+            <div class=\"downloadBtns\">
+                <a href=\"#\" class=\"downloadBtn steam\">refugethegame</a>
+                <a href=\"#\" class=\"downloadBtn itchio\">refugethegame</a>
             </div>
-            <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
+
+            <div class=\"copyright\">
+                <p class=\"refuge\">Refuge</p>
+                <p>Copyright 2017 - All rights reserved.</p>
+            </div>
+
         </footer>
         {% endblock %}
     </div>

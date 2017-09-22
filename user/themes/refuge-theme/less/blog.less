@@ -11,8 +11,40 @@ body{
 	background-attachment: top left;
 	padding-top: 150px;
 	h1{ font-size: 6em; }
-	.subtitle h2{ width: 90%; font-size: 2em; margin-top: 20px;}
+	.subtitle h2{ width: 90%; font-size: 1.7em; margin: 0 auto; margin-top: 20px;}
 	.subtitle .link{ padding: 5px 10px; background-color: white; .purpleColor(); display: inline-table; font-size: 1em; }
 }
-
+.list-blog-header{
+	.dim(90%);
+	.primaryFont();
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 120px;
+	&:hover { cursor: pointer; }
+	.p-name{ 
+		.dim(100%);
+		a{ font-size: 4em; }
+	}
+	.list-blog-date{
+		font-size: 1.5em;
+		margin-top: 15px;
+	}
+	.image-container{
+		.relative();
+		margin-top: 30px;
+		border: 4px solid white;
+		overflow: hidden;
+		.view-post{
+			.absolute();
+			z-index: 1;
+			top: 50%;
+			left: 50%;
+			.translate(-50%, -50%);
+			.button{
+				.dim(100%, 100%);
+				font-size: 2em;
+			}
+		}
+	}
+}
 @import 'media-queries.less';

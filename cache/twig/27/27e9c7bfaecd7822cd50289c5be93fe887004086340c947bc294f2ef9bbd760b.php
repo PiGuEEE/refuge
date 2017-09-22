@@ -33,36 +33,21 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
         // line 7
         echo "
     <div class=\"list-blog-header\">
-        <span class=\"list-blog-date\">
-            <time class=\"dt-published\" datetime=\"";
-        // line 10
-        echo twig_date_format_filter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "date", array()), "c");
-        echo "\">
-                <span>";
-        // line 11
-        echo twig_date_format_filter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "date", array()), "d");
-        echo "</span>
-                <em>";
-        // line 12
-        echo twig_date_format_filter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "date", array()), "M");
-        echo "</em>
-            </time>
-        </span>
         ";
-        // line 15
+        // line 9
         if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "link", array())) {
-            // line 16
+            // line 10
             echo "            <h4 class=\"p-name\">
                 ";
-            // line 17
+            // line 11
             if ( !($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "continue_link", array()) === false)) {
-                // line 18
+                // line 12
                 echo "                <a href=\"";
                 echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array());
                 echo "\"><i class=\"fa fa-angle-double-right u-url\"></i></a>
                 ";
             }
-            // line 20
+            // line 14
             echo "                <a href=\"";
             echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "link", array());
             echo "\" class=\"u-url\">";
@@ -71,7 +56,7 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
             </h4>
         ";
         } else {
-            // line 23
+            // line 17
             echo "            <h4 class=\"p-name\"><a href=\"";
             echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array());
             echo "\" class=\"u-url\">";
@@ -79,19 +64,30 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
             echo "</a></h4>
         ";
         }
-        // line 25
-        echo "
+        // line 19
+        echo "        <span class=\"list-blog-date\">
+            <time class=\"dt-published\" datetime=\"";
+        // line 20
+        echo twig_date_format_filter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "date", array()), "c");
+        echo "\">
+                <span>";
+        // line 21
+        echo twig_date_format_filter($this->env, $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "date", array()), "d/m/y");
+        echo "</span>
+            </time>
+        </span>
+
         ";
-        // line 26
+        // line 25
         if ($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "taxonomy", array()), "tag", array())) {
-            // line 27
+            // line 26
             echo "        <span class=\"tags\">
             ";
-            // line 28
+            // line 27
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "taxonomy", array()), "tag", array()));
             foreach ($context['_seq'] as $context["_key"] => $context["tag"]) {
-                // line 29
+                // line 28
                 echo "            <a href=\"";
                 echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->rtrimFilter($this->getAttribute((isset($context["blog"]) ? $context["blog"] : null), "url", array()), "/");
                 echo "/tag";
@@ -105,130 +101,62 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['tag'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 31
+            // line 30
             echo "        </span>
         ";
         }
-        // line 33
-        echo "        ";
+        // line 32
+        echo "        <div class=\"image-container\">
+            <div class=\"view-post\">
+                <a href=\"";
+        // line 34
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array());
+        echo "\" class=\"button\">CONTINUE READING</a>
+            </div>
+            ";
+        // line 36
         if ((isset($context["header_image"]) ? $context["header_image"] : null)) {
-            // line 34
-            echo "            ";
+            // line 37
+            echo "                ";
             if ((isset($context["header_image_file"]) ? $context["header_image_file"] : null)) {
-                // line 35
-                echo "                ";
-                $context["header_image_media"] = $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()), (isset($context["header_image_file"]) ? $context["header_image_file"] : null), array(), "array");
-                // line 36
-                echo "            ";
-            } else {
-                // line 37
-                echo "                ";
-                $context["header_image_media"] = twig_first($this->env, $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()));
                 // line 38
-                echo "            ";
+                echo "                    ";
+                $context["header_image_media"] = $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()), (isset($context["header_image_file"]) ? $context["header_image_file"] : null), array(), "array");
+                // line 39
+                echo "                ";
+            } else {
+                // line 40
+                echo "                    ";
+                $context["header_image_media"] = twig_first($this->env, $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()));
+                // line 41
+                echo "                ";
             }
-            // line 39
-            echo "            ";
+            // line 42
+            echo "                ";
             echo $this->getAttribute($this->getAttribute((isset($context["header_image_media"]) ? $context["header_image_media"] : null), "cropZoom", array(0 => (isset($context["header_image_width"]) ? $context["header_image_width"] : null), 1 => (isset($context["header_image_height"]) ? $context["header_image_height"] : null)), "method"), "html", array());
             echo "
-        ";
+            ";
         }
-        // line 41
-        echo "
+        // line 44
+        echo "        </div>
+
     </div>
 
     <div class=\"list-blog-padding\">
 
-    ";
-        // line 46
-        if (($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "continue_link", array()) === false)) {
-            // line 47
-            echo "        <div class=\"e-content\">        
-            ";
-            // line 48
-            echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
-            echo "
-        </div>
-        ";
-            // line 50
-            if ( !(isset($context["truncate"]) ? $context["truncate"] : null)) {
-                // line 51
-                echo "        ";
-                $context["show_prev_next"] = true;
-                // line 52
-                echo "        ";
-            }
-            // line 53
-            echo "    ";
-        } elseif (((isset($context["truncate"]) ? $context["truncate"] : null) && ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "summary", array()) != $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array())))) {
-            // line 54
-            echo "        <div class=\"p-summary e-content\">
-            ";
-            // line 55
-            echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "summary", array());
-            echo "
-            <p><a href=\"";
-            // line 56
-            echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array());
-            echo "\">";
-            echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("BLOG.ITEM.CONTINUE_READING");
-            echo "</a></p>
-        </div>
-    ";
-        } elseif (        // line 58
-(isset($context["truncate"]) ? $context["truncate"] : null)) {
-            // line 59
-            echo "        <div class=\"p-summary e-content\">
-            ";
-            // line 60
-            echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
-            echo "
-            <p><a href=\"";
-            // line 61
-            echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array());
-            echo "\">";
-            echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("BLOG.ITEM.CONTINUE_READING");
-            echo "</a></p>
-        </div>
-    ";
-        } else {
-            // line 64
-            echo "        <div class=\"e-content\">
-            ";
-            // line 65
-            echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
-            echo "
-        </div>
 
-        ";
-            // line 68
-            if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "comments", array()), "enabled", array())) {
-                // line 69
-                echo "            ";
-                $this->loadTemplate("partials/comments.html.twig", "partials/blog_item.html.twig", 69)->display($context);
-                // line 70
-                echo "        ";
-            }
-            // line 71
-            echo "
-        ";
-            // line 72
-            $context["show_prev_next"] = true;
-            // line 73
-            echo "    ";
-        }
-        // line 74
-        echo "
+    
+
     ";
-        // line 75
+        // line 53
         if ((isset($context["show_prev_next"]) ? $context["show_prev_next"] : null)) {
-            // line 76
+            // line 54
             echo "
         <p class=\"prev-next\">
             ";
-            // line 78
+            // line 56
             if ( !$this->getAttribute((isset($context["page"]) ? $context["page"] : null), "isFirst", array())) {
-                // line 79
+                // line 57
                 echo "                <a class=\"button\" href=\"";
                 echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "nextSibling", array()), "url", array());
                 echo "\"><i class=\"fa fa-chevron-left\"></i> ";
@@ -236,12 +164,12 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
                 echo "</a>
             ";
             }
-            // line 81
+            // line 59
             echo "
             ";
-            // line 82
+            // line 60
             if ( !$this->getAttribute((isset($context["page"]) ? $context["page"] : null), "isLast", array())) {
-                // line 83
+                // line 61
                 echo "                <a class=\"button\" href=\"";
                 echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "prevSibling", array()), "url", array());
                 echo "\">";
@@ -249,11 +177,11 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
                 echo " <i class=\"fa fa-chevron-right\"></i></a>
             ";
             }
-            // line 85
+            // line 63
             echo "        </p>
     ";
         }
-        // line 87
+        // line 65
         echo "
     </div>
 </div>
@@ -272,7 +200,7 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
 
     public function getDebugInfo()
     {
-        return array (  257 => 87,  253 => 85,  245 => 83,  243 => 82,  240 => 81,  232 => 79,  230 => 78,  226 => 76,  224 => 75,  221 => 74,  218 => 73,  216 => 72,  213 => 71,  210 => 70,  207 => 69,  205 => 68,  199 => 65,  196 => 64,  188 => 61,  184 => 60,  181 => 59,  179 => 58,  172 => 56,  168 => 55,  165 => 54,  162 => 53,  159 => 52,  156 => 51,  154 => 50,  149 => 48,  146 => 47,  144 => 46,  137 => 41,  131 => 39,  128 => 38,  125 => 37,  122 => 36,  119 => 35,  116 => 34,  113 => 33,  109 => 31,  95 => 29,  91 => 28,  88 => 27,  86 => 26,  83 => 25,  75 => 23,  66 => 20,  60 => 18,  58 => 17,  55 => 16,  53 => 15,  47 => 12,  43 => 11,  39 => 10,  34 => 7,  31 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
+        return array (  185 => 65,  181 => 63,  173 => 61,  171 => 60,  168 => 59,  160 => 57,  158 => 56,  154 => 54,  152 => 53,  141 => 44,  135 => 42,  132 => 41,  129 => 40,  126 => 39,  123 => 38,  120 => 37,  118 => 36,  113 => 34,  109 => 32,  105 => 30,  91 => 28,  87 => 27,  84 => 26,  82 => 25,  75 => 21,  71 => 20,  68 => 19,  60 => 17,  51 => 14,  45 => 12,  43 => 11,  40 => 10,  38 => 9,  34 => 7,  31 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -293,12 +221,6 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
     {% set header_image_file = page.header.header_image_file %}
 
     <div class=\"list-blog-header\">
-        <span class=\"list-blog-date\">
-            <time class=\"dt-published\" datetime=\"{{ page.date|date(\"c\") }}\">
-                <span>{{ page.date|date(\"d\") }}</span>
-                <em>{{ page.date|date(\"M\") }}</em>
-            </time>
-        </span>
         {% if page.header.link %}
             <h4 class=\"p-name\">
                 {% if page.header.continue_link is not sameas(false) %}
@@ -309,6 +231,11 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
         {% else %}
             <h4 class=\"p-name\"><a href=\"{{ page.url }}\" class=\"u-url\">{{ page.title }}</a></h4>
         {% endif %}
+        <span class=\"list-blog-date\">
+            <time class=\"dt-published\" datetime=\"{{ page.date|date(\"c\") }}\">
+                <span>{{ page.date|date(\"d/m/y\") }}</span>
+            </time>
+        </span>
 
         {% if page.taxonomy.tag %}
         <span class=\"tags\">
@@ -317,47 +244,26 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
             {% endfor %}
         </span>
         {% endif %}
-        {% if header_image %}
-            {% if header_image_file %}
-                {% set header_image_media = page.media.images[header_image_file] %}
-            {% else %}
-                {% set header_image_media = page.media.images|first %}
+        <div class=\"image-container\">
+            <div class=\"view-post\">
+                <a href=\"{{ page.url }}\" class=\"button\">CONTINUE READING</a>
+            </div>
+            {% if header_image %}
+                {% if header_image_file %}
+                    {% set header_image_media = page.media.images[header_image_file] %}
+                {% else %}
+                    {% set header_image_media = page.media.images|first %}
+                {% endif %}
+                {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
             {% endif %}
-            {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
-        {% endif %}
+        </div>
 
     </div>
 
     <div class=\"list-blog-padding\">
 
-    {% if page.header.continue_link is sameas(false) %}
-        <div class=\"e-content\">        
-            {{ page.content }}
-        </div>
-        {% if not truncate %}
-        {% set show_prev_next = true %}
-        {% endif %}
-    {% elseif truncate and page.summary != page.content %}
-        <div class=\"p-summary e-content\">
-            {{ page.summary }}
-            <p><a href=\"{{ page.url }}\">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
-        </div>
-    {% elseif truncate %}
-        <div class=\"p-summary e-content\">
-            {{ page.content }}
-            <p><a href=\"{{ page.url }}\">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
-        </div>
-    {% else %}
-        <div class=\"e-content\">
-            {{ page.content }}
-        </div>
 
-        {% if config.plugins.comments.enabled %}
-            {% include 'partials/comments.html.twig' %}
-        {% endif %}
-
-        {% set show_prev_next = true %}
-    {% endif %}
+    
 
     {% if show_prev_next %}
 

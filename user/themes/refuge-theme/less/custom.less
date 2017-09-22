@@ -52,6 +52,33 @@
 		}
 	}
 }
+
+.button{
+	.relative();
+	.iblock();
+	.purpleBg();
+	padding: 9px 25px;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	border: 4px solid white;
+	text-align: center;
+	a{.dim(100%, 100%);}
+	&:after{
+		content: ' ';
+		.dim(100%, 100%);
+		.absolute();
+		.purpleBg();
+		z-index: -1;
+		border: 4px solid white;
+		bottom: -18px;
+		left: 15px; 
+	}
+	&:hover, &:active{
+		.purpleColor();
+		background-color: white;
+	}
+}
+
 .navOverlay{
 	.fullScreen();
 	.overlay();
@@ -77,29 +104,6 @@
 			.relative();
 			margin: 0 auto;
 			z-index: 1;
-			.button{
-				.relative();
-				.iblock();
-				.purpleBg();
-				padding: 9px 25px;
-				text-transform: uppercase;
-				font-size: 3.5em;
-				border: 4px solid white;
-				&:after{
-					content: ' ';
-					.dim(100%, 100%);
-					.absolute();
-					.purpleBg();
-					z-index: -1;
-					border: 4px solid white;
-					bottom: -18px;
-					left: 15px; 
-				}
-				&:hover, &:active{
-					.purpleColor();
-					background-color: white;
-				}
-			}
 			&:before{
 				.dim(100%, 5px);
 				.absolute();
@@ -122,6 +126,54 @@
 				.fleft();
 				&:last-child{ margin-left: 15px;}
 			}
+		}
+	}
+}
+
+
+#footer{
+	.dim(100%, 600px);
+	.primaryFont();
+	padding-top: 40px;
+	text-align: center;
+	background-image: url(../img/symbol-refuge.png);
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	.symbol{
+		.dim(50px, 50px);
+		.fullBg();
+		.relative();
+		margin: 0 auto;
+		background-image: url(../svg/symbol-refuge.svg);	
+	}
+	.downloadBtns{
+		margin-top: 40px;
+		margin-bottom: 150px;
+		.downloadBtn{
+			.dim(100px, 30px);
+			display: inline-table;
+			font-size: 2em;
+			padding-left: 45px;
+			background-repeat: no-repeat;
+			background-size: 20% 100%;
+			background-position: top left;
+			&:first-child{
+				.steam();
+				margin-right: 60px;
+			}
+		}
+		.steam{
+			background-image: url(../svg/steam.svg);
+		}
+	}
+	.downloadNow{
+		font-size: 3.6em;
+	}
+	.copyright{
+		p{ font-size: 1.2em; }
+		.refuge{
+			margin-bottom: 10px;
+			font-size: 2.2em;
 		}
 	}
 }
