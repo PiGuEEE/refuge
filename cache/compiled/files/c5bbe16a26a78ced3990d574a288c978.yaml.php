@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/refuge/user/accounts/arthur.yaml',
-    'modified' => 1505908014,
+    'modified' => 1506039183,
     'data' => [
         'email' => 'xpigue@gmail.com',
         'fullname' => 'Arthur Finkler',
@@ -17,6 +17,11 @@ return [
                 'login' => true
             ]
         ],
-        'hashed_password' => '$2y$10$XWi9spYyO.o8GsmPguGe8eZoQoTiHa4AGl9w3urQwmm5e6DS6m2LS'
+        'hashed_password' => '$2y$10$XWi9spYyO.o8GsmPguGe8eZoQoTiHa4AGl9w3urQwmm5e6DS6m2LS',
+        'language' => 'en',
+        'login_attempts' => [
+            
+        ],
+        'twofa_secret' => '6DECUX464O4NJDL2IWFIBCNVIKRTGV6P'
     ]
 ];

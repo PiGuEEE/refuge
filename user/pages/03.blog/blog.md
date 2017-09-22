@@ -1,5 +1,5 @@
 ---
-title: 'Gameplay Videos'
+title: 'Developers Diary - Blog'
 content:
     items: '@self.children'
     limit: 5
@@ -10,4 +10,4 @@ content:
     url_taxonomy_filters: true
 ---
 
-Heyyy blog's here!
+## Share you gameplay on Social Media using <a href="#" class="link">#refugethegame</a> to be featured!
