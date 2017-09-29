@@ -160,7 +160,7 @@
 		.relative();
 		margin: 0 auto;
 		border: 4px solid white;
-		background-image: url(../img/screenshot1.jpg);
+		background-image: url(../img/screenshot1.png);
 		background-size: cover;
 	}
 	.button{
@@ -176,6 +176,35 @@
 	}
 }
 
+.theGame{
+	.primaryFont();
+	h2{
+		width: 100vw;
+		text-align: center;
+		font-size: 4em;
+		margin-top: 80px;
+		margin-bottom: 60px;
+	}
+	.textContainer{
+		.dim(80%);
+		max-width: 1000px;
+		margin: 0 auto;
+		column-count: 2;
+		column-gap: 70px;
+	}
+	p{
+		font-size: 2em;
+		margin-bottom: 20px;
+		line-height: 1.2em;
+	}
+	.yourCall{
+		font-size: 9vw;
+		text-align: center;
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+}
+
 #footer{
 	.dim(100%, 600px);
 	.primaryFont();
@@ -184,6 +213,7 @@
 	background-image: url(../img/symbol-refuge.png);
 	background-position: 50% 100%;
 	background-repeat: no-repeat;
+	background-size: 30%;
 	.symbol{
 		.dim(50px, 50px);
 		.fullBg();
@@ -192,7 +222,7 @@
 		background-image: url(../svg/symbol-refuge.svg);	
 	}
 	.downloadBtns{
-		margin-top: 40px;
+		margin-top: 60px;
 		margin-bottom: 150px;
 		.downloadBtn{
 			.dim(100px, 30px);
@@ -212,7 +242,8 @@
 		}
 	}
 	.downloadNow{
-		font-size: 3.6em;
+		font-size: 4em;
+		margin-top: 40px;
 	}
 	.copyright{
 		p{ font-size: 1.2em; }
