@@ -19,8 +19,8 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1188249457")->display($context);
-        // line 67
+        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "418994968")->display($context);
+        // line 72
         echo "
 
 ";
@@ -51,7 +51,7 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 
     public function getDebugInfo()
     {
-        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 67,  22 => 6,  20 => 1,);
+        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 72,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -110,8 +110,13 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t</section>
 
 \t\t<section class=\"testimonials\">
-\t\t\t{% include 'testimonials.html.twig' %}
+\t\t\t<div class=\"testimonial\">
+\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
+\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t</div>
 \t\t</section>
+
+\t\t{% include 'partials/image-slider.html.twig' %}
 
 \t\t<!-- <div class=\"blog-header\">
 \t\t</div> -->
@@ -138,7 +143,7 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 
 
 /* home.html.twig */
-class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c01da0_1188249457 extends Twig_Template
+class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c01da0_418994968 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -219,19 +224,24 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t</section>
 
 \t\t<section class=\"testimonials\">
-\t\t\t";
-        // line 47
-        $this->loadTemplate("testimonials.html.twig", "home.html.twig", 47)->display($context);
-        // line 48
-        echo "\t\t</section>
+\t\t\t<div class=\"testimonial\">
+\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
+\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t</div>
+\t\t</section>
 
+\t\t";
+        // line 53
+        $this->loadTemplate("partials/image-slider.html.twig", "home.html.twig", 53)->display($context);
+        // line 54
+        echo "
 \t\t<!-- <div class=\"blog-header\">
 \t\t</div> -->
 
 \t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 \t\t\t\t";
-        // line 55
+        // line 60
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -248,10 +258,10 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 56
+            // line 61
             echo "\t\t\t        ";
-            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 56)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
-            // line 57
+            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 61)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
+            // line 62
             echo "\t\t\t    ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -265,18 +275,18 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 58
+        // line 63
         echo "
                 ";
-        // line 59
+        // line 64
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))) {
-            // line 60
+            // line 65
             echo "                    ";
-            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 60)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
-            // line 61
+            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 65)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
+            // line 66
             echo "                ";
         }
-        // line 62
+        // line 67
         echo "\t\t\t</div>
 \t\t</div>
 \t";
@@ -294,7 +304,7 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 
     public function getDebugInfo()
     {
-        return array (  280 => 62,  277 => 61,  274 => 60,  272 => 59,  269 => 58,  255 => 57,  252 => 56,  235 => 55,  226 => 48,  224 => 47,  209 => 35,  203 => 31,  201 => 30,  185 => 16,  179 => 14,  177 => 13,  174 => 12,  171 => 11,  168 => 10,  164 => 6,  162 => 8,  148 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 67,  22 => 6,  20 => 1,);
+        return array (  290 => 67,  287 => 66,  284 => 65,  282 => 64,  279 => 63,  265 => 62,  262 => 61,  245 => 60,  237 => 54,  235 => 53,  214 => 35,  208 => 31,  206 => 30,  190 => 16,  184 => 14,  182 => 13,  179 => 12,  176 => 11,  173 => 10,  169 => 6,  167 => 8,  153 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 72,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -353,8 +363,13 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t</section>
 
 \t\t<section class=\"testimonials\">
-\t\t\t{% include 'testimonials.html.twig' %}
+\t\t\t<div class=\"testimonial\">
+\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
+\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t</div>
 \t\t</section>
+
+\t\t{% include 'partials/image-slider.html.twig' %}
 
 \t\t<!-- <div class=\"blog-header\">
 \t\t</div> -->

@@ -74,6 +74,7 @@
 	.iblock();
 	.purpleBg();
 	.primaryFont();
+	cursor: pointer;
 	padding: 9px 25px;
 	text-transform: uppercase;
 	font-size: 3.5em;
@@ -148,6 +149,32 @@
 	}
 }
 
+.gameScreenshots{
+	width: 100vw;
+	.clr();
+	.container{
+		.relative();
+	}
+	.image{
+		.dim(80%, 450px);
+		.relative();
+		margin: 0 auto;
+		border: 4px solid white;
+		background-image: url(../img/screenshot1.jpg);
+		background-size: cover;
+	}
+	.button{
+		.absolute();
+	}
+	.previous{
+		left: -50px;
+		top: 180px;
+	}
+	.next{
+		right: -50px;
+		top: 180px;
+	}
+}
 
 #footer{
 	.dim(100%, 600px);
