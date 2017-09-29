@@ -19,8 +19,8 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "560455289")->display($context);
-        // line 55
+        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1188249457")->display($context);
+        // line 67
         echo "
 
 ";
@@ -51,7 +51,7 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 
     public function getDebugInfo()
     {
-        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 55,  22 => 6,  20 => 1,);
+        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 67,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -77,8 +77,8 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 \t\t{% if blog_image %}
-\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url({{ blog_image.url }});\">
-\t\t{% else %}
+\t\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url({{ blog_image.url }});\">
+\t\t{% endif %}
 \t\t<section class=\"mainHome\">
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
@@ -87,18 +87,30 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t\t\t<p class=\"by\">A VIDEOGAME BY NOT-YET</p>
 \t\t\t\t<a href=\"#\" class=\"button\" title=\"Download Now\">DOWNLOAD NOW</a>
 \t\t\t</div>
+
 \t\t</section>
 
+
 \t\t<section class=\"yourDecision\">
+       \t\t
+       \t\t{% include 'partials/header-internals.html.twig' %}
+\t\t\t
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"decisionText\">
-\t\t\t\t\t{% endif %}
+\t\t\t\t\t
 \t\t\t\t\t{{ page.content }}
-\t\t\t\t</div>
-\t\t\t\t<div class=\"gameplay\">
 
 \t\t\t\t</div>
+\t\t\t\t<div class=\"gameplayBox\">
+\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
+\t\t\t\t</div>
 \t\t\t</div>
+
+\t\t</section>
+
+\t\t<section class=\"testimonials\">
+\t\t\t{% include 'testimonials.html.twig' %}
 \t\t</section>
 
 \t\t<!-- <div class=\"blog-header\">
@@ -126,7 +138,7 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 
 
 /* home.html.twig */
-class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c01da0_560455289 extends Twig_Template
+class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c01da0_1188249457 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -164,13 +176,13 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
         // line 13
         if ((isset($context["blog_image"]) ? $context["blog_image"] : null)) {
             // line 14
-            echo "\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url(";
+            echo "\t\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url(";
             echo $this->getAttribute((isset($context["blog_image"]) ? $context["blog_image"] : null), "url", array());
             echo ");\">
 \t\t";
-        } else {
-            // line 16
-            echo "\t\t<section class=\"mainHome\">
+        }
+        // line 16
+        echo "\t\t<section class=\"mainHome\">
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
 \t\t\t\t<div class=\"refugeSymbol\"></div>
@@ -178,23 +190,40 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t\t\t<p class=\"by\">A VIDEOGAME BY NOT-YET</p>
 \t\t\t\t<a href=\"#\" class=\"button\" title=\"Download Now\">DOWNLOAD NOW</a>
 \t\t\t</div>
+
 \t\t</section>
+
 
 \t\t<section class=\"yourDecision\">
+       \t\t
+       \t\t";
+        // line 30
+        $this->loadTemplate("partials/header-internals.html.twig", "home.html.twig", 30)->display($context);
+        // line 31
+        echo "\t\t\t
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"decisionText\">
+\t\t\t\t\t
 \t\t\t\t\t";
-        }
-        // line 30
-        echo "\t\t\t\t\t";
+        // line 35
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
-\t\t\t\t</div>
-\t\t\t\t<div class=\"gameplay\">
 
 \t\t\t\t</div>
+\t\t\t\t<div class=\"gameplayBox\">
+\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
+\t\t\t\t</div>
 \t\t\t</div>
+
 \t\t</section>
+
+\t\t<section class=\"testimonials\">
+\t\t\t";
+        // line 47
+        $this->loadTemplate("testimonials.html.twig", "home.html.twig", 47)->display($context);
+        // line 48
+        echo "\t\t</section>
 
 \t\t<!-- <div class=\"blog-header\">
 \t\t</div> -->
@@ -202,7 +231,7 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 \t\t\t\t";
-        // line 43
+        // line 55
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -219,10 +248,10 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 44
+            // line 56
             echo "\t\t\t        ";
-            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 44)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
-            // line 45
+            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 56)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
+            // line 57
             echo "\t\t\t    ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -236,18 +265,18 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 46
+        // line 58
         echo "
                 ";
-        // line 47
+        // line 59
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))) {
-            // line 48
+            // line 60
             echo "                    ";
-            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 48)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
-            // line 49
+            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 60)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
+            // line 61
             echo "                ";
         }
-        // line 50
+        // line 62
         echo "\t\t\t</div>
 \t\t</div>
 \t";
@@ -265,7 +294,7 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 
     public function getDebugInfo()
     {
-        return array (  251 => 50,  248 => 49,  245 => 48,  243 => 47,  240 => 46,  226 => 45,  223 => 44,  206 => 43,  189 => 30,  173 => 16,  167 => 14,  165 => 13,  162 => 12,  159 => 11,  156 => 10,  152 => 6,  150 => 8,  136 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 55,  22 => 6,  20 => 1,);
+        return array (  280 => 62,  277 => 61,  274 => 60,  272 => 59,  269 => 58,  255 => 57,  252 => 56,  235 => 55,  226 => 48,  224 => 47,  209 => 35,  203 => 31,  201 => 30,  185 => 16,  179 => 14,  177 => 13,  174 => 12,  171 => 11,  168 => 10,  164 => 6,  162 => 8,  148 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 67,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -291,8 +320,8 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 \t\t{% if blog_image %}
-\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url({{ blog_image.url }});\">
-\t\t{% else %}
+\t\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url({{ blog_image.url }});\">
+\t\t{% endif %}
 \t\t<section class=\"mainHome\">
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
@@ -301,18 +330,30 @@ class __TwigTemplate_e1ea4b6ea867660186e8128b9118112ff1c7cd33a61143fb720b021958c
 \t\t\t\t<p class=\"by\">A VIDEOGAME BY NOT-YET</p>
 \t\t\t\t<a href=\"#\" class=\"button\" title=\"Download Now\">DOWNLOAD NOW</a>
 \t\t\t</div>
+
 \t\t</section>
 
+
 \t\t<section class=\"yourDecision\">
+       \t\t
+       \t\t{% include 'partials/header-internals.html.twig' %}
+\t\t\t
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"decisionText\">
-\t\t\t\t\t{% endif %}
+\t\t\t\t\t
 \t\t\t\t\t{{ page.content }}
-\t\t\t\t</div>
-\t\t\t\t<div class=\"gameplay\">
 
 \t\t\t\t</div>
+\t\t\t\t<div class=\"gameplayBox\">
+\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
+\t\t\t\t</div>
 \t\t\t</div>
+
+\t\t</section>
+
+\t\t<section class=\"testimonials\">
+\t\t\t{% include 'testimonials.html.twig' %}
 \t\t</section>
 
 \t\t<!-- <div class=\"blog-header\">

@@ -11,8 +11,8 @@
 		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 		{% if blog_image %}
-		<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
-		{% else %}
+			<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
+		{% endif %}
 		<section class="mainHome">
 			<figure class="symbolTop"></figure>
 			<div class="mainContent">
@@ -21,18 +21,30 @@
 				<p class="by">A VIDEOGAME BY NOT-YET</p>
 				<a href="#" class="button" title="Download Now">DOWNLOAD NOW</a>
 			</div>
+
 		</section>
 
+
 		<section class="yourDecision">
+       		
+       		{% include 'partials/header-internals.html.twig' %}
+			
 			<div class="container">
 				<div class="decisionText">
-					{% endif %}
+					
 					{{ page.content }}
-				</div>
-				<div class="gameplay">
 
 				</div>
+				<div class="gameplayBox">
+					<div class="gameplay"></div>
+					<a href="#" class="button" title="More Gameplay Videos">MORE GAMEPLAY VIDEOS</a>
+				</div>
 			</div>
+
+		</section>
+
+		<section class="testimonials">
+			{% include 'testimonials.html.twig' %}
 		</section>
 
 		<!-- <div class="blog-header">

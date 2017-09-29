@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
   $('.menu-btn').click(function(){
-    $('.navOverlay').fadeToggle(200);
+  	$(this).parent().find('.navOverlay').fadeToggle(200);
+  	console.log('hehe');
+    //$('.navOverlay').fadeToggle(200);
   });
 
 });
