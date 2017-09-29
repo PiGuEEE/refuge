@@ -82,6 +82,6 @@ class __TwigTemplate_4bad073b84dbd8ccc3148e2c3f87aeb3c7c459396e6a4b8e63aeec74dda
         return new Twig_Source("{% for meta in page.metadata %}
 <meta {% if meta.name %}name=\"{{ meta.name }}\" {% endif %}{% if meta.http_equiv %}http-equiv=\"{{ meta.http_equiv }}\" {% endif %}{% if meta.charset %}charset=\"{{ meta.charset }}\" {% endif %}{% if meta.property %}property=\"{{ meta.property }}\" {% endif %}{% if meta.content %}content=\"{{ meta.content }}\" {% endif %}/>
 {% endfor %}
-", "partials/metadata.html.twig", "/Applications/MAMP/htdocs/grav/user/themes/refuge-theme/templates/partials/metadata.html.twig");
+", "partials/metadata.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/partials/metadata.html.twig");
     }
 }

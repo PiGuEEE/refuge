@@ -66,6 +66,6 @@ class __TwigTemplate_221ef329b690f13cdda5654a3903a635bfbff53342ae02a219ee594c52d
     {% set codemirrorOptions = codemirrorOptions|merge({'ignore': []}) %}
 {% endif %}
 {# end backward compatibility #}
-", "forms/fields/markdown/markdown.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/forms/fields/markdown/markdown.html.twig");
+", "forms/fields/markdown/markdown.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/forms/fields/markdown/markdown.html.twig");
     }
 }

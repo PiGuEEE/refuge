@@ -211,6 +211,6 @@ class __TwigTemplate_7bfd31e47328ef6e363b09e62d6cbfc066db693f9338dc0aed1049c5c1e
         </div>
     </div>
 {% endblock %}
-", "forms/fields/editor/editor.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/forms/fields/editor/editor.html.twig");
+", "forms/fields/editor/editor.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/forms/fields/editor/editor.html.twig");
     }
 }

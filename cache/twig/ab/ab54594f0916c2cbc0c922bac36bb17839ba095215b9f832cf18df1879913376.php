@@ -151,6 +151,6 @@ class __TwigTemplate_cbdf20edc697748dbeba78649d595db618226107ef58d478b3a4c55768e
     </section>
 </body>
 {% endblock %}
-", "partials/login.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/login.html.twig");
+", "partials/login.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/partials/login.html.twig");
     }
 }

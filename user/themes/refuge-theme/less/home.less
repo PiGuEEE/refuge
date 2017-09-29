@@ -1,0 +1,79 @@
+@import 'mixins.less';
+@import 'reset.less';
+
+body{
+	background-image: none !important;
+}
+.headerHome{
+	.absolute();
+	z-index: 1;
+}
+.mainHome{
+	.dim(100vw, 100vh);
+	.relative();
+	.primaryBg();
+	top: 0;
+	z-index: 0;
+	.symbolTop{
+		.dim(12%, 115px);
+		.absolute();
+		.fullBg();
+		.rotate(180deg);
+		.translate(-50%);
+		left: 50%;
+		top: 0;
+		background-image: url(../svg/symbol-refuge-rotated.svg);
+	}
+	.mainContent{
+		.dim(70%);
+		.relative();
+		.clr();
+		max-width: 510px;
+		margin: 0 auto; 
+		top: 300px;
+		.refugeSymbol{
+			.dim(140px, 140px);
+			.fullBg();
+			.fleft();
+			background-image: url(../svg/symbol-refuge.svg);
+		}
+		.refuge{
+			.primaryFont();
+			.fleft();
+			margin-left: 30px;
+			font-size: 10em;
+			margin-bottom: 15px;
+		}
+		.button{
+			.absolute();
+			right: -200px;
+			top: 60px;
+			font-size: 1.3em;
+		}
+		.by{
+			.primaryFont();
+			font-size: 1.5em;
+			text-align: right;
+		}
+	}
+}
+.yourDecision{
+	width: 100vw;
+	background-repeat: repeat-x;
+	background-image: url(../img/purpleGradientBg.png);
+	padding-top: 100px;
+	.decisionText{
+		.dim(500px);
+		.fleft();
+		.clr();
+		.primaryFont();
+		p{ font-size: 1.3em; }
+		h1{ font-size: 5em; }
+	}
+	.gameplay{
+		.dim(500px, 300px);
+		.fleft();
+		background-color: #FFF;
+	}
+}
+@import 'media-queries.less';

@@ -1,7 +1,18 @@
-title: Grav
+title: Refuge
+default_lang: en
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: 'Arthur Finkler'
+  email: refugethegame@gmail.com
+taxonomies:
+  - category
+  - tag
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+  abstract: 'Refuge, the Game that simulates a journey of refugees trying to escape for their lives.'
+  summary: 'Refuge, the Game that simulates a journey of refugees trying to escape for their lives.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog

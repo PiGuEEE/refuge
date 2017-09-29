@@ -8,18 +8,33 @@
 	padding-top: 30px;
 	padding-left: 60px;
 	padding-right: 60px;
-	.downloadAt{
-		.fleft();
-		.link{
-			.dim(30px, 30px);
-			.iblock();
-			.fullBg();
-			&:first-child{
-				margin-right: 20px;
-			}
+}
+.headerInternal{
+	.dim(95%, 60px);
+	.relative();
+	margin: 0 auto;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	background-color: black;
+	padding-top: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	top: 20px;
+	.menu-btn{
+		right: 20px;
+	}
+}
+.downloadAt{
+	.fleft();
+	.link{
+		.dim(30px, 30px);
+		.iblock();
+		.fullBg();
+		&:first-child{
+			margin-right: 20px;
 		}
 	}
 }
+
 .steam{ .steam(); }
 .itchio{ .itchio(); }
 .logoWhite{
@@ -29,6 +44,7 @@
 .menu-btn{
 	.dim(43px, 48px);
 	.absolute();
+	cursor: pointer;
 	right: 40px;
 	z-index: 9999;
 	.left, .right{
@@ -57,6 +73,7 @@
 	.relative();
 	.iblock();
 	.purpleBg();
+	.primaryFont();
 	padding: 9px 25px;
 	text-transform: uppercase;
 	font-size: 3.5em;

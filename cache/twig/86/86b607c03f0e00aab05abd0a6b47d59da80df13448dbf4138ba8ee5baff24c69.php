@@ -142,6 +142,6 @@ class __TwigTemplate_0e4a0253a908eb0783ff8da0b0e0b29748005a7c314ddef944c1593981c
     {% endfor %}
     </ul>
 {% endif %}
-", "partials/nav-quick-tray.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
+", "partials/nav-quick-tray.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
     }
 }

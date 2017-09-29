@@ -69,6 +69,6 @@ class __TwigTemplate_774aff4b598482b0f5705372006ef5fe775e13b5a2ec28404a1343ec980
     class=\"input\"
     {{ parent() }}
 {% endblock %}
-", "forms/fields/password/password.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/form/templates/forms/fields/password/password.html.twig");
+", "forms/fields/password/password.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/form/templates/forms/fields/password/password.html.twig");
     }
 }

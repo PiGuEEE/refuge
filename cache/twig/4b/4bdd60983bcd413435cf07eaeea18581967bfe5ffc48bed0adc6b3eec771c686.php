@@ -162,6 +162,6 @@ class __TwigTemplate_69d6f46e0545000b8113960f3e28ffaaaf1f18252fa313cbfa87878831a
     {% endfor %}
 </script>
 {% endif %}
-", "partials/javascript-config.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/javascript-config.html.twig");
+", "partials/javascript-config.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/partials/javascript-config.html.twig");
     }
 }

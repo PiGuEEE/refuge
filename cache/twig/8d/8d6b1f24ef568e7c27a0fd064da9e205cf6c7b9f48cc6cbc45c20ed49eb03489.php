@@ -361,6 +361,6 @@ class __TwigTemplate_d60f2385da55180e5f62039cedb83918782e336ea2c9ddca33b8dd1e420
         {%- endif -%}
     </div>
 {% endblock %}
-", "dashboard.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/dashboard.html.twig");
+", "dashboard.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/dashboard.html.twig");
     }
 }

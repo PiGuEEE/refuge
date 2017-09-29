@@ -84,6 +84,6 @@ class __TwigTemplate_99b3b8528905bdc6585f7595ac652380bd58296fe3d639bfcdea92a2c5c
 </div>
 
 
-", "partials/page-legend.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
+", "partials/page-legend.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
     }
 }

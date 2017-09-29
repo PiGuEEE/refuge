@@ -16,8 +16,8 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "367203098")->display($context);
-        // line 30
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1075233859")->display($context);
+        // line 29
         echo "
 
 ";
@@ -35,7 +35,7 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
 
     public function getDebugInfo()
     {
-        return array (  21 => 30,  19 => 1,);
+        return array (  21 => 29,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -48,7 +48,7 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
 
     public function getSourceContext()
     {
-        return new Twig_Source("{% embed 'partials/base-home.html.twig' %}
+        return new Twig_Source("{% embed 'partials/base-internal.html.twig' %}
 
 \t{% set collection = page.collection() %}
 
@@ -71,7 +71,6 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
 \t\t\t        {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
 \t\t\t    {% endfor %}
 
-
 \t\t\t</div>
 \t\t</div>
 \t{% endblock %}
@@ -85,14 +84,14 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
 
 
 /* blog.html.twig */
-class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00ccae2_367203098 extends Twig_Template
+class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00ccae2_1075233859 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("partials/base-home.html.twig", "blog.html.twig", 1);
+        $this->parent = $this->loadTemplate("partials/base-internal.html.twig", "blog.html.twig", 1);
         $this->blocks = array(
             'content' => array($this, 'block_content'),
         );
@@ -100,7 +99,7 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
 
     protected function doGetParent(array $context)
     {
-        return "partials/base-home.html.twig";
+        return "partials/base-internal.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
@@ -182,7 +181,6 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 23
         echo "
-
 \t\t\t</div>
 \t\t</div>
 \t";
@@ -200,7 +198,7 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
 
     public function getDebugInfo()
     {
-        return array (  184 => 23,  170 => 22,  167 => 21,  150 => 20,  141 => 14,  136 => 13,  132 => 11,  126 => 9,  124 => 8,  121 => 7,  118 => 6,  115 => 5,  111 => 1,  109 => 3,  95 => 1,  21 => 30,  19 => 1,);
+        return array (  183 => 23,  169 => 22,  166 => 21,  149 => 20,  140 => 14,  135 => 13,  131 => 11,  125 => 9,  123 => 8,  120 => 7,  117 => 6,  114 => 5,  110 => 1,  108 => 3,  94 => 1,  21 => 29,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -213,7 +211,7 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
 
     public function getSourceContext()
     {
-        return new Twig_Source("{% embed 'partials/base-home.html.twig' %}
+        return new Twig_Source("{% embed 'partials/base-internal.html.twig' %}
 
 \t{% set collection = page.collection() %}
 
@@ -235,7 +233,6 @@ class __TwigTemplate_4beb39edb710c5bc5b4fddc66748ca2f18ee71eed2a9c0fcf8597ebae00
 \t\t\t\t{% for child in collection %}
 \t\t\t        {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
 \t\t\t    {% endfor %}
-
 
 \t\t\t</div>
 \t\t</div>

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1505969179,
-    'checksum' => 'c72a9ca3b38f783ef0aad6740c27c4bc',
+    'timestamp' => 1506513441,
+    'checksum' => 'e0c7b7a76143a72c988409f04c8863ff',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1504757350
+                'modified' => 1506512449
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1505910327
+                'modified' => 1506513441
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -512,18 +512,19 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Refuge',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Arthur Finkler',
+                'email' => 'refugethegame@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'abstract' => 'Refuge, the Game that simulates a journey of refugees trying to escape for their lives.',
+                'summary' => 'Refuge, the Game that simulates a journey of refugees trying to escape for their lives.'
             ],
             'summary' => [
                 'enabled' => true,

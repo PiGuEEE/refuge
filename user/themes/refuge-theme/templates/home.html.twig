@@ -1,3 +1,8 @@
+{% block stylesheets %}
+    
+    {% do assets.addCss('theme://css/home.css', 103) %}
+    
+{% endblock %}
 {% embed 'partials/base-home.html.twig' %}
 
 	{% set collection = page.collection() %}
@@ -8,14 +13,30 @@
 		{% if blog_image %}
 		<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
 		{% else %}
-		<div class="blog-header">
-		{% endif %}
-			{{ page.content }}
-		</div>
+		<section class="mainHome">
+			<figure class="symbolTop"></figure>
+			<div class="mainContent">
+				<div class="refugeSymbol"></div>
+				<h1 class="refuge">Refuge</h1>
+				<p class="by">A VIDEOGAME BY NOT-YET</p>
+				<a href="#" class="button" title="Download Now">DOWNLOAD NOW</a>
+			</div>
+		</section>
 
-			{% if config.plugins.breadcrumbs.enabled %}
-				{% include 'partials/breadcrumbs.html.twig' %}
-			{% endif %}
+		<section class="yourDecision">
+			<div class="container">
+				<div class="decisionText">
+					{% endif %}
+					{{ page.content }}
+				</div>
+				<div class="gameplay">
+
+				</div>
+			</div>
+		</section>
+
+		<!-- <div class="blog-header">
+		</div> -->
 
 		<div class="content-wrapper blog-content-list grid pure-g">
 			<div id="listing" class="block pure-u-2-3 h-feed">

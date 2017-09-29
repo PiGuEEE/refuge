@@ -144,6 +144,6 @@ class __TwigTemplate_5db62f79eac6fafe550e325b770cc5e344e798074459abfc7f77e725a88
     {% include 'partials/modal-update-packages.html.twig' with { type: 'plugin' } %}
 
 {% endif %}
-", "partials/dashboard-maintenance.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/partials/dashboard-maintenance.html.twig");
+", "partials/dashboard-maintenance.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/partials/dashboard-maintenance.html.twig");
     }
 }

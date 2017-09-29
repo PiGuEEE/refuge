@@ -16,7 +16,7 @@ class __TwigTemplate_561ef1830bec7c1e5e2d493ef0437c963aacf1c377da32162d73ac13712
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("login.html.twig", "login.html.twig", 1, "1180314249")->display(array_merge($context, array("title" => "Grav Admin Login")));
+        $this->loadTemplate("login.html.twig", "login.html.twig", 1, "173861904")->display(array_merge($context, array("title" => "Grav Admin Login")));
     }
 
     public function getTemplateName()
@@ -82,13 +82,13 @@ class __TwigTemplate_561ef1830bec7c1e5e2d493ef0437c963aacf1c377da32162d73ac13712
     {% endblock %}
 
 {% endembed %}
-", "login.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/login.html.twig");
+", "login.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/login.html.twig");
     }
 }
 
 
 /* login.html.twig */
-class __TwigTemplate_561ef1830bec7c1e5e2d493ef0437c963aacf1c377da32162d73ac1371207f58_1180314249 extends Twig_Template
+class __TwigTemplate_561ef1830bec7c1e5e2d493ef0437c963aacf1c377da32162d73ac1371207f58_173861904 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -286,6 +286,6 @@ class __TwigTemplate_561ef1830bec7c1e5e2d493ef0437c963aacf1c377da32162d73ac13712
     {% endblock %}
 
 {% endembed %}
-", "login.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/login.html.twig");
+", "login.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/login.html.twig");
     }
 }

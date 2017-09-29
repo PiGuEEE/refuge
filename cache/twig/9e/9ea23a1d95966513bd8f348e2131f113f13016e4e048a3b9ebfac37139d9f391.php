@@ -265,6 +265,6 @@ class __TwigTemplate_fae5cae29460dbb277fb12b0f0a8bae5264094dd527a931e86465907136
 {% endif %}
 </div>
 
-", "forms/fields/tabs/tabs.html.twig", "/Applications/MAMP/htdocs/grav/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig");
+", "forms/fields/tabs/tabs.html.twig", "/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig");
     }
 }

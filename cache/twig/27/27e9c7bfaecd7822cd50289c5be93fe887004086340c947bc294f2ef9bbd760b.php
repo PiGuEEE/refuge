@@ -138,50 +138,48 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
             ";
         }
         // line 44
-        echo "        </div>
+        echo "
+        </div>
 
     </div>
 
     <div class=\"list-blog-padding\">
 
-
-    
-
-    ";
-        // line 53
+        ";
+        // line 51
         if ((isset($context["show_prev_next"]) ? $context["show_prev_next"] : null)) {
-            // line 54
+            // line 52
             echo "
-        <p class=\"prev-next\">
-            ";
-            // line 56
+            <p class=\"prev-next\">
+                ";
+            // line 54
             if ( !$this->getAttribute((isset($context["page"]) ? $context["page"] : null), "isFirst", array())) {
-                // line 57
-                echo "                <a class=\"button\" href=\"";
+                // line 55
+                echo "                    <a class=\"button\" href=\"";
                 echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "nextSibling", array()), "url", array());
                 echo "\"><i class=\"fa fa-chevron-left\"></i> ";
                 echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("BLOG.ITEM.NEXT_POST");
                 echo "</a>
-            ";
+                ";
             }
-            // line 59
+            // line 57
             echo "
-            ";
-            // line 60
+                ";
+            // line 58
             if ( !$this->getAttribute((isset($context["page"]) ? $context["page"] : null), "isLast", array())) {
-                // line 61
-                echo "                <a class=\"button\" href=\"";
+                // line 59
+                echo "                    <a class=\"button\" href=\"";
                 echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "prevSibling", array()), "url", array());
                 echo "\">";
                 echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("BLOG.ITEM.PREV_POST");
                 echo " <i class=\"fa fa-chevron-right\"></i></a>
-            ";
+                ";
             }
-            // line 63
-            echo "        </p>
-    ";
+            // line 61
+            echo "            </p>
+        ";
         }
-        // line 65
+        // line 63
         echo "
     </div>
 </div>
@@ -200,7 +198,7 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
 
     public function getDebugInfo()
     {
-        return array (  185 => 65,  181 => 63,  173 => 61,  171 => 60,  168 => 59,  160 => 57,  158 => 56,  154 => 54,  152 => 53,  141 => 44,  135 => 42,  132 => 41,  129 => 40,  126 => 39,  123 => 38,  120 => 37,  118 => 36,  113 => 34,  109 => 32,  105 => 30,  91 => 28,  87 => 27,  84 => 26,  82 => 25,  75 => 21,  71 => 20,  68 => 19,  60 => 17,  51 => 14,  45 => 12,  43 => 11,  40 => 10,  38 => 9,  34 => 7,  31 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
+        return array (  183 => 63,  179 => 61,  171 => 59,  169 => 58,  166 => 57,  158 => 55,  156 => 54,  152 => 52,  150 => 51,  141 => 44,  135 => 42,  132 => 41,  129 => 40,  126 => 39,  123 => 38,  120 => 37,  118 => 36,  113 => 34,  109 => 32,  105 => 30,  91 => 28,  87 => 27,  84 => 26,  82 => 25,  75 => 21,  71 => 20,  68 => 19,  60 => 17,  51 => 14,  45 => 12,  43 => 11,  40 => 10,  38 => 9,  34 => 7,  31 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -256,27 +254,25 @@ class __TwigTemplate_141b82f513ba2e015eb239ba5df45eca064c3c470336b412e2639f5df15
                 {% endif %}
                 {{ header_image_media.cropZoom(header_image_width, header_image_height).html }}
             {% endif %}
+
         </div>
 
     </div>
 
     <div class=\"list-blog-padding\">
 
+        {% if show_prev_next %}
 
-    
+            <p class=\"prev-next\">
+                {% if not page.isFirst %}
+                    <a class=\"button\" href=\"{{ page.nextSibling.url }}\"><i class=\"fa fa-chevron-left\"></i> {{ 'BLOG.ITEM.NEXT_POST'|t }}</a>
+                {% endif %}
 
-    {% if show_prev_next %}
-
-        <p class=\"prev-next\">
-            {% if not page.isFirst %}
-                <a class=\"button\" href=\"{{ page.nextSibling.url }}\"><i class=\"fa fa-chevron-left\"></i> {{ 'BLOG.ITEM.NEXT_POST'|t }}</a>
-            {% endif %}
-
-            {% if not page.isLast %}
-                <a class=\"button\" href=\"{{ page.prevSibling.url }}\">{{ 'BLOG.ITEM.PREV_POST'|t }} <i class=\"fa fa-chevron-right\"></i></a>
-            {% endif %}
-        </p>
-    {% endif %}
+                {% if not page.isLast %}
+                    <a class=\"button\" href=\"{{ page.prevSibling.url }}\">{{ 'BLOG.ITEM.PREV_POST'|t }} <i class=\"fa fa-chevron-right\"></i></a>
+                {% endif %}
+            </p>
+        {% endif %}
 
     </div>
 </div>
