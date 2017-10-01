@@ -1,0 +1,44 @@
+{% block stylesheets %}
+    
+    {% do assets.addCss('theme://css/about.css', 103) %}
+    
+{% endblock %}
+{% embed 'partials/base-internal.html.twig' %}
+
+	{% set collection = page.collection() %}
+
+	{% block content %}
+
+		<section class="yourDecision">
+       		
+			
+			<div class="container">
+				<div class="decisionText">
+					
+					{{ page.content }}
+
+				</div>
+				<div class="gameplayBox">
+					<div class="gameplay"></div>
+					<a href="#" class="button" title="More Gameplay Videos">MORE GAMEPLAY VIDEOS</a>
+				</div>
+			</div>
+
+		</section>
+
+		{% include 'the-game.html.twig' %}
+		
+		{% include 'partials/image-slider.html.twig' %}
+
+		<section class="testimonials">
+			<div class="testimonial">
+				<div class="text">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
+				<div class="author">Author Joel @ Steam</div>
+			</div>
+		</section>
+
+	{% endblock %}
+
+{% endembed %}
+
+

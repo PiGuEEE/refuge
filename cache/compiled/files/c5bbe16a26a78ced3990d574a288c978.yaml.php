@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/refuge/user/accounts/arthur.yaml',
-    'modified' => 1506039183,
+    'modified' => 1506898537,
     'data' => [
         'email' => 'xpigue@gmail.com',
         'fullname' => 'Arthur Finkler',
