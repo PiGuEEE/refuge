@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1506898785,
-    'checksum' => 'b299513af9b7442145e56d3ea38dae57',
+    'timestamp' => 1506904620,
+    'checksum' => '55fce788bfb04525c37f1178d1e6015d',
     'files' => [
         'user/config' => [
             'media' => [
@@ -33,29 +33,29 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1506898537
+                'modified' => 1506904451
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1506898537
+                'modified' => 1506904451
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1506898537
+                'modified' => 1506904451
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1506898537
+                'modified' => 1506904451
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1506898537
+                'modified' => 1506904565
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1506898537
+                'modified' => 1506904601
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -63,11 +63,11 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1506898538
+                'modified' => 1506904586
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1506898538
+                'modified' => 1506904620
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
