@@ -1,0 +1,68 @@
+@import 'mixins.less';
+@import 'reset.less';
+
+body{
+	background-image: none !important;
+}
+.yourDecision{
+	.email{
+		font-size: 3em;
+	}
+	.formContainer{
+		.dim(500px);
+		.fleft();
+		.clr();
+		margin-left: 100px;
+		margin-bottom: 200px;
+		.inputContainer{
+			.dim(100%);
+			.relative();
+			.clr();
+			margin-bottom: 50px;
+			.input{
+				.dim(100%, 50px);
+				.primaryFont();
+				.relative();
+				background: none;
+				border: 0;
+				border-bottom: 3px solid white;
+				font-size: 3em;
+				outline: none;
+				color: white;
+				z-index: 1;
+				
+				&:focus, &:valid{
+					~label{
+						.transition(.2s);
+						font-size: 1.5em;
+						top: -15px;
+					}
+				}
+
+			}
+			.textarea{
+				height: 150px;
+				padding-top: 10px;
+			}
+			label{
+				.primaryFont();
+				.absolute();
+				.transition(.2s);
+				top: 3px;
+				font-size: 3em;
+				color: white;
+			}
+		}
+		.submit{
+			.translate(-50%);
+			left: 50%;
+			font-size: 3em;
+			color: white;
+			&:hover, &:active{
+				.purpleColor();
+			}
+		}
+	}
+}
+
+@import 'media-queries.less';

@@ -1,0 +1,53 @@
+{% block stylesheets %}
+    
+    {% do assets.addCss('theme://css/contact.css', 103) %}
+    
+{% endblock %}
+{% embed 'partials/base-internal.html.twig' %}
+
+	{% set collection = page.collection() %}
+
+	{% block content %}
+		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
+
+		{% if blog_image %}
+			<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});"></div>
+		{% endif %}
+
+		<section class="yourDecision">
+       		
+       		{% include 'partials/header-internals.html.twig' %}
+			
+			<div class="container">
+				<div class="decisionText">
+					
+					{{ page.content }}
+
+				</div>
+				<div class="formContainer">
+					<form class="form" id="contactForm">
+						<div class="inputContainer">
+							<input type="text" required name="name" maxlength="50" class="input">
+							<label for="name">Your name</label>
+						</div>
+						<div class="inputContainer">
+							<input type="email" required name="email" maxlength="100" class="input">
+							<label for="email">Email</label>
+						</div>
+						<div class="inputContainer">
+							<textarea name="message" required class="input textarea"></textarea>
+							<label for="message">Message</label>
+						</div>
+						<div class="inputContainer">
+							<input type="submit" value="SEND" class="button submit" class="submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+	{% endblock %}
+
+{% endembed %}
+
+
