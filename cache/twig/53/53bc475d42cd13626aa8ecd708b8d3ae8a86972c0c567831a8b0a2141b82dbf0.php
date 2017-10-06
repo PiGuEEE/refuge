@@ -17,6 +17,7 @@ class __TwigTemplate_ab7a9183d2cd22cb48241e035025f2dbdbe2d890e4afe187df9fac0db29
     {
         // line 1
         echo "<header class=\"headerInternal\">
+    <a href=\"#\" title=\"Back to Homepage\" class=\"logoWhite\"></a>
     <div class=\"downloadAt\">
         <a href=\"#\" class=\"link steam\" title=\"Download Refuge on Steam\"></a>
         <a href=\"#\" class=\"link itchio\" title=\"Download Refuge on Itch.io\"></a>
@@ -55,6 +56,7 @@ class __TwigTemplate_ab7a9183d2cd22cb48241e035025f2dbdbe2d890e4afe187df9fac0db29
     public function getSourceContext()
     {
         return new Twig_Source("<header class=\"headerInternal\">
+    <a href=\"#\" title=\"Back to Homepage\" class=\"logoWhite\"></a>
     <div class=\"downloadAt\">
         <a href=\"#\" class=\"link steam\" title=\"Download Refuge on Steam\"></a>
         <a href=\"#\" class=\"link itchio\" title=\"Download Refuge on Itch.io\"></a>

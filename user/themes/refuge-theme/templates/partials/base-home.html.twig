@@ -44,28 +44,17 @@
 
 
     {% block stylesheets %}
-        {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}
-        {% do assets.addCss('theme://css-compiled/nucleus.css', 102) %}
-        {% do assets.addCss('theme://css-compiled/template.css', 101) %}
         {% do assets.addCss('theme://css/blog.css', 100) %}
         {% do assets.addCss('theme://css/custom.css', 100) %}
 
-        {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
-            {% do assets.addCss('theme://css/nucleus-ie10.css') %}
-        {% endif %}
-        {% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}
-            {% do assets.addCss('theme://css/nucleus-ie9.css') %}
-            {% do assets.addJs('theme://js/html5shiv-printshiv.min.js') %}
-        {% endif %}
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 101) %}
-        {% do assets.addJs('theme://js/modernizr.custom.71422.js', 100) %}
-        {% do assets.addJs('theme://js/typed/typed.js') %}
-        {% do assets.addJs('theme://js/main.js') %}
-        {% do assets.addJs('theme://js/imageSlider.js') %}
+        {% do assets.addJs('theme://js/typed/typed.min.js') %}
+        {% do assets.addJs('theme://js/main.min.js') %}
+        {% do assets.addJs('theme://js/imageSlider.min.js') %}
 
     {% endblock %}
     {{ assets.js() }}
