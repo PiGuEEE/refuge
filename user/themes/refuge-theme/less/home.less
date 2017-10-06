@@ -1,5 +1,6 @@
 @import 'mixins.less';
 @import 'reset.less';
+@import 'animations.less';
 
 body{
 	background-image: none !important;
@@ -14,6 +15,9 @@ body{
 	.primaryBg();
 	top: 0;
 	z-index: 0;
+	background-image: url(../img/home-bg.png);
+	background-repeat: repeat-x;
+	background-position: 0 100%;
 	.symbolTop{
 		.dim(12%, 115px);
 		.absolute();
@@ -29,8 +33,9 @@ body{
 		.relative();
 		.clr();
 		max-width: 510px;
-		margin: 0 auto; 
-		top: 300px;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translate(-60%);
 		.refugeSymbol{
 			.dim(140px, 140px);
 			.fullBg();
@@ -54,6 +59,30 @@ body{
 			.primaryFont();
 			font-size: 1.5em;
 			text-align: right;
+		}
+	}
+	.keepExploring{
+		.dim(180px, 130px);
+		.absolute();
+		bottom: 15px;
+		left: 50%;
+		.translate(-50%);
+		.arrowDown, .arrowDownSmall{
+			.absolute();
+			.fullBg();
+			left: 50%;
+			background-image: url(../svg/white-arrow-down.svg);
+		}
+		.arrowDown{
+			.transition(0);
+			.dim(20px, 20px);
+			bottom: 0px;
+			animation: arrowdown 1s infinite;
+		}
+		.arrowDownSmall{
+			.dim(12px, 12px);
+			bottom: 30px;
+			animation: arrowdownsmall 1s infinite;
 		}
 	}
 }

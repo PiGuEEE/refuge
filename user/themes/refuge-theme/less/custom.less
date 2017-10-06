@@ -1,6 +1,10 @@
 @import 'mixins.less';
 @import 'reset.less';
 
+.overlayActive{
+	overflow-y: hidden;
+}
+
 #body{
 	.relative();
 	margin: 0 auto;
@@ -112,7 +116,7 @@
 	display: none;
 	top: 0;
 	left: 0;
-	background-color: rgba(13, 4, 34, 0.9);
+	background-color: rgba(13, 4, 34, 0.98);
 	.navigationTop{
 		width: 100vw;
 		height: 12vh;
@@ -166,8 +170,16 @@
 		.relative();
 		margin: 0 auto;
 		border: 4px solid white;
-		background-image: url(../img/screenshot1.png);
-		background-size: cover;
+		.imageBox{
+			.dim(100%, 100%);
+			.iblock();
+			z-index: 0;
+			overflow: hidden;
+			.sliderImage{
+				.dim(100%);
+				height: auto;
+			}
+		}
 	}
 	.button{
 		.absolute();
