@@ -64,8 +64,6 @@
         {% do assets.addJs('jquery', 101) %}
         {% do assets.addJs('theme://js/modernizr.custom.71422.js', 100) %}
         {% do assets.addJs('theme://js/typed/typed.js') %}
-        {% do assets.addJs('theme://js/typed/initializer.js') %}
-        {% do assets.addJs('theme://js/typed/html-parser.js') %}
         {% do assets.addJs('theme://js/main.js') %}
         {% do assets.addJs('theme://js/imageSlider.js') %}
 
@@ -93,7 +91,7 @@
         <footer id="footer">
 
             <div class="symbol"></div>
-            <p class="downloadNow">Download it now</p>
+            <p class="downloadNow">Available this December</p>
             
             <div class="downloadBtns">
                 <a href="#" class="downloadBtn steam">refugethegame</a>
@@ -108,26 +106,5 @@
         </footer>
         {% endblock %}
     </div>
-
-    <!--
-     KIND OF A SIDEBAR? 
-    <div class="sb-slidebar sb-left sb-width-thin">
-        <div id="panel">
-        //{ /% /include 'partials/navigation.html.twig' %}
-        </div>
-    </div> 
-    {% block bottom %}
-        {{ assets.js('bottom') }}
-        <script>
-        $(function () {
-            $(document).ready(function() {
-              $.slidebars({
-                hideControlClasses: true,
-                scrollLock: true
-              });
-            });
-        });
-        </script>
-    {% endblock %}-->
 </body>
 </html>

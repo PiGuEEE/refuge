@@ -10,30 +10,64 @@ $(document).ready(function(){
 
     // START ANIMATED TYPINGS
 
-    var mainRefuge = {
-	  strings: ["REFUGE"],
-	  typeSpeed: 120
-	}
-	var typed = new Typed("#mainRefuge", mainRefuge);
+    // main REFUGE on homescreen
+	var typedDiv1 = $('#mainRefuge');
+	if (typedDiv1.length) {
+    
+	    var mainRefuge = {
+		  strings: ["REFUGE"],
+		  typeSpeed: 120
+		}
+	
+		var typed = new Typed("#mainRefuge", mainRefuge);
+	};
 
 	
-	var notYet = {
-	  strings: ["A VIDEOGAME BY NOTYET"],
-	  startDelay: 1550,
-	  typeSpeed: 50
+	// by not yet
+	var typedDiv2 = $('#by');
+	if (typedDiv2.length) {
+		var notYet = {
+		  strings: ["A VIDEOGAME BY NOTYET"],
+		  startDelay: 1550,
+		  typeSpeed: 50
+		}
+		var typed2 = new Typed("#by", notYet);
+	};
+
+
+	// homepage testimonials
+	var typedDiv3 = $('.testimonial');
+	if (typedDiv3.length) {
+		
+		var testimonials = {
+		strings: [, "<div class='text'>Refuge is simply THE GAME. Play it, PLAY IT! It is AWESOME!</div><div class='author'>Jason Ogro @ Itch.io</div>", "<div class='text'>One of the best games I had the chance to play. Nice job!</div><div class='author'>Silly Fella @ Steam</div>" ],
+		  loop: true,
+		  typeSpeed: 35,
+		  backSpeed: 6,
+		  backDelay: 9000
+		}
+
+		console.log('HALO');
+		var typed3 = new Typed(".testimonials .testimonial", testimonials
+		);
+	};
+
+	
+	// about page testimonials
+	var typedDiv4 = $('#testimonialAbout');
+	if (typedDiv4.length) {
+
+		var testimonialsAbout = {
+		  strings: [, "<div class='text'>Refuge is simply THE GAME. Play it, PLAY IT! It is AWESOME!</div><div class='author'>Jason Ogro @ Itch.io</div>", "<div class='text'>One of the best games I had the chance to play. Nice job!</div><div class='author'>Silly Fella @ Steam</div>" ],
+		  loop: true,
+		  typeSpeed: 35,
+		  backSpeed: 6,
+		  backDelay: 9000,
+		}
+
+		var typed4 = new Typed("#testimonialAbout", testimonialsAbout
+		);
 	}
-	var typed2 = new Typed("#by", notYet);
-
-
-	var testimonials = {
-	  strings: [, "<div class='text'>Refuge is simply THE GAME. Play it, PLAY IT! It is AWESOME!</div><div class='author'>Jason Ogro @ Itch.io</div>", "<div class='text'>One of the best games I had the chance to play. Nice job!</div><div class='author'>Silly Fella @ Steam</div>" ],
-	  loop: true,
-	  typeSpeed: 35,
-	  backSpeed: 6,
-	  backDelay: 9000
-	}
-	var typed2 = new Typed(".testimonials .testimonial", testimonials);
-
 
 
 });

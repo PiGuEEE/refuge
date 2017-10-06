@@ -19,9 +19,11 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("about.html.twig", "about.html.twig", 6, "2058476091")->display($context);
-        // line 43
+        $this->loadTemplate("about.html.twig", "about.html.twig", 6, "812014389")->display($context);
+        // line 44
         echo "
+
+
 
 ";
     }
@@ -51,7 +53,7 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 
     public function getDebugInfo()
     {
-        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 43,  22 => 6,  20 => 1,);
+        return array (  40 => 4,  38 => 3,  35 => 2,  32 => 1,  24 => 44,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -85,7 +87,9 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
-\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<div class=\"gameplay\">
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -97,9 +101,8 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 \t\t{% include 'partials/image-slider.html.twig' %}
 
 \t\t<section class=\"testimonials\">
-\t\t\t<div class=\"testimonial\">
-\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
-\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t<div class=\"testimonial\" id=\"testimonialAbout\">
+\t\t\t\t
 \t\t\t</div>
 \t\t</section>
 
@@ -108,13 +111,15 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 {% endembed %}
 
 
+
+
 ", "about.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/about.html.twig");
     }
 }
 
 
 /* about.html.twig */
-class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce520d9_2058476091 extends Twig_Template
+class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce520d9_812014389 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -158,7 +163,9 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
-\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<div class=\"gameplay\">
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -166,19 +173,18 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 \t\t</section>
 
 \t\t";
-        // line 29
-        $this->loadTemplate("the-game.html.twig", "about.html.twig", 29)->display($context);
-        // line 30
+        // line 31
+        $this->loadTemplate("the-game.html.twig", "about.html.twig", 31)->display($context);
+        // line 32
         echo "\t\t
 \t\t";
-        // line 31
-        $this->loadTemplate("partials/image-slider.html.twig", "about.html.twig", 31)->display($context);
-        // line 32
+        // line 33
+        $this->loadTemplate("partials/image-slider.html.twig", "about.html.twig", 33)->display($context);
+        // line 34
         echo "
 \t\t<section class=\"testimonials\">
-\t\t\t<div class=\"testimonial\">
-\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
-\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t<div class=\"testimonial\" id=\"testimonialAbout\">
+\t\t\t\t
 \t\t\t</div>
 \t\t</section>
 
@@ -197,7 +203,7 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 
     public function getDebugInfo()
     {
-        return array (  177 => 32,  175 => 31,  172 => 30,  170 => 29,  156 => 18,  147 => 11,  144 => 10,  140 => 6,  138 => 8,  124 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 43,  22 => 6,  20 => 1,);
+        return array (  184 => 34,  182 => 33,  179 => 32,  177 => 31,  161 => 18,  152 => 11,  149 => 10,  145 => 6,  143 => 8,  129 => 6,  40 => 4,  38 => 3,  35 => 2,  32 => 1,  24 => 44,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -231,7 +237,9 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
-\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<div class=\"gameplay\">
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -243,15 +251,16 @@ class __TwigTemplate_6e995a4cde07645e8ab645412d5940f4635cddaf52f36e261cfb1bda9ce
 \t\t{% include 'partials/image-slider.html.twig' %}
 
 \t\t<section class=\"testimonials\">
-\t\t\t<div class=\"testimonial\">
-\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
-\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t<div class=\"testimonial\" id=\"testimonialAbout\">
+\t\t\t\t
 \t\t\t</div>
 \t\t</section>
 
 \t{% endblock %}
 
 {% endembed %}
+
+
 
 
 ", "about.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/about.html.twig");

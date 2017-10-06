@@ -120,7 +120,7 @@ class __TwigTemplate_19ea5c039e18d11ef3d48138cc5a67f03e97b422c143e8435b9e3bf3742
 
 <div class=\"navigationBottom\">
     <div class=\"download\">
-        <p>DOWNLOAD</p>
+        <p>AVAILABLE THIS DECEMBER</p>
         <a href=\"#\" class=\"downloadLink itchio\"></a>
         <a href=\"#\" class=\"downloadLink steam\"></a>
     </div>
@@ -311,7 +311,7 @@ class __TwigTemplate_19ea5c039e18d11ef3d48138cc5a67f03e97b422c143e8435b9e3bf3742
 
 <div class=\"navigationBottom\">
     <div class=\"download\">
-        <p>DOWNLOAD</p>
+        <p>AVAILABLE THIS DECEMBER</p>
         <a href=\"#\" class=\"downloadLink itchio\"></a>
         <a href=\"#\" class=\"downloadLink steam\"></a>
     </div>
