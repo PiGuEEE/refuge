@@ -36,36 +36,36 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 ";
         // line 5
         $this->displayBlock('head', $context, $blocks);
-        // line 44
+        // line 76
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 45
+        // line 77
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "body_classes", array());
         echo "\">
     ";
-        // line 46
-        $this->loadTemplate("partials/navigation-overlay.html.twig", "partials/base-home.html.twig", 46)->display($context);
-        // line 47
+        // line 78
+        $this->loadTemplate("partials/navigation-overlay.html.twig", "partials/base-home.html.twig", 78)->display($context);
+        // line 79
         echo "    <div id=\"sb-site\">
         ";
-        // line 48
+        // line 80
         $this->displayBlock('header', $context, $blocks);
-        // line 51
+        // line 83
         echo "
        <!--  ";
-        // line 52
+        // line 84
         $this->displayBlock('showcase', $context, $blocks);
         echo " -->
 
         ";
-        // line 54
+        // line 86
         $this->displayBlock('body', $context, $blocks);
-        // line 59
+        // line 91
         echo "
         ";
-        // line 60
+        // line 92
         $this->displayBlock('footer', $context, $blocks);
-        // line 78
+        // line 110
         echo "    </div>
 
     <!--
@@ -76,9 +76,9 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         </div>
     </div> 
     ";
-        // line 87
+        // line 119
         $this->displayBlock('bottom', $context, $blocks);
-        // line 99
+        // line 131
         echo "-->
 </body>
 </html>
@@ -90,41 +90,73 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
     {
         // line 6
         echo "    <meta charset=\"utf-8\" />
-    <title>";
+    ";
         // line 7
+        $this->loadTemplate("partials/metadata.html.twig", "partials/base-home.html.twig", 7)->display($context);
+        // line 8
+        echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
+
+    <!-- facebook tags -->
+    <meta property=\"og:description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
+    <meta property=\"og:image\" content=\"https://www.refugethegame.com/social/social-facebook-squared.png\">
+    <meta property=\"og:locale:alternate\" content=\"en_AU\">
+    <meta property=\"og:title\" content=\"Refuge, the game.\">
+    <meta property=\"og:type\" content=\"website\">
+    <meta property=\"og:site_name\" content=\"Refuge\">
+    <meta property=\"og:url\" content=\"https://www.refugethegame.com\">
+
+    <!-- twitter -->
+    <meta name=\"twitter:card\" content=\"summary\">
+    <meta name=\"twitter:url\" content=\"https://www.refugethegame.com\">
+    <meta name=\"twitter:title\" content=\"Refuge\">
+    <meta name=\"twitter:description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
+    <meta name=\"twitter:image\" content=\"\">
+
+    <!-- g+ and schema.org -->
+    <meta itemprop=\"name\" content=\"Refuge, the Game\">
+    <meta itemprop=\"description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
+    <meta itemprop=\"image\" content=\"\">
+
+    <!-- iOS and safari -->
+    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">
+    <meta name=\"apple-mobile-web-app-title\" content=\"Way360 Group\">
+
+    <!-- android -->
+    <meta name=\"mobile-web-app-capable\" content=\"yes\">
+
+    <title>";
+        // line 38
         if ($this->getAttribute((isset($context["header"]) ? $context["header"] : null), "title", array())) {
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "title", array()), "html");
             echo " | ";
         }
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["site"]) ? $context["site"] : null), "title", array()), "html");
         echo "</title>
-    ";
-        // line 8
-        $this->loadTemplate("partials/metadata.html.twig", "partials/base-home.html.twig", 8)->display($context);
-        // line 9
-        echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
+
     <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 10
+        // line 40
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/favicon.png");
         echo "\" />
     <link rel=\"canonical\" href=\"";
-        // line 11
+        // line 41
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true, 1 => true), "method");
         echo "\" />
     <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\">
 
+
+
     ";
-        // line 14
+        // line 46
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 29
+        // line 61
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "css", array(), "method");
         echo "
 
     ";
-        // line 31
+        // line 63
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 41
+        // line 73
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
@@ -132,119 +164,119 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 ";
     }
 
-    // line 14
+    // line 46
     public function block_stylesheets($context, array $blocks = array())
     {
-        // line 15
+        // line 47
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/pure-0.5.0/grids-min.css", 1 => 103), "method");
-        // line 16
+        // line 48
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css-compiled/nucleus.css", 1 => 102), "method");
-        // line 17
+        // line 49
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css-compiled/template.css", 1 => 101), "method");
-        // line 18
+        // line 50
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/blog.css", 1 => 100), "method");
-        // line 19
+        // line 51
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/custom.css", 1 => 100), "method");
-        // line 20
+        // line 52
         echo "
         ";
-        // line 21
+        // line 53
         if ((($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getBrowser", array()) == "msie") && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) == 10))) {
-            // line 22
+            // line 54
             echo "            ";
             $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/nucleus-ie10.css"), "method");
-            // line 23
+            // line 55
             echo "        ";
         }
-        // line 24
+        // line 56
         echo "        ";
         if (((($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getBrowser", array()) == "msie") && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) >= 8)) && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) <= 9))) {
-            // line 25
+            // line 57
             echo "            ";
             $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/nucleus-ie9.css"), "method");
-            // line 26
+            // line 58
             echo "            ";
             $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/html5shiv-printshiv.min.js"), "method");
-            // line 27
+            // line 59
             echo "        ";
         }
-        // line 28
+        // line 60
         echo "    ";
     }
 
-    // line 31
+    // line 63
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 32
+        // line 64
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
-        // line 33
+        // line 65
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/modernizr.custom.71422.js", 1 => 100), "method");
-        // line 34
+        // line 66
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/typed/typed.js"), "method");
-        // line 35
+        // line 67
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/typed/initializer.js"), "method");
-        // line 36
+        // line 68
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/typed/html-parser.js"), "method");
-        // line 37
+        // line 69
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/main.js"), "method");
-        // line 38
+        // line 70
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/imageSlider.js"), "method");
-        // line 39
+        // line 71
         echo "
     ";
     }
 
-    // line 48
+    // line 80
     public function block_header($context, array $blocks = array())
     {
-        // line 49
+        // line 81
         echo "            ";
-        $this->loadTemplate("partials/header.html.twig", "partials/base-home.html.twig", 49)->display($context);
-        // line 50
+        $this->loadTemplate("partials/header.html.twig", "partials/base-home.html.twig", 81)->display($context);
+        // line 82
         echo "        ";
     }
 
-    // line 52
+    // line 84
     public function block_showcase($context, array $blocks = array())
     {
     }
 
-    // line 54
+    // line 86
     public function block_body($context, array $blocks = array())
     {
-        // line 55
+        // line 87
         echo "        <section id=\"body\" class=\"";
         echo (isset($context["class"]) ? $context["class"] : null);
         echo "\">
             ";
-        // line 56
+        // line 88
         $this->displayBlock('content', $context, $blocks);
-        // line 57
+        // line 89
         echo "        </section>
         ";
     }
 
-    // line 56
+    // line 88
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 60
+    // line 92
     public function block_footer($context, array $blocks = array())
     {
-        // line 61
+        // line 93
         echo "        <footer id=\"footer\">
 
             <div class=\"symbol\"></div>
@@ -264,10 +296,10 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         ";
     }
 
-    // line 87
+    // line 119
     public function block_bottom($context, array $blocks = array())
     {
-        // line 88
+        // line 120
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -296,7 +328,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     public function getDebugInfo()
     {
-        return array (  271 => 88,  268 => 87,  248 => 61,  245 => 60,  240 => 56,  235 => 57,  233 => 56,  228 => 55,  225 => 54,  220 => 52,  216 => 50,  213 => 49,  210 => 48,  205 => 39,  202 => 38,  199 => 37,  196 => 36,  193 => 35,  190 => 34,  187 => 33,  184 => 32,  181 => 31,  177 => 28,  174 => 27,  171 => 26,  168 => 25,  165 => 24,  162 => 23,  159 => 22,  157 => 21,  154 => 20,  151 => 19,  148 => 18,  145 => 17,  142 => 16,  139 => 15,  136 => 14,  128 => 41,  126 => 31,  120 => 29,  118 => 14,  112 => 11,  108 => 10,  105 => 9,  103 => 8,  95 => 7,  92 => 6,  89 => 5,  82 => 99,  80 => 87,  69 => 78,  67 => 60,  64 => 59,  62 => 54,  57 => 52,  54 => 51,  52 => 48,  49 => 47,  47 => 46,  43 => 45,  40 => 44,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  303 => 120,  300 => 119,  280 => 93,  277 => 92,  272 => 88,  267 => 89,  265 => 88,  260 => 87,  257 => 86,  252 => 84,  248 => 82,  245 => 81,  242 => 80,  237 => 71,  234 => 70,  231 => 69,  228 => 68,  225 => 67,  222 => 66,  219 => 65,  216 => 64,  213 => 63,  209 => 60,  206 => 59,  203 => 58,  200 => 57,  197 => 56,  194 => 55,  191 => 54,  189 => 53,  186 => 52,  183 => 51,  180 => 50,  177 => 49,  174 => 48,  171 => 47,  168 => 46,  160 => 73,  158 => 63,  152 => 61,  150 => 46,  142 => 41,  138 => 40,  129 => 38,  97 => 8,  95 => 7,  92 => 6,  89 => 5,  82 => 131,  80 => 119,  69 => 110,  67 => 92,  64 => 91,  62 => 86,  57 => 84,  54 => 83,  52 => 80,  49 => 79,  47 => 78,  43 => 77,  40 => 76,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -315,12 +347,44 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 <head>
 {% block head %}
     <meta charset=\"utf-8\" />
-    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
     {% include 'partials/metadata.html.twig' %}
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
+
+    <!-- facebook tags -->
+    <meta property=\"og:description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
+    <meta property=\"og:image\" content=\"https://www.refugethegame.com/social/social-facebook-squared.png\">
+    <meta property=\"og:locale:alternate\" content=\"en_AU\">
+    <meta property=\"og:title\" content=\"Refuge, the game.\">
+    <meta property=\"og:type\" content=\"website\">
+    <meta property=\"og:site_name\" content=\"Refuge\">
+    <meta property=\"og:url\" content=\"https://www.refugethegame.com\">
+
+    <!-- twitter -->
+    <meta name=\"twitter:card\" content=\"summary\">
+    <meta name=\"twitter:url\" content=\"https://www.refugethegame.com\">
+    <meta name=\"twitter:title\" content=\"Refuge\">
+    <meta name=\"twitter:description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
+    <meta name=\"twitter:image\" content=\"\">
+
+    <!-- g+ and schema.org -->
+    <meta itemprop=\"name\" content=\"Refuge, the Game\">
+    <meta itemprop=\"description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
+    <meta itemprop=\"image\" content=\"\">
+
+    <!-- iOS and safari -->
+    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">
+    <meta name=\"apple-mobile-web-app-title\" content=\"Way360 Group\">
+
+    <!-- android -->
+    <meta name=\"mobile-web-app-capable\" content=\"yes\">
+
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
     <link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://images/favicon.png') }}\" />
     <link rel=\"canonical\" href=\"{{ page.url(true, true) }}\" />
     <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\">
+
+
 
     {% block stylesheets %}
         {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}

@@ -4,12 +4,44 @@
 <head>
 {% block head %}
     <meta charset="utf-8" />
-    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
     {% include 'partials/metadata.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- facebook tags -->
+    <meta property="og:description" content="Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. ">
+    <meta property="og:image" content="https://www.refugethegame.com/social/social-facebook-squared.png">
+    <meta property="og:locale:alternate" content="en_AU">
+    <meta property="og:title" content="Refuge, the game.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Refuge">
+    <meta property="og:url" content="https://www.refugethegame.com">
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.refugethegame.com">
+    <meta name="twitter:title" content="Refuge">
+    <meta name="twitter:description" content="Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. ">
+    <meta name="twitter:image" content="">
+
+    <!-- g+ and schema.org -->
+    <meta itemprop="name" content="Refuge, the Game">
+    <meta itemprop="description" content="Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. ">
+    <meta itemprop="image" content="">
+
+    <!-- iOS and safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Way360 Group">
+
+    <!-- android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+
 
     {% block stylesheets %}
         {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}
