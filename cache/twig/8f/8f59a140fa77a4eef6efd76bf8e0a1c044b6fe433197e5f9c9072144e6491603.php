@@ -19,8 +19,8 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "934476239")->display($context);
-        // line 76
+        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "537248587")->display($context);
+        // line 77
         echo "
 
 ";
@@ -51,7 +51,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
     public function getDebugInfo()
     {
-        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 76,  22 => 6,  20 => 1,);
+        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 77,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -105,7 +105,9 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
-\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<div class=\"gameplay\">
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -113,8 +115,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 \t\t<section class=\"testimonials\">
 \t\t\t<div class=\"testimonial\">
-\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
-\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t
 \t\t\t</div>
 \t\t</section>
 
@@ -147,7 +148,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 
 /* home.html.twig */
-class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_934476239 extends Twig_Template
+class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_537248587 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -223,7 +224,9 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
-\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<div class=\"gameplay\">
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -231,20 +234,19 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 \t\t<section class=\"testimonials\">
 \t\t\t<div class=\"testimonial\">
-\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
-\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t
 \t\t\t</div>
 \t\t</section>
 
 \t\t";
-        // line 55
-        $this->loadTemplate("partials/image-slider.html.twig", "home.html.twig", 55)->display($context);
         // line 56
+        $this->loadTemplate("partials/image-slider.html.twig", "home.html.twig", 56)->display($context);
+        // line 57
         echo "
 \t\t";
-        // line 57
-        $this->loadTemplate("the-game.html.twig", "home.html.twig", 57)->display($context);
         // line 58
+        $this->loadTemplate("the-game.html.twig", "home.html.twig", 58)->display($context);
+        // line 59
         echo "
 \t\t<!-- <div class=\"blog-header\">
 \t\t</div> -->
@@ -252,7 +254,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 \t\t\t\t";
-        // line 64
+        // line 65
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -269,10 +271,10 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 65
-            echo "\t\t\t        ";
-            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 65)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
             // line 66
+            echo "\t\t\t        ";
+            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 66)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
+            // line 67
             echo "\t\t\t    ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -286,18 +288,18 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 67
+        // line 68
         echo "
                 ";
-        // line 68
+        // line 69
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))) {
-            // line 69
-            echo "                    ";
-            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 69)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
             // line 70
+            echo "                    ";
+            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 70)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
+            // line 71
             echo "                ";
         }
-        // line 71
+        // line 72
         echo "\t\t\t</div>
 \t\t</div>
 \t";
@@ -315,7 +317,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
     public function getDebugInfo()
     {
-        return array (  301 => 71,  298 => 70,  295 => 69,  293 => 68,  290 => 67,  276 => 66,  273 => 65,  256 => 64,  248 => 58,  246 => 57,  243 => 56,  241 => 55,  221 => 38,  215 => 34,  213 => 33,  194 => 16,  188 => 14,  186 => 13,  183 => 12,  180 => 11,  177 => 10,  173 => 6,  171 => 8,  157 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 76,  22 => 6,  20 => 1,);
+        return array (  303 => 72,  300 => 71,  297 => 70,  295 => 69,  292 => 68,  278 => 67,  275 => 66,  258 => 65,  250 => 59,  248 => 58,  245 => 57,  243 => 56,  222 => 38,  216 => 34,  214 => 33,  195 => 16,  189 => 14,  187 => 13,  184 => 12,  181 => 11,  178 => 10,  174 => 6,  172 => 8,  158 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 77,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -369,7 +371,9 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
-\t\t\t\t\t<div class=\"gameplay\"></div>
+\t\t\t\t\t<div class=\"gameplay\">
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
@@ -377,8 +381,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 \t\t<section class=\"testimonials\">
 \t\t\t<div class=\"testimonial\">
-\t\t\t\t<div class=\"text\">This is seriously one of the most interesting games I’ve played so far. Its story is so captivating, highly recommend!</div>
-\t\t\t\t<div class=\"author\">Author Joel @ Steam</div>
+\t\t\t
 \t\t\t</div>
 \t\t</section>
 

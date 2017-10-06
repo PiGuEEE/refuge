@@ -1,0 +1,19 @@
+<nav class="navOverlay">      
+
+	 <div class="menu-btn">
+        <div class="left">
+            <div class="small"></div>
+            <div class="big"></div>
+        </div>
+        <div class="right">
+            <div class="big"></div>
+            <div class="small"></div>
+        </div>
+    </div>
+    {% block header_extra %}{% endblock %}
+    
+    {% block header_navigation %}
+        {% include 'partials/navigation.html.twig' %}
+    {% endblock %}
+
+</nav>

@@ -38,6 +38,7 @@
 {% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
+    {% include 'partials/navigation-overlay.html.twig' %}
     <div id="sb-site">
         {% block header %}
             {% include 'partials/header-internals.html.twig' %}

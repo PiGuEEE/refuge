@@ -42,26 +42,30 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         // line 45
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "body_classes", array());
         echo "\">
-    <div id=\"sb-site\">
-        ";
+    ";
+        // line 46
+        $this->loadTemplate("partials/navigation-overlay.html.twig", "partials/base-home.html.twig", 46)->display($context);
         // line 47
+        echo "    <div id=\"sb-site\">
+        ";
+        // line 48
         $this->displayBlock('header', $context, $blocks);
-        // line 50
+        // line 51
         echo "
        <!--  ";
-        // line 51
+        // line 52
         $this->displayBlock('showcase', $context, $blocks);
         echo " -->
 
         ";
-        // line 53
+        // line 54
         $this->displayBlock('body', $context, $blocks);
-        // line 58
+        // line 59
         echo "
         ";
-        // line 59
+        // line 60
         $this->displayBlock('footer', $context, $blocks);
-        // line 77
+        // line 78
         echo "    </div>
 
     <!--
@@ -72,9 +76,9 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         </div>
     </div> 
     ";
-        // line 86
+        // line 87
         $this->displayBlock('bottom', $context, $blocks);
-        // line 98
+        // line 99
         echo "-->
 </body>
 </html>
@@ -202,45 +206,45 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
     ";
     }
 
-    // line 47
+    // line 48
     public function block_header($context, array $blocks = array())
     {
-        // line 48
-        echo "            ";
-        $this->loadTemplate("partials/header.html.twig", "partials/base-home.html.twig", 48)->display($context);
         // line 49
+        echo "            ";
+        $this->loadTemplate("partials/header.html.twig", "partials/base-home.html.twig", 49)->display($context);
+        // line 50
         echo "        ";
     }
 
-    // line 51
+    // line 52
     public function block_showcase($context, array $blocks = array())
     {
     }
 
-    // line 53
+    // line 54
     public function block_body($context, array $blocks = array())
     {
-        // line 54
+        // line 55
         echo "        <section id=\"body\" class=\"";
         echo (isset($context["class"]) ? $context["class"] : null);
         echo "\">
             ";
-        // line 55
-        $this->displayBlock('content', $context, $blocks);
         // line 56
+        $this->displayBlock('content', $context, $blocks);
+        // line 57
         echo "        </section>
         ";
     }
 
-    // line 55
+    // line 56
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 59
+    // line 60
     public function block_footer($context, array $blocks = array())
     {
-        // line 60
+        // line 61
         echo "        <footer id=\"footer\">
 
             <div class=\"symbol\"></div>
@@ -260,10 +264,10 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         ";
     }
 
-    // line 86
+    // line 87
     public function block_bottom($context, array $blocks = array())
     {
-        // line 87
+        // line 88
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -292,7 +296,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     public function getDebugInfo()
     {
-        return array (  267 => 87,  264 => 86,  244 => 60,  241 => 59,  236 => 55,  231 => 56,  229 => 55,  224 => 54,  221 => 53,  216 => 51,  212 => 49,  209 => 48,  206 => 47,  201 => 39,  198 => 38,  195 => 37,  192 => 36,  189 => 35,  186 => 34,  183 => 33,  180 => 32,  177 => 31,  173 => 28,  170 => 27,  167 => 26,  164 => 25,  161 => 24,  158 => 23,  155 => 22,  153 => 21,  150 => 20,  147 => 19,  144 => 18,  141 => 17,  138 => 16,  135 => 15,  132 => 14,  124 => 41,  122 => 31,  116 => 29,  114 => 14,  108 => 11,  104 => 10,  101 => 9,  99 => 8,  91 => 7,  88 => 6,  85 => 5,  78 => 98,  76 => 86,  65 => 77,  63 => 59,  60 => 58,  58 => 53,  53 => 51,  50 => 50,  48 => 47,  43 => 45,  40 => 44,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  271 => 88,  268 => 87,  248 => 61,  245 => 60,  240 => 56,  235 => 57,  233 => 56,  228 => 55,  225 => 54,  220 => 52,  216 => 50,  213 => 49,  210 => 48,  205 => 39,  202 => 38,  199 => 37,  196 => 36,  193 => 35,  190 => 34,  187 => 33,  184 => 32,  181 => 31,  177 => 28,  174 => 27,  171 => 26,  168 => 25,  165 => 24,  162 => 23,  159 => 22,  157 => 21,  154 => 20,  151 => 19,  148 => 18,  145 => 17,  142 => 16,  139 => 15,  136 => 14,  128 => 41,  126 => 31,  120 => 29,  118 => 14,  112 => 11,  108 => 10,  105 => 9,  103 => 8,  95 => 7,  92 => 6,  89 => 5,  82 => 99,  80 => 87,  69 => 78,  67 => 60,  64 => 59,  62 => 54,  57 => 52,  54 => 51,  52 => 48,  49 => 47,  47 => 46,  43 => 45,  40 => 44,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -350,6 +354,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 {% endblock head %}
 </head>
 <body id=\"top\" class=\"{{ page.header.body_classes }}\">
+    {% include 'partials/navigation-overlay.html.twig' %}
     <div id=\"sb-site\">
         {% block header %}
             {% include 'partials/header.html.twig' %}

@@ -24,29 +24,51 @@ body{
 		.fullBg();
 		.rotate(180deg);
 		.translate(-50%);
+		display: none;
+		// 
+
+
+
+
+
+
+ 		// PROBABLY HAVE TO DELETE THIS
+
+ 		// LETS MAKE IT LOOK GROSS
+
+
+
+
+
+
+
+		//
 		left: 50%;
 		top: 0;
 		background-image: url(../svg/symbol-refuge-rotated.svg);
 	}
 	.mainContent{
-		.dim(70%);
+		.dim(100%);
 		.relative();
 		.clr();
-		max-width: 510px;
 		top: 50%;
-		left: 50%;
-		transform: translateY(-50%) translate(-60%);
+		transform: translateY(-50%);
 		.refugeSymbol{
 			.dim(140px, 140px);
 			.fullBg();
-			.fleft();
+			.absolute();
+			display: none;
+			top: -130px;
+			left: 50%;
+			.translate(-50%);
 			background-image: url(../svg/symbol-refuge.svg);
 		}
 		.refuge{
+			.dim(80%);
 			.primaryFont();
-			.fleft();
-			margin-left: 30px;
-			font-size: 10em;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 32vh;
 			margin-bottom: 15px;
 		}
 		.button{
@@ -54,11 +76,14 @@ body{
 			right: -200px;
 			top: 60px;
 			font-size: 1.3em;
+			display: none;
 		}
 		.by{
+			.dim(100%);
+			height: 30px;
 			.primaryFont();
 			font-size: 1.5em;
-			text-align: right;
+			text-align: center;
 		}
 	}
 	.keepExploring{

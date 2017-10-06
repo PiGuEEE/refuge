@@ -10,8 +10,6 @@ class __TwigTemplate_18b2c6e22d885ea3bfe6b6b4810aa151447aa399f1b2f6950bd809e58a5
         $this->parent = false;
 
         $this->blocks = array(
-            'header_extra' => array($this, 'block_header_extra'),
-            'header_navigation' => array($this, 'block_header_navigation'),
         );
     }
 
@@ -33,35 +31,7 @@ class __TwigTemplate_18b2c6e22d885ea3bfe6b6b4810aa151447aa399f1b2f6950bd809e58a5
             <div class=\"small\"></div>
         </div>
     </div>
-    <nav class=\"navOverlay\">      
-
-        ";
-        // line 18
-        $this->displayBlock('header_extra', $context, $blocks);
-        // line 19
-        echo "        
-        ";
-        // line 20
-        $this->displayBlock('header_navigation', $context, $blocks);
-        // line 23
-        echo "
-    </nav>
 </header>";
-    }
-
-    // line 18
-    public function block_header_extra($context, array $blocks = array())
-    {
-    }
-
-    // line 20
-    public function block_header_navigation($context, array $blocks = array())
-    {
-        // line 21
-        echo "            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 21)->display($context);
-        // line 22
-        echo "        ";
     }
 
     public function getTemplateName()
@@ -71,7 +41,7 @@ class __TwigTemplate_18b2c6e22d885ea3bfe6b6b4810aa151447aa399f1b2f6950bd809e58a5
 
     public function getDebugInfo()
     {
-        return array (  64 => 22,  61 => 21,  58 => 20,  53 => 18,  47 => 23,  45 => 20,  42 => 19,  40 => 18,  21 => 1,);
+        return array (  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -99,15 +69,6 @@ class __TwigTemplate_18b2c6e22d885ea3bfe6b6b4810aa151447aa399f1b2f6950bd809e58a5
             <div class=\"small\"></div>
         </div>
     </div>
-    <nav class=\"navOverlay\">      
-
-        {% block header_extra %}{% endblock %}
-        
-        {% block header_navigation %}
-            {% include 'partials/navigation.html.twig' %}
-        {% endblock %}
-
-    </nav>
 </header>", "partials/header.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/partials/header.html.twig");
     }
 }
