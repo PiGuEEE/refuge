@@ -14,7 +14,6 @@ $(document).ready(function(){
 	
 	});
 
-
 	function resizeToCover() {
 	    // set the video viewport to the window size
 	    jQuery('#videoViewport').width(jQuery(window).width());
@@ -36,5 +35,4 @@ $(document).ready(function(){
 	    jQuery('#videoViewport').scrollTop((jQuery('video').height() - jQuery(window).height()) / 2);
 	 };
     
-
 });
