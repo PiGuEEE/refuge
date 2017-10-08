@@ -84,7 +84,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     <!-- facebook tags -->
     <meta property=\"og:description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
-    <meta property=\"og:image\" content=\"https://www.refugethegame.com/social/social-facebook-squared.png\">
+    <meta property=\"og:image\" content=\"http://www.refugethegame.com/user/themes/refuge-theme/img/facebook-image.png\">
     <meta property=\"og:locale:alternate\" content=\"en_AU\">
     <meta property=\"og:title\" content=\"Refuge, the game.\">
     <meta property=\"og:type\" content=\"website\">
@@ -278,7 +278,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     <!-- facebook tags -->
     <meta property=\"og:description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
-    <meta property=\"og:image\" content=\"https://www.refugethegame.com/social/social-facebook-squared.png\">
+    <meta property=\"og:image\" content=\"http://www.refugethegame.com/user/themes/refuge-theme/img/facebook-image.png\">
     <meta property=\"og:locale:alternate\" content=\"en_AU\">
     <meta property=\"og:title\" content=\"Refuge, the game.\">
     <meta property=\"og:type\" content=\"website\">

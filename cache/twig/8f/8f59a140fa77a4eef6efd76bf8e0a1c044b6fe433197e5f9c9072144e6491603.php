@@ -19,7 +19,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1418244222")->display($context);
+        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1846728345")->display($context);
         // line 77
         echo "
 
@@ -106,9 +106,9 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
 \t\t\t\t\t<div class=\"gameplay\">
-\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" frameborder=\"0\" allowfullscreen></iframe>
 \t\t\t\t\t</div>
-\t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
+\t\t\t\t\t<a href=\"#\" class=\"button moreGameplay\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</section>
@@ -148,7 +148,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 
 /* home.html.twig */
-class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_1418244222 extends Twig_Template
+class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_1846728345 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -225,9 +225,9 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
 \t\t\t\t\t<div class=\"gameplay\">
-\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" frameborder=\"0\" allowfullscreen></iframe>
 \t\t\t\t\t</div>
-\t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
+\t\t\t\t\t<a href=\"#\" class=\"button moreGameplay\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</section>
@@ -372,9 +372,9 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
 \t\t\t\t\t<div class=\"gameplay\">
-\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/d-VDdClQinE\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" frameborder=\"0\" allowfullscreen></iframe>
 \t\t\t\t\t</div>
-\t\t\t\t\t<a href=\"#\" class=\"button\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
+\t\t\t\t\t<a href=\"#\" class=\"button moreGameplay\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</section>

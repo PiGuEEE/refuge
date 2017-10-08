@@ -27,7 +27,7 @@ class __TwigTemplate_62447a1cb3480388633f2f42e8644d3349740629ea3451f4a56bb14f9a0
 \t\t<p>Escaping from a country devastaded by war and that is still under control of both army and rebels is a terrifying experience that set families apart and ruines entire civilization's cultures.</p>
 \t\t<p>Feliz has got the chance to start his journey, but wise decisions have to be made in order to successfully making it to a new place, safe to restart his life besides his loved ones.</p>
 \t</div>
-\t<p class=\"yourCall\">It’s all your call.</p>
+\t<p class=\"yourCall\">Every journey ends.</p>
 
 \t<!-- ";
         // line 13
@@ -83,7 +83,7 @@ class __TwigTemplate_62447a1cb3480388633f2f42e8644d3349740629ea3451f4a56bb14f9a0
 \t\t<p>Escaping from a country devastaded by war and that is still under control of both army and rebels is a terrifying experience that set families apart and ruines entire civilization's cultures.</p>
 \t\t<p>Feliz has got the chance to start his journey, but wise decisions have to be made in order to successfully making it to a new place, safe to restart his life besides his loved ones.</p>
 \t</div>
-\t<p class=\"yourCall\">It’s all your call.</p>
+\t<p class=\"yourCall\">Every journey ends.</p>
 
 \t<!-- {% block content %}
 \t\t{{ page.content }}
