@@ -19,8 +19,8 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1846728345")->display($context);
-        // line 77
+        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1558565686")->display($context);
+        // line 89
         echo "
 
 ";
@@ -51,7 +51,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
     public function getDebugInfo()
     {
-        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 77,  22 => 6,  20 => 1,);
+        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 89,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -80,10 +80,12 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url({{ blog_image.url }});\"></div>
 \t\t{% endif %}
 \t\t<section class=\"mainHome\">
+\t\t\t<video autoplay id=\"videoViewport\" loop class=\"videoBg\" src=\"user/themes/refuge-theme/video/refuge-every-journey-ends.mp4\"></video>
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
 \t\t\t\t<div class=\"refugeSymbol\"></div>
 \t\t\t\t<h1 class=\"refuge\" id=\"mainRefuge\"></h1>
+\t\t\t\t<h2 class=\"refuge smaller\" id=\"secondRefuge\"></h2>
 \t\t\t\t<p class=\"by\" id=\"by\"></p>
 \t\t\t\t<a href=\"#\" class=\"button\" title=\"Download Now\">DOWNLOAD NOW</a>
 \t\t\t</div>
@@ -91,7 +93,6 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t<div class=\"arrowDown\"></div>
 \t\t\t\t<div class=\"arrowDownSmall\"></div>
 \t\t\t</div>
-
 \t\t</section>
 
 \t\t<section class=\"yourDecision\">
@@ -139,6 +140,17 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t</div>
 \t{% endblock %}
 
+\t{% block javascripts %}
+
+        {% do assets.addJs('jquery', 101) %}
+        {% do assets.addJs('theme://js/typed/typed.min.js') %}
+        {% do assets.addJs('theme://js/main.min.js') %}
+        {% do assets.addJs('theme://js/imageSlider.min.js') %}
+        {% do assets.addJs('theme://js/home.min.js') %}
+
+    {% endblock %}
+
+
 {% endembed %}
 
 
@@ -148,7 +160,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 
 /* home.html.twig */
-class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_1846728345 extends Twig_Template
+class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_1558565686 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -158,6 +170,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         $this->parent = $this->loadTemplate("partials/base-home.html.twig", "home.html.twig", 6);
         $this->blocks = array(
             'content' => array($this, 'block_content'),
+            'javascripts' => array($this, 'block_javascripts'),
         );
     }
 
@@ -193,10 +206,12 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         }
         // line 16
         echo "\t\t<section class=\"mainHome\">
+\t\t\t<video autoplay id=\"videoViewport\" loop class=\"videoBg\" src=\"user/themes/refuge-theme/video/refuge-every-journey-ends.mp4\"></video>
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
 \t\t\t\t<div class=\"refugeSymbol\"></div>
 \t\t\t\t<h1 class=\"refuge\" id=\"mainRefuge\"></h1>
+\t\t\t\t<h2 class=\"refuge smaller\" id=\"secondRefuge\"></h2>
 \t\t\t\t<p class=\"by\" id=\"by\"></p>
 \t\t\t\t<a href=\"#\" class=\"button\" title=\"Download Now\">DOWNLOAD NOW</a>
 \t\t\t</div>
@@ -204,21 +219,20 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t<div class=\"arrowDown\"></div>
 \t\t\t\t<div class=\"arrowDownSmall\"></div>
 \t\t\t</div>
-
 \t\t</section>
 
 \t\t<section class=\"yourDecision\">
        \t\t
        \t\t";
-        // line 33
-        $this->loadTemplate("partials/header-internals.html.twig", "home.html.twig", 33)->display($context);
         // line 34
+        $this->loadTemplate("partials/header-internals.html.twig", "home.html.twig", 34)->display($context);
+        // line 35
         echo "\t\t\t
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"decisionText\">
 \t\t\t\t\t
 \t\t\t\t\t";
-        // line 38
+        // line 39
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
 
@@ -239,14 +253,14 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t</section>
 
 \t\t";
-        // line 56
-        $this->loadTemplate("partials/image-slider.html.twig", "home.html.twig", 56)->display($context);
         // line 57
+        $this->loadTemplate("partials/image-slider.html.twig", "home.html.twig", 57)->display($context);
+        // line 58
         echo "
 \t\t";
-        // line 58
-        $this->loadTemplate("the-game.html.twig", "home.html.twig", 58)->display($context);
         // line 59
+        $this->loadTemplate("the-game.html.twig", "home.html.twig", 59)->display($context);
+        // line 60
         echo "
 \t\t<!-- <div class=\"blog-header\">
 \t\t</div> -->
@@ -254,7 +268,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 \t\t\t\t";
-        // line 65
+        // line 66
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -271,10 +285,10 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 66
-            echo "\t\t\t        ";
-            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 66)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
             // line 67
+            echo "\t\t\t        ";
+            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 67)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
+            // line 68
             echo "\t\t\t    ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -288,21 +302,46 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 68
+        // line 69
         echo "
                 ";
-        // line 69
+        // line 70
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))) {
-            // line 70
-            echo "                    ";
-            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 70)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
             // line 71
+            echo "                    ";
+            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 71)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
+            // line 72
             echo "                ";
         }
-        // line 72
+        // line 73
         echo "\t\t\t</div>
 \t\t</div>
 \t";
+    }
+
+    // line 77
+    public function block_javascripts($context, array $blocks = array())
+    {
+        // line 78
+        echo "
+        ";
+        // line 79
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
+        // line 80
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/typed/typed.min.js"), "method");
+        // line 81
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/main.min.js"), "method");
+        // line 82
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/imageSlider.min.js"), "method");
+        // line 83
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/home.min.js"), "method");
+        // line 84
+        echo "
+    ";
     }
 
     public function getTemplateName()
@@ -317,7 +356,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
     public function getDebugInfo()
     {
-        return array (  303 => 72,  300 => 71,  297 => 70,  295 => 69,  292 => 68,  278 => 67,  275 => 66,  258 => 65,  250 => 59,  248 => 58,  245 => 57,  243 => 56,  222 => 38,  216 => 34,  214 => 33,  195 => 16,  189 => 14,  187 => 13,  184 => 12,  181 => 11,  178 => 10,  174 => 6,  172 => 8,  158 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 77,  22 => 6,  20 => 1,);
+        return array (  343 => 84,  340 => 83,  337 => 82,  334 => 81,  331 => 80,  329 => 79,  326 => 78,  323 => 77,  317 => 73,  314 => 72,  311 => 71,  309 => 70,  306 => 69,  292 => 68,  289 => 67,  272 => 66,  264 => 60,  262 => 59,  259 => 58,  257 => 57,  236 => 39,  230 => 35,  228 => 34,  208 => 16,  202 => 14,  200 => 13,  197 => 12,  194 => 11,  191 => 10,  187 => 6,  185 => 8,  170 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 89,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -346,10 +385,12 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url({{ blog_image.url }});\"></div>
 \t\t{% endif %}
 \t\t<section class=\"mainHome\">
+\t\t\t<video autoplay id=\"videoViewport\" loop class=\"videoBg\" src=\"user/themes/refuge-theme/video/refuge-every-journey-ends.mp4\"></video>
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
 \t\t\t\t<div class=\"refugeSymbol\"></div>
 \t\t\t\t<h1 class=\"refuge\" id=\"mainRefuge\"></h1>
+\t\t\t\t<h2 class=\"refuge smaller\" id=\"secondRefuge\"></h2>
 \t\t\t\t<p class=\"by\" id=\"by\"></p>
 \t\t\t\t<a href=\"#\" class=\"button\" title=\"Download Now\">DOWNLOAD NOW</a>
 \t\t\t</div>
@@ -357,7 +398,6 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t<div class=\"arrowDown\"></div>
 \t\t\t\t<div class=\"arrowDownSmall\"></div>
 \t\t\t</div>
-
 \t\t</section>
 
 \t\t<section class=\"yourDecision\">
@@ -404,6 +444,17 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t</div>
 \t\t</div>
 \t{% endblock %}
+
+\t{% block javascripts %}
+
+        {% do assets.addJs('jquery', 101) %}
+        {% do assets.addJs('theme://js/typed/typed.min.js') %}
+        {% do assets.addJs('theme://js/main.min.js') %}
+        {% do assets.addJs('theme://js/imageSlider.min.js') %}
+        {% do assets.addJs('theme://js/home.min.js') %}
+
+    {% endblock %}
+
 
 {% endembed %}
 

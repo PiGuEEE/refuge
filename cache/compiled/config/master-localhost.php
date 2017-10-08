@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1507244471,
-    'checksum' => 'fbf9ae45e97e39e3a004327a27d1c34d',
+    'timestamp' => 1507449706,
+    'checksum' => '165a57549e7a759597efa6ac3f8f07ba',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1506904925
+            ],
+            'plugins/admin' => [
+                'file' => 'user/config/plugins/admin.yaml',
+                'modified' => 1507449706
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -51,7 +55,7 @@ return [
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1506904925
+                'modified' => 1507448958
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -133,9 +137,9 @@ return [
                         1 => '/modular'
                     ],
                     'history' => [
-                        'daily' => 30,
-                        'monthly' => 12,
-                        'visitors' => 20
+                        'daily' => '30',
+                        'monthly' => '12',
+                        'visitors' => '20'
                     ]
                 ]
             ],

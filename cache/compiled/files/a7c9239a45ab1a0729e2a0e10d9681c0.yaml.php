@@ -2,14 +2,14 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/refuge/user/plugins/admin/themes/grav/templates/forms/fields/iconpicker/icons.yaml',
-    'modified' => 1506904565,
+    'modified' => 1507448958,
     'data' => [
         'icons' => [
             0 => [
                 'name' => 'Glass',
                 'id' => 'glass',
                 'unicode' => 'f000',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'martini',
                     1 => 'drink',
@@ -25,7 +25,7 @@ return [
                 'name' => 'Music',
                 'id' => 'music',
                 'unicode' => 'f001',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'note',
                     1 => 'sound'
@@ -38,7 +38,7 @@ return [
                 'name' => 'Search',
                 'id' => 'search',
                 'unicode' => 'f002',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'magnify',
                     1 => 'zoom',
@@ -53,7 +53,7 @@ return [
                 'name' => 'Envelope Outlined',
                 'id' => 'envelope-o',
                 'unicode' => 'f003',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'email',
                     1 => 'e-mail',
@@ -71,7 +71,7 @@ return [
                 'name' => 'Heart',
                 'id' => 'heart',
                 'unicode' => 'f004',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'love',
                     1 => 'like',
@@ -86,7 +86,7 @@ return [
                 'name' => 'Star',
                 'id' => 'star',
                 'unicode' => 'f005',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'award',
                     1 => 'achievement',
@@ -103,7 +103,7 @@ return [
                 'name' => 'Star Outlined',
                 'id' => 'star-o',
                 'unicode' => 'f006',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'award',
                     1 => 'achievement',
@@ -120,7 +120,7 @@ return [
                 'name' => 'User',
                 'id' => 'user',
                 'unicode' => 'f007',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'person',
                     1 => 'man',
@@ -135,7 +135,7 @@ return [
                 'name' => 'Film',
                 'id' => 'film',
                 'unicode' => 'f008',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'movie'
                 ],
@@ -147,7 +147,7 @@ return [
                 'name' => 'th-large',
                 'id' => 'th-large',
                 'unicode' => 'f009',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'blocks',
                     1 => 'squares',
@@ -162,7 +162,7 @@ return [
                 'name' => 'th',
                 'id' => 'th',
                 'unicode' => 'f00a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'blocks',
                     1 => 'squares',
@@ -177,7 +177,7 @@ return [
                 'name' => 'th-list',
                 'id' => 'th-list',
                 'unicode' => 'f00b',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'ul',
                     1 => 'ol',
@@ -195,7 +195,7 @@ return [
                 'name' => 'Check',
                 'id' => 'check',
                 'unicode' => 'f00c',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'checkmark',
                     1 => 'done',
@@ -214,7 +214,7 @@ return [
                 'name' => 'Times',
                 'id' => 'times',
                 'unicode' => 'f00d',
-                'created' => 1.0,
+                'created' => 1,
                 'aliases' => [
                     0 => 'remove',
                     1 => 'close'
@@ -233,7 +233,7 @@ return [
                 'name' => 'Search Plus',
                 'id' => 'search-plus',
                 'unicode' => 'f00e',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'magnify',
                     1 => 'zoom',
@@ -248,7 +248,7 @@ return [
                 'name' => 'Search Minus',
                 'id' => 'search-minus',
                 'unicode' => 'f010',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'magnify',
                     1 => 'minify',
@@ -263,7 +263,7 @@ return [
                 'name' => 'Power Off',
                 'id' => 'power-off',
                 'unicode' => 'f011',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'on'
                 ],
@@ -275,7 +275,7 @@ return [
                 'name' => 'signal',
                 'id' => 'signal',
                 'unicode' => 'f012',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'graph',
                     1 => 'bars'
@@ -288,7 +288,7 @@ return [
                 'name' => 'cog',
                 'id' => 'cog',
                 'unicode' => 'f013',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'settings'
                 ],
@@ -304,7 +304,7 @@ return [
                 'name' => 'Trash Outlined',
                 'id' => 'trash-o',
                 'unicode' => 'f014',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'garbage',
                     1 => 'delete',
@@ -320,7 +320,7 @@ return [
                 'name' => 'home',
                 'id' => 'home',
                 'unicode' => 'f015',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'main',
                     1 => 'house'
@@ -333,7 +333,7 @@ return [
                 'name' => 'File Outlined',
                 'id' => 'file-o',
                 'unicode' => 'f016',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'new',
                     1 => 'page',
@@ -349,7 +349,7 @@ return [
                 'name' => 'Clock Outlined',
                 'id' => 'clock-o',
                 'unicode' => 'f017',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'watch',
                     1 => 'timer',
@@ -364,7 +364,7 @@ return [
                 'name' => 'road',
                 'id' => 'road',
                 'unicode' => 'f018',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'street'
                 ],
@@ -376,7 +376,7 @@ return [
                 'name' => 'Download',
                 'id' => 'download',
                 'unicode' => 'f019',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'import'
                 ],
@@ -388,7 +388,7 @@ return [
                 'name' => 'Arrow Circle Outlined Down',
                 'id' => 'arrow-circle-o-down',
                 'unicode' => 'f01a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'download'
                 ],
@@ -400,7 +400,7 @@ return [
                 'name' => 'Arrow Circle Outlined Up',
                 'id' => 'arrow-circle-o-up',
                 'unicode' => 'f01b',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Directional Icons'
                 ]
@@ -409,7 +409,7 @@ return [
                 'name' => 'inbox',
                 'id' => 'inbox',
                 'unicode' => 'f01c',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -418,7 +418,7 @@ return [
                 'name' => 'Play Circle Outlined',
                 'id' => 'play-circle-o',
                 'unicode' => 'f01d',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Video Player Icons'
                 ]
@@ -427,7 +427,7 @@ return [
                 'name' => 'Repeat',
                 'id' => 'repeat',
                 'unicode' => 'f01e',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'redo',
                     1 => 'forward'
@@ -443,7 +443,7 @@ return [
                 'name' => 'refresh',
                 'id' => 'refresh',
                 'unicode' => 'f021',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'reload',
                     1 => 'sync'
@@ -457,7 +457,7 @@ return [
                 'name' => 'list-alt',
                 'id' => 'list-alt',
                 'unicode' => 'f022',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'ul',
                     1 => 'ol',
@@ -475,7 +475,7 @@ return [
                 'name' => 'lock',
                 'id' => 'lock',
                 'unicode' => 'f023',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'protect',
                     1 => 'admin',
@@ -489,7 +489,7 @@ return [
                 'name' => 'flag',
                 'id' => 'flag',
                 'unicode' => 'f024',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'report',
                     1 => 'notification',
@@ -503,7 +503,7 @@ return [
                 'name' => 'headphones',
                 'id' => 'headphones',
                 'unicode' => 'f025',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'sound',
                     1 => 'listen',
@@ -518,7 +518,7 @@ return [
                 'name' => 'volume-off',
                 'id' => 'volume-off',
                 'unicode' => 'f026',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'audio',
                     1 => 'mute',
@@ -533,7 +533,7 @@ return [
                 'name' => 'volume-down',
                 'id' => 'volume-down',
                 'unicode' => 'f027',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'audio',
                     1 => 'lower',
@@ -549,7 +549,7 @@ return [
                 'name' => 'volume-up',
                 'id' => 'volume-up',
                 'unicode' => 'f028',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'audio',
                     1 => 'higher',
@@ -565,7 +565,7 @@ return [
                 'name' => 'qrcode',
                 'id' => 'qrcode',
                 'unicode' => 'f029',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'scan'
                 ],
@@ -577,7 +577,7 @@ return [
                 'name' => 'barcode',
                 'id' => 'barcode',
                 'unicode' => 'f02a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'scan'
                 ],
@@ -589,7 +589,7 @@ return [
                 'name' => 'tag',
                 'id' => 'tag',
                 'unicode' => 'f02b',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'label'
                 ],
@@ -601,7 +601,7 @@ return [
                 'name' => 'tags',
                 'id' => 'tags',
                 'unicode' => 'f02c',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'labels'
                 ],
@@ -613,7 +613,7 @@ return [
                 'name' => 'book',
                 'id' => 'book',
                 'unicode' => 'f02d',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'read',
                     1 => 'documentation'
@@ -626,7 +626,7 @@ return [
                 'name' => 'bookmark',
                 'id' => 'bookmark',
                 'unicode' => 'f02e',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'save'
                 ],
@@ -638,7 +638,7 @@ return [
                 'name' => 'print',
                 'id' => 'print',
                 'unicode' => 'f02f',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -647,7 +647,7 @@ return [
                 'name' => 'camera',
                 'id' => 'camera',
                 'unicode' => 'f030',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'photo',
                     1 => 'picture',
@@ -661,7 +661,7 @@ return [
                 'name' => 'font',
                 'id' => 'font',
                 'unicode' => 'f031',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'text'
                 ],
@@ -673,7 +673,7 @@ return [
                 'name' => 'bold',
                 'id' => 'bold',
                 'unicode' => 'f032',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Text Editor Icons'
                 ]
@@ -682,7 +682,7 @@ return [
                 'name' => 'italic',
                 'id' => 'italic',
                 'unicode' => 'f033',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'italics'
                 ],
@@ -694,7 +694,7 @@ return [
                 'name' => 'text-height',
                 'id' => 'text-height',
                 'unicode' => 'f034',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Text Editor Icons'
                 ]
@@ -703,7 +703,7 @@ return [
                 'name' => 'text-width',
                 'id' => 'text-width',
                 'unicode' => 'f035',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Text Editor Icons'
                 ]
@@ -712,7 +712,7 @@ return [
                 'name' => 'align-left',
                 'id' => 'align-left',
                 'unicode' => 'f036',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'text'
                 ],
@@ -724,7 +724,7 @@ return [
                 'name' => 'align-center',
                 'id' => 'align-center',
                 'unicode' => 'f037',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'middle',
                     1 => 'text'
@@ -737,7 +737,7 @@ return [
                 'name' => 'align-right',
                 'id' => 'align-right',
                 'unicode' => 'f038',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'text'
                 ],
@@ -749,7 +749,7 @@ return [
                 'name' => 'align-justify',
                 'id' => 'align-justify',
                 'unicode' => 'f039',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'text'
                 ],
@@ -761,7 +761,7 @@ return [
                 'name' => 'list',
                 'id' => 'list',
                 'unicode' => 'f03a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'ul',
                     1 => 'ol',
@@ -779,7 +779,7 @@ return [
                 'name' => 'Outdent',
                 'id' => 'outdent',
                 'unicode' => 'f03b',
-                'created' => 1.0,
+                'created' => 1,
                 'aliases' => [
                     0 => 'dedent'
                 ],
@@ -791,7 +791,7 @@ return [
                 'name' => 'Indent',
                 'id' => 'indent',
                 'unicode' => 'f03c',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Text Editor Icons'
                 ]
@@ -800,7 +800,7 @@ return [
                 'name' => 'Video Camera',
                 'id' => 'video-camera',
                 'unicode' => 'f03d',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'film',
                     1 => 'movie',
@@ -814,7 +814,7 @@ return [
                 'name' => 'Picture Outlined',
                 'id' => 'picture-o',
                 'unicode' => 'f03e',
-                'created' => 1.0,
+                'created' => 1,
                 'aliases' => [
                     0 => 'photo',
                     1 => 'image'
@@ -827,7 +827,7 @@ return [
                 'name' => 'pencil',
                 'id' => 'pencil',
                 'unicode' => 'f040',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'write',
                     1 => 'edit',
@@ -841,7 +841,7 @@ return [
                 'name' => 'map-marker',
                 'id' => 'map-marker',
                 'unicode' => 'f041',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'map',
                     1 => 'pin',
@@ -861,7 +861,7 @@ return [
                 'name' => 'adjust',
                 'id' => 'adjust',
                 'unicode' => 'f042',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'contrast'
                 ],
@@ -873,7 +873,7 @@ return [
                 'name' => 'tint',
                 'id' => 'tint',
                 'unicode' => 'f043',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'raindrop',
                     1 => 'waterdrop',
@@ -888,7 +888,7 @@ return [
                 'name' => 'Pencil Square Outlined',
                 'id' => 'pencil-square-o',
                 'unicode' => 'f044',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'write',
                     1 => 'edit',
@@ -905,7 +905,7 @@ return [
                 'name' => 'Share Square Outlined',
                 'id' => 'share-square-o',
                 'unicode' => 'f045',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'social',
                     1 => 'send',
@@ -919,7 +919,7 @@ return [
                 'name' => 'Check Square Outlined',
                 'id' => 'check-square-o',
                 'unicode' => 'f046',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'todo',
                     1 => 'done',
@@ -937,7 +937,7 @@ return [
                 'name' => 'Arrows',
                 'id' => 'arrows',
                 'unicode' => 'f047',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'move',
                     1 => 'reorder',
@@ -952,7 +952,7 @@ return [
                 'name' => 'step-backward',
                 'id' => 'step-backward',
                 'unicode' => 'f048',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'rewind',
                     1 => 'previous',
@@ -968,7 +968,7 @@ return [
                 'name' => 'fast-backward',
                 'id' => 'fast-backward',
                 'unicode' => 'f049',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'rewind',
                     1 => 'previous',
@@ -984,7 +984,7 @@ return [
                 'name' => 'backward',
                 'id' => 'backward',
                 'unicode' => 'f04a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'rewind',
                     1 => 'previous'
@@ -997,7 +997,7 @@ return [
                 'name' => 'play',
                 'id' => 'play',
                 'unicode' => 'f04b',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'start',
                     1 => 'playing',
@@ -1012,7 +1012,7 @@ return [
                 'name' => 'pause',
                 'id' => 'pause',
                 'unicode' => 'f04c',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'wait'
                 ],
@@ -1024,7 +1024,7 @@ return [
                 'name' => 'stop',
                 'id' => 'stop',
                 'unicode' => 'f04d',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'block',
                     1 => 'box',
@@ -1038,7 +1038,7 @@ return [
                 'name' => 'forward',
                 'id' => 'forward',
                 'unicode' => 'f04e',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'forward',
                     1 => 'next'
@@ -1051,7 +1051,7 @@ return [
                 'name' => 'fast-forward',
                 'id' => 'fast-forward',
                 'unicode' => 'f050',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'next',
                     1 => 'end',
@@ -1065,7 +1065,7 @@ return [
                 'name' => 'step-forward',
                 'id' => 'step-forward',
                 'unicode' => 'f051',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'next',
                     1 => 'end',
@@ -1079,7 +1079,7 @@ return [
                 'name' => 'eject',
                 'id' => 'eject',
                 'unicode' => 'f052',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Video Player Icons'
                 ]
@@ -1088,7 +1088,7 @@ return [
                 'name' => 'chevron-left',
                 'id' => 'chevron-left',
                 'unicode' => 'f053',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'bracket',
                     1 => 'previous',
@@ -1102,7 +1102,7 @@ return [
                 'name' => 'chevron-right',
                 'id' => 'chevron-right',
                 'unicode' => 'f054',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'bracket',
                     1 => 'next',
@@ -1116,7 +1116,7 @@ return [
                 'name' => 'Plus Circle',
                 'id' => 'plus-circle',
                 'unicode' => 'f055',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'add',
                     1 => 'new',
@@ -1131,7 +1131,7 @@ return [
                 'name' => 'Minus Circle',
                 'id' => 'minus-circle',
                 'unicode' => 'f056',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'delete',
                     1 => 'remove',
@@ -1146,7 +1146,7 @@ return [
                 'name' => 'Times Circle',
                 'id' => 'times-circle',
                 'unicode' => 'f057',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'close',
                     1 => 'exit',
@@ -1160,7 +1160,7 @@ return [
                 'name' => 'Check Circle',
                 'id' => 'check-circle',
                 'unicode' => 'f058',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'todo',
                     1 => 'done',
@@ -1183,7 +1183,7 @@ return [
                     2 => 'unknown',
                     3 => 'support'
                 ],
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -1192,7 +1192,7 @@ return [
                 'name' => 'Info Circle',
                 'id' => 'info-circle',
                 'unicode' => 'f05a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'help',
                     1 => 'information',
@@ -1207,7 +1207,7 @@ return [
                 'name' => 'Crosshairs',
                 'id' => 'crosshairs',
                 'unicode' => 'f05b',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'picker'
                 ],
@@ -1219,7 +1219,7 @@ return [
                 'name' => 'Times Circle Outlined',
                 'id' => 'times-circle-o',
                 'unicode' => 'f05c',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'close',
                     1 => 'exit',
@@ -1233,7 +1233,7 @@ return [
                 'name' => 'Check Circle Outlined',
                 'id' => 'check-circle-o',
                 'unicode' => 'f05d',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'todo',
                     1 => 'done',
@@ -1250,7 +1250,7 @@ return [
                 'name' => 'ban',
                 'id' => 'ban',
                 'unicode' => 'f05e',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'delete',
                     1 => 'remove',
@@ -1269,7 +1269,7 @@ return [
                 'name' => 'arrow-left',
                 'id' => 'arrow-left',
                 'unicode' => 'f060',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'previous',
                     1 => 'back'
@@ -1282,7 +1282,7 @@ return [
                 'name' => 'arrow-right',
                 'id' => 'arrow-right',
                 'unicode' => 'f061',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'next',
                     1 => 'forward'
@@ -1295,7 +1295,7 @@ return [
                 'name' => 'arrow-up',
                 'id' => 'arrow-up',
                 'unicode' => 'f062',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Directional Icons'
                 ]
@@ -1304,7 +1304,7 @@ return [
                 'name' => 'arrow-down',
                 'id' => 'arrow-down',
                 'unicode' => 'f063',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'download'
                 ],
@@ -1316,7 +1316,7 @@ return [
                 'name' => 'Share',
                 'id' => 'share',
                 'unicode' => 'f064',
-                'created' => 1.0,
+                'created' => 1,
                 'aliases' => [
                     0 => 'mail-forward'
                 ],
@@ -1328,7 +1328,7 @@ return [
                 'name' => 'Expand',
                 'id' => 'expand',
                 'unicode' => 'f065',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'enlarge',
                     1 => 'bigger',
@@ -1342,7 +1342,7 @@ return [
                 'name' => 'Compress',
                 'id' => 'compress',
                 'unicode' => 'f066',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'collapse',
                     1 => 'combine',
@@ -1358,7 +1358,7 @@ return [
                 'name' => 'plus',
                 'id' => 'plus',
                 'unicode' => 'f067',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'add',
                     1 => 'new',
@@ -1373,7 +1373,7 @@ return [
                 'name' => 'minus',
                 'id' => 'minus',
                 'unicode' => 'f068',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'hide',
                     1 => 'minify',
@@ -1391,7 +1391,7 @@ return [
                 'name' => 'asterisk',
                 'id' => 'asterisk',
                 'unicode' => 'f069',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'details'
                 ],
@@ -1403,7 +1403,7 @@ return [
                 'name' => 'Exclamation Circle',
                 'id' => 'exclamation-circle',
                 'unicode' => 'f06a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'warning',
                     1 => 'error',
@@ -1419,7 +1419,7 @@ return [
                 'name' => 'gift',
                 'id' => 'gift',
                 'unicode' => 'f06b',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'present'
                 ],
@@ -1431,7 +1431,7 @@ return [
                 'name' => 'leaf',
                 'id' => 'leaf',
                 'unicode' => 'f06c',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'eco',
                     1 => 'nature',
@@ -1445,7 +1445,7 @@ return [
                 'name' => 'fire',
                 'id' => 'fire',
                 'unicode' => 'f06d',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'flame',
                     1 => 'hot',
@@ -1459,7 +1459,7 @@ return [
                 'name' => 'Eye',
                 'id' => 'eye',
                 'unicode' => 'f06e',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'show',
                     1 => 'visible',
@@ -1473,7 +1473,7 @@ return [
                 'name' => 'Eye Slash',
                 'id' => 'eye-slash',
                 'unicode' => 'f070',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'toggle',
                     1 => 'show',
@@ -1490,7 +1490,7 @@ return [
                 'name' => 'Exclamation Triangle',
                 'id' => 'exclamation-triangle',
                 'unicode' => 'f071',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'warning',
                     1 => 'error',
@@ -1509,7 +1509,7 @@ return [
                 'name' => 'plane',
                 'id' => 'plane',
                 'unicode' => 'f072',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'travel',
                     1 => 'trip',
@@ -1528,7 +1528,7 @@ return [
                 'name' => 'calendar',
                 'id' => 'calendar',
                 'unicode' => 'f073',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'date',
                     1 => 'time',
@@ -1543,7 +1543,7 @@ return [
                 'name' => 'random',
                 'id' => 'random',
                 'unicode' => 'f074',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'sort',
                     1 => 'shuffle'
@@ -1557,7 +1557,7 @@ return [
                 'name' => 'comment',
                 'id' => 'comment',
                 'unicode' => 'f075',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'speech',
                     1 => 'notification',
@@ -1578,7 +1578,7 @@ return [
                 'name' => 'magnet',
                 'id' => 'magnet',
                 'unicode' => 'f076',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -1587,7 +1587,7 @@ return [
                 'name' => 'chevron-up',
                 'id' => 'chevron-up',
                 'unicode' => 'f077',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Directional Icons'
                 ]
@@ -1596,7 +1596,7 @@ return [
                 'name' => 'chevron-down',
                 'id' => 'chevron-down',
                 'unicode' => 'f078',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Directional Icons'
                 ]
@@ -1605,7 +1605,7 @@ return [
                 'name' => 'retweet',
                 'id' => 'retweet',
                 'unicode' => 'f079',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'refresh',
                     1 => 'reload',
@@ -1619,7 +1619,7 @@ return [
                 'name' => 'shopping-cart',
                 'id' => 'shopping-cart',
                 'unicode' => 'f07a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'checkout',
                     1 => 'buy',
@@ -1634,7 +1634,7 @@ return [
                 'name' => 'Folder',
                 'id' => 'folder',
                 'unicode' => 'f07b',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -1643,7 +1643,7 @@ return [
                 'name' => 'Folder Open',
                 'id' => 'folder-open',
                 'unicode' => 'f07c',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -1652,7 +1652,7 @@ return [
                 'name' => 'Arrows Vertical',
                 'id' => 'arrows-v',
                 'unicode' => 'f07d',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'resize'
                 ],
@@ -1665,7 +1665,7 @@ return [
                 'name' => 'Arrows Horizontal',
                 'id' => 'arrows-h',
                 'unicode' => 'f07e',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'resize'
                 ],
@@ -1678,7 +1678,7 @@ return [
                 'name' => 'Bar Chart',
                 'id' => 'bar-chart',
                 'unicode' => 'f080',
-                'created' => 1.0,
+                'created' => 1,
                 'aliases' => [
                     0 => 'bar-chart-o'
                 ],
@@ -1695,7 +1695,7 @@ return [
                 'name' => 'Twitter Square',
                 'id' => 'twitter-square',
                 'unicode' => 'f081',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'tweet',
                     1 => 'social network'
@@ -1708,7 +1708,7 @@ return [
                 'name' => 'Facebook Square',
                 'id' => 'facebook-square',
                 'unicode' => 'f082',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'social network'
                 ],
@@ -1720,7 +1720,7 @@ return [
                 'name' => 'camera-retro',
                 'id' => 'camera-retro',
                 'unicode' => 'f083',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'photo',
                     1 => 'picture',
@@ -1734,7 +1734,7 @@ return [
                 'name' => 'key',
                 'id' => 'key',
                 'unicode' => 'f084',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'unlock',
                     1 => 'password'
@@ -1747,7 +1747,7 @@ return [
                 'name' => 'cogs',
                 'id' => 'cogs',
                 'unicode' => 'f085',
-                'created' => 1.0,
+                'created' => 1,
                 'aliases' => [
                     0 => 'gears'
                 ],
@@ -1762,7 +1762,7 @@ return [
                 'name' => 'comments',
                 'id' => 'comments',
                 'unicode' => 'f086',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'speech',
                     1 => 'notification',
@@ -1783,7 +1783,7 @@ return [
                 'name' => 'Thumbs Up Outlined',
                 'id' => 'thumbs-o-up',
                 'unicode' => 'f087',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'like',
                     1 => 'approve',
@@ -1800,7 +1800,7 @@ return [
                 'name' => 'Thumbs Down Outlined',
                 'id' => 'thumbs-o-down',
                 'unicode' => 'f088',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'dislike',
                     1 => 'disapprove',
@@ -1816,7 +1816,7 @@ return [
                 'name' => 'star-half',
                 'id' => 'star-half',
                 'unicode' => 'f089',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'award',
                     1 => 'achievement',
@@ -1831,7 +1831,7 @@ return [
                 'name' => 'Heart Outlined',
                 'id' => 'heart-o',
                 'unicode' => 'f08a',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'love',
                     1 => 'like',
@@ -1846,7 +1846,7 @@ return [
                 'name' => 'Sign Out',
                 'id' => 'sign-out',
                 'unicode' => 'f08b',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'log out',
                     1 => 'logout',
@@ -1862,7 +1862,7 @@ return [
                 'name' => 'LinkedIn Square',
                 'id' => 'linkedin-square',
                 'unicode' => 'f08c',
-                'created' => 1.0,
+                'created' => 1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -1871,7 +1871,7 @@ return [
                 'name' => 'Thumb Tack',
                 'id' => 'thumb-tack',
                 'unicode' => 'f08d',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'marker',
                     1 => 'pin',
@@ -1886,7 +1886,7 @@ return [
                 'name' => 'External Link',
                 'id' => 'external-link',
                 'unicode' => 'f08e',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'open',
                     1 => 'new'
@@ -1899,7 +1899,7 @@ return [
                 'name' => 'Sign In',
                 'id' => 'sign-in',
                 'unicode' => 'f090',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'enter',
                     1 => 'join',
@@ -1919,7 +1919,7 @@ return [
                 'name' => 'trophy',
                 'id' => 'trophy',
                 'unicode' => 'f091',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'award',
                     1 => 'achievement',
@@ -1935,7 +1935,7 @@ return [
                 'name' => 'GitHub Square',
                 'id' => 'github-square',
                 'unicode' => 'f092',
-                'created' => 1.0,
+                'created' => 1,
                 'url' => 'github.com/logos',
                 'filter' => [
                     0 => 'octocat'
@@ -1948,7 +1948,7 @@ return [
                 'name' => 'Upload',
                 'id' => 'upload',
                 'unicode' => 'f093',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'import'
                 ],
@@ -1960,7 +1960,7 @@ return [
                 'name' => 'Lemon Outlined',
                 'id' => 'lemon-o',
                 'unicode' => 'f094',
-                'created' => 1.0,
+                'created' => 1,
                 'filter' => [
                     0 => 'food'
                 ],
@@ -1972,7 +1972,7 @@ return [
                 'name' => 'Phone',
                 'id' => 'phone',
                 'unicode' => 'f095',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'call',
                     1 => 'voice',
@@ -1989,7 +1989,7 @@ return [
                 'name' => 'Square Outlined',
                 'id' => 'square-o',
                 'unicode' => 'f096',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'block',
                     1 => 'square',
@@ -2004,7 +2004,7 @@ return [
                 'name' => 'Bookmark Outlined',
                 'id' => 'bookmark-o',
                 'unicode' => 'f097',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'save'
                 ],
@@ -2016,7 +2016,7 @@ return [
                 'name' => 'Phone Square',
                 'id' => 'phone-square',
                 'unicode' => 'f098',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'call',
                     1 => 'voice',
@@ -2032,7 +2032,7 @@ return [
                 'name' => 'Twitter',
                 'id' => 'twitter',
                 'unicode' => 'f099',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'tweet',
                     1 => 'social network'
@@ -2045,7 +2045,7 @@ return [
                 'name' => 'Facebook',
                 'id' => 'facebook',
                 'unicode' => 'f09a',
-                'created' => 2.0,
+                'created' => 2,
                 'aliases' => [
                     0 => 'facebook-f'
                 ],
@@ -2060,7 +2060,7 @@ return [
                 'name' => 'GitHub',
                 'id' => 'github',
                 'unicode' => 'f09b',
-                'created' => 2.0,
+                'created' => 2,
                 'url' => 'github.com/logos',
                 'filter' => [
                     0 => 'octocat'
@@ -2073,7 +2073,7 @@ return [
                 'name' => 'unlock',
                 'id' => 'unlock',
                 'unicode' => 'f09c',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'protect',
                     1 => 'admin',
@@ -2088,7 +2088,7 @@ return [
                 'name' => 'credit-card',
                 'id' => 'credit-card',
                 'unicode' => 'f09d',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'money',
                     1 => 'buy',
@@ -2106,7 +2106,7 @@ return [
                 'name' => 'rss',
                 'id' => 'rss',
                 'unicode' => 'f09e',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'blog'
                 ],
@@ -2121,7 +2121,7 @@ return [
                 'name' => 'HDD',
                 'id' => 'hdd-o',
                 'unicode' => 'f0a0',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'harddrive',
                     1 => 'hard drive',
@@ -2136,7 +2136,7 @@ return [
                 'name' => 'bullhorn',
                 'id' => 'bullhorn',
                 'unicode' => 'f0a1',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'announcement',
                     1 => 'share',
@@ -2152,7 +2152,7 @@ return [
                 'name' => 'bell',
                 'id' => 'bell',
                 'unicode' => 'f0f3',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'alert',
                     1 => 'reminder',
@@ -2166,7 +2166,7 @@ return [
                 'name' => 'certificate',
                 'id' => 'certificate',
                 'unicode' => 'f0a3',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'badge',
                     1 => 'star'
@@ -2179,7 +2179,7 @@ return [
                 'name' => 'Hand Outlined Right',
                 'id' => 'hand-o-right',
                 'unicode' => 'f0a4',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'point',
                     1 => 'right',
@@ -2196,7 +2196,7 @@ return [
                 'name' => 'Hand Outlined Left',
                 'id' => 'hand-o-left',
                 'unicode' => 'f0a5',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'point',
                     1 => 'left',
@@ -2213,7 +2213,7 @@ return [
                 'name' => 'Hand Outlined Up',
                 'id' => 'hand-o-up',
                 'unicode' => 'f0a6',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'point',
                     1 => 'finger'
@@ -2227,7 +2227,7 @@ return [
                 'name' => 'Hand Outlined Down',
                 'id' => 'hand-o-down',
                 'unicode' => 'f0a7',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'point',
                     1 => 'finger'
@@ -2241,7 +2241,7 @@ return [
                 'name' => 'Arrow Circle Left',
                 'id' => 'arrow-circle-left',
                 'unicode' => 'f0a8',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'previous',
                     1 => 'back'
@@ -2254,7 +2254,7 @@ return [
                 'name' => 'Arrow Circle Right',
                 'id' => 'arrow-circle-right',
                 'unicode' => 'f0a9',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'next',
                     1 => 'forward'
@@ -2267,7 +2267,7 @@ return [
                 'name' => 'Arrow Circle Up',
                 'id' => 'arrow-circle-up',
                 'unicode' => 'f0aa',
-                'created' => 2.0,
+                'created' => 2,
                 'categories' => [
                     0 => 'Directional Icons'
                 ]
@@ -2276,7 +2276,7 @@ return [
                 'name' => 'Arrow Circle Down',
                 'id' => 'arrow-circle-down',
                 'unicode' => 'f0ab',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'download'
                 ],
@@ -2288,7 +2288,7 @@ return [
                 'name' => 'Globe',
                 'id' => 'globe',
                 'unicode' => 'f0ac',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'world',
                     1 => 'planet',
@@ -2313,7 +2313,7 @@ return [
                 'name' => 'Wrench',
                 'id' => 'wrench',
                 'unicode' => 'f0ad',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'settings',
                     1 => 'fix',
@@ -2328,7 +2328,7 @@ return [
                 'name' => 'Tasks',
                 'id' => 'tasks',
                 'unicode' => 'f0ae',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'progress',
                     1 => 'loading',
@@ -2344,7 +2344,7 @@ return [
                 'name' => 'Filter',
                 'id' => 'filter',
                 'unicode' => 'f0b0',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'funnel',
                     1 => 'options'
@@ -2357,7 +2357,7 @@ return [
                 'name' => 'Briefcase',
                 'id' => 'briefcase',
                 'unicode' => 'f0b1',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'work',
                     1 => 'business',
@@ -2373,7 +2373,7 @@ return [
                 'name' => 'Arrows Alt',
                 'id' => 'arrows-alt',
                 'unicode' => 'f0b2',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'expand',
                     1 => 'enlarge',
@@ -2393,7 +2393,7 @@ return [
                 'name' => 'Users',
                 'id' => 'users',
                 'unicode' => 'f0c0',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'people',
                     1 => 'profiles',
@@ -2410,7 +2410,7 @@ return [
                 'name' => 'Link',
                 'id' => 'link',
                 'unicode' => 'f0c1',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'chain'
                 ],
@@ -2428,7 +2428,7 @@ return [
                     0 => 'save'
                 ],
                 'unicode' => 'f0c2',
-                'created' => 2.0,
+                'created' => 2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -2437,7 +2437,7 @@ return [
                 'name' => 'Flask',
                 'id' => 'flask',
                 'unicode' => 'f0c3',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'science',
                     1 => 'beaker',
@@ -2452,7 +2452,7 @@ return [
                 'name' => 'Scissors',
                 'id' => 'scissors',
                 'unicode' => 'f0c4',
-                'created' => 2.0,
+                'created' => 2,
                 'aliases' => [
                     0 => 'cut'
                 ],
@@ -2464,7 +2464,7 @@ return [
                 'name' => 'Files Outlined',
                 'id' => 'files-o',
                 'unicode' => 'f0c5',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'duplicate',
                     1 => 'clone',
@@ -2481,7 +2481,7 @@ return [
                 'name' => 'Paperclip',
                 'id' => 'paperclip',
                 'unicode' => 'f0c6',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'attachment'
                 ],
@@ -2493,7 +2493,7 @@ return [
                 'name' => 'Floppy Outlined',
                 'id' => 'floppy-o',
                 'unicode' => 'f0c7',
-                'created' => 2.0,
+                'created' => 2,
                 'aliases' => [
                     0 => 'save'
                 ],
@@ -2505,7 +2505,7 @@ return [
                 'name' => 'Square',
                 'id' => 'square',
                 'unicode' => 'f0c8',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'block',
                     1 => 'box'
@@ -2519,7 +2519,7 @@ return [
                 'name' => 'Bars',
                 'id' => 'bars',
                 'unicode' => 'f0c9',
-                'created' => 2.0,
+                'created' => 2,
                 'aliases' => [
                     0 => 'navicon',
                     1 => 'reorder'
@@ -2545,7 +2545,7 @@ return [
                 'name' => 'list-ul',
                 'id' => 'list-ul',
                 'unicode' => 'f0ca',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'ul',
                     1 => 'ol',
@@ -2561,7 +2561,7 @@ return [
                 'name' => 'list-ol',
                 'id' => 'list-ol',
                 'unicode' => 'f0cb',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'ul',
                     1 => 'ol',
@@ -2579,7 +2579,7 @@ return [
                 'name' => 'Strikethrough',
                 'id' => 'strikethrough',
                 'unicode' => 'f0cc',
-                'created' => 2.0,
+                'created' => 2,
                 'categories' => [
                     0 => 'Text Editor Icons'
                 ]
@@ -2588,7 +2588,7 @@ return [
                 'name' => 'Underline',
                 'id' => 'underline',
                 'unicode' => 'f0cd',
-                'created' => 2.0,
+                'created' => 2,
                 'categories' => [
                     0 => 'Text Editor Icons'
                 ]
@@ -2597,7 +2597,7 @@ return [
                 'name' => 'table',
                 'id' => 'table',
                 'unicode' => 'f0ce',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'data',
                     1 => 'excel',
@@ -2611,7 +2611,7 @@ return [
                 'name' => 'magic',
                 'id' => 'magic',
                 'unicode' => 'f0d0',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'wizard',
                     1 => 'automatic',
@@ -2625,7 +2625,7 @@ return [
                 'name' => 'truck',
                 'id' => 'truck',
                 'unicode' => 'f0d1',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'shipping'
                 ],
@@ -2638,7 +2638,7 @@ return [
                 'name' => 'Pinterest',
                 'id' => 'pinterest',
                 'unicode' => 'f0d2',
-                'created' => 2.0,
+                'created' => 2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -2647,7 +2647,7 @@ return [
                 'name' => 'Pinterest Square',
                 'id' => 'pinterest-square',
                 'unicode' => 'f0d3',
-                'created' => 2.0,
+                'created' => 2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -2656,7 +2656,7 @@ return [
                 'name' => 'Google Plus Square',
                 'id' => 'google-plus-square',
                 'unicode' => 'f0d4',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'social network'
                 ],
@@ -2668,7 +2668,7 @@ return [
                 'name' => 'Google Plus',
                 'id' => 'google-plus',
                 'unicode' => 'f0d5',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'social network'
                 ],
@@ -2680,7 +2680,7 @@ return [
                 'name' => 'Money',
                 'id' => 'money',
                 'unicode' => 'f0d6',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'cash',
                     1 => 'money',
@@ -2698,7 +2698,7 @@ return [
                 'name' => 'Caret Down',
                 'id' => 'caret-down',
                 'unicode' => 'f0d7',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'more',
                     1 => 'dropdown',
@@ -2714,7 +2714,7 @@ return [
                 'name' => 'Caret Up',
                 'id' => 'caret-up',
                 'unicode' => 'f0d8',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'triangle up',
                     1 => 'arrow'
@@ -2727,7 +2727,7 @@ return [
                 'name' => 'Caret Left',
                 'id' => 'caret-left',
                 'unicode' => 'f0d9',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'previous',
                     1 => 'back',
@@ -2742,7 +2742,7 @@ return [
                 'name' => 'Caret Right',
                 'id' => 'caret-right',
                 'unicode' => 'f0da',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'next',
                     1 => 'forward',
@@ -2757,7 +2757,7 @@ return [
                 'name' => 'Columns',
                 'id' => 'columns',
                 'unicode' => 'f0db',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'split',
                     1 => 'panes'
@@ -2770,7 +2770,7 @@ return [
                 'name' => 'Sort',
                 'id' => 'sort',
                 'unicode' => 'f0dc',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'order'
                 ],
@@ -2785,7 +2785,7 @@ return [
                 'name' => 'Sort Descending',
                 'id' => 'sort-desc',
                 'unicode' => 'f0dd',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'dropdown',
                     1 => 'more',
@@ -2803,7 +2803,7 @@ return [
                 'name' => 'Sort Ascending',
                 'id' => 'sort-asc',
                 'unicode' => 'f0de',
-                'created' => 2.0,
+                'created' => 2,
                 'aliases' => [
                     0 => 'sort-up'
                 ],
@@ -2818,7 +2818,7 @@ return [
                 'name' => 'Envelope',
                 'id' => 'envelope',
                 'unicode' => 'f0e0',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'email',
                     1 => 'e-mail',
@@ -2836,7 +2836,7 @@ return [
                 'name' => 'LinkedIn',
                 'id' => 'linkedin',
                 'unicode' => 'f0e1',
-                'created' => 2.0,
+                'created' => 2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -2845,7 +2845,7 @@ return [
                 'name' => 'Undo',
                 'id' => 'undo',
                 'unicode' => 'f0e2',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'back'
                 ],
@@ -2860,7 +2860,7 @@ return [
                 'name' => 'Gavel',
                 'id' => 'gavel',
                 'unicode' => 'f0e3',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'judge',
                     1 => 'lawyer',
@@ -2877,7 +2877,7 @@ return [
                 'name' => 'Tachometer',
                 'id' => 'tachometer',
                 'unicode' => 'f0e4',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'speedometer',
                     1 => 'fast'
@@ -2893,7 +2893,7 @@ return [
                 'name' => 'comment-o',
                 'id' => 'comment-o',
                 'unicode' => 'f0e5',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'speech',
                     1 => 'notification',
@@ -2914,7 +2914,7 @@ return [
                 'name' => 'comments-o',
                 'id' => 'comments-o',
                 'unicode' => 'f0e6',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'speech',
                     1 => 'notification',
@@ -2935,7 +2935,7 @@ return [
                 'name' => 'Lightning Bolt',
                 'id' => 'bolt',
                 'unicode' => 'f0e7',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'lightning',
                     1 => 'weather'
@@ -2951,7 +2951,7 @@ return [
                 'name' => 'Sitemap',
                 'id' => 'sitemap',
                 'unicode' => 'f0e8',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'directory',
                     1 => 'hierarchy',
@@ -2965,7 +2965,7 @@ return [
                 'name' => 'Umbrella',
                 'id' => 'umbrella',
                 'unicode' => 'f0e9',
-                'created' => 2.0,
+                'created' => 2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -2974,7 +2974,7 @@ return [
                 'name' => 'Clipboard',
                 'id' => 'clipboard',
                 'unicode' => 'f0ea',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'copy'
                 ],
@@ -2989,7 +2989,7 @@ return [
                 'name' => 'Lightbulb Outlined',
                 'id' => 'lightbulb-o',
                 'unicode' => 'f0eb',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'idea',
                     1 => 'inspiration'
@@ -3002,7 +3002,7 @@ return [
                 'name' => 'Exchange',
                 'id' => 'exchange',
                 'unicode' => 'f0ec',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'transfer',
                     1 => 'arrows',
@@ -3017,7 +3017,7 @@ return [
                 'name' => 'Cloud Download',
                 'id' => 'cloud-download',
                 'unicode' => 'f0ed',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'import'
                 ],
@@ -3029,7 +3029,7 @@ return [
                 'name' => 'Cloud Upload',
                 'id' => 'cloud-upload',
                 'unicode' => 'f0ee',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'import'
                 ],
@@ -3041,7 +3041,7 @@ return [
                 'name' => 'user-md',
                 'id' => 'user-md',
                 'unicode' => 'f0f0',
-                'created' => 2.0,
+                'created' => 2,
                 'filter' => [
                     0 => 'doctor',
                     1 => 'profile',
@@ -3056,7 +3056,7 @@ return [
                 'name' => 'Stethoscope',
                 'id' => 'stethoscope',
                 'unicode' => 'f0f1',
-                'created' => 3.0,
+                'created' => 3,
                 'categories' => [
                     0 => 'Medical Icons'
                 ]
@@ -3065,7 +3065,7 @@ return [
                 'name' => 'Suitcase',
                 'id' => 'suitcase',
                 'unicode' => 'f0f2',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'trip',
                     1 => 'luggage',
@@ -3081,7 +3081,7 @@ return [
                 'name' => 'Bell Outlined',
                 'id' => 'bell-o',
                 'unicode' => 'f0a2',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'alert',
                     1 => 'reminder',
@@ -3095,7 +3095,7 @@ return [
                 'name' => 'Coffee',
                 'id' => 'coffee',
                 'unicode' => 'f0f4',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'morning',
                     1 => 'mug',
@@ -3112,7 +3112,7 @@ return [
                 'name' => 'Cutlery',
                 'id' => 'cutlery',
                 'unicode' => 'f0f5',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'food',
                     1 => 'restaurant',
@@ -3129,7 +3129,7 @@ return [
                 'name' => 'File Text Outlined',
                 'id' => 'file-text-o',
                 'unicode' => 'f0f6',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'new',
                     1 => 'page',
@@ -3145,7 +3145,7 @@ return [
                 'name' => 'Building Outlined',
                 'id' => 'building-o',
                 'unicode' => 'f0f7',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'work',
                     1 => 'business',
@@ -3161,7 +3161,7 @@ return [
                 'name' => 'hospital Outlined',
                 'id' => 'hospital-o',
                 'unicode' => 'f0f8',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'building'
                 ],
@@ -3173,7 +3173,7 @@ return [
                 'name' => 'ambulance',
                 'id' => 'ambulance',
                 'unicode' => 'f0f9',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'vehicle',
                     1 => 'support',
@@ -3188,7 +3188,7 @@ return [
                 'name' => 'medkit',
                 'id' => 'medkit',
                 'unicode' => 'f0fa',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'first aid',
                     1 => 'firstaid',
@@ -3204,7 +3204,7 @@ return [
                 'name' => 'fighter-jet',
                 'id' => 'fighter-jet',
                 'unicode' => 'f0fb',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'fly',
                     1 => 'plane',
@@ -3222,7 +3222,7 @@ return [
                 'name' => 'beer',
                 'id' => 'beer',
                 'unicode' => 'f0fc',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'alcohol',
                     1 => 'stein',
@@ -3239,7 +3239,7 @@ return [
                 'name' => 'H Square',
                 'id' => 'h-square',
                 'unicode' => 'f0fd',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'hospital',
                     1 => 'hotel'
@@ -3252,7 +3252,7 @@ return [
                 'name' => 'Plus Square',
                 'id' => 'plus-square',
                 'unicode' => 'f0fe',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'add',
                     1 => 'new',
@@ -3269,7 +3269,7 @@ return [
                 'name' => 'Angle Double Left',
                 'id' => 'angle-double-left',
                 'unicode' => 'f100',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'laquo',
                     1 => 'quote',
@@ -3285,7 +3285,7 @@ return [
                 'name' => 'Angle Double Right',
                 'id' => 'angle-double-right',
                 'unicode' => 'f101',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'raquo',
                     1 => 'quote',
@@ -3301,7 +3301,7 @@ return [
                 'name' => 'Angle Double Up',
                 'id' => 'angle-double-up',
                 'unicode' => 'f102',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'arrows'
                 ],
@@ -3313,7 +3313,7 @@ return [
                 'name' => 'Angle Double Down',
                 'id' => 'angle-double-down',
                 'unicode' => 'f103',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'arrows'
                 ],
@@ -3325,7 +3325,7 @@ return [
                 'name' => 'angle-left',
                 'id' => 'angle-left',
                 'unicode' => 'f104',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'previous',
                     1 => 'back',
@@ -3339,7 +3339,7 @@ return [
                 'name' => 'angle-right',
                 'id' => 'angle-right',
                 'unicode' => 'f105',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'next',
                     1 => 'forward',
@@ -3353,7 +3353,7 @@ return [
                 'name' => 'angle-up',
                 'id' => 'angle-up',
                 'unicode' => 'f106',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'arrow'
                 ],
@@ -3365,7 +3365,7 @@ return [
                 'name' => 'angle-down',
                 'id' => 'angle-down',
                 'unicode' => 'f107',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'arrow'
                 ],
@@ -3377,7 +3377,7 @@ return [
                 'name' => 'Desktop',
                 'id' => 'desktop',
                 'unicode' => 'f108',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'monitor',
                     1 => 'screen',
@@ -3394,7 +3394,7 @@ return [
                 'name' => 'Laptop',
                 'id' => 'laptop',
                 'unicode' => 'f109',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'demo',
                     1 => 'computer',
@@ -3408,7 +3408,7 @@ return [
                 'name' => 'tablet',
                 'id' => 'tablet',
                 'unicode' => 'f10a',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'ipad',
                     1 => 'device'
@@ -3421,7 +3421,7 @@ return [
                 'name' => 'Mobile Phone',
                 'id' => 'mobile',
                 'unicode' => 'f10b',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'cell phone',
                     1 => 'cellphone',
@@ -3442,7 +3442,7 @@ return [
                 'name' => 'Circle Outlined',
                 'id' => 'circle-o',
                 'unicode' => 'f10c',
-                'created' => 3.0,
+                'created' => 3,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Form Control Icons'
@@ -3452,7 +3452,7 @@ return [
                 'name' => 'quote-left',
                 'id' => 'quote-left',
                 'unicode' => 'f10d',
-                'created' => 3.0,
+                'created' => 3,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -3461,7 +3461,7 @@ return [
                 'name' => 'quote-right',
                 'id' => 'quote-right',
                 'unicode' => 'f10e',
-                'created' => 3.0,
+                'created' => 3,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -3470,7 +3470,7 @@ return [
                 'name' => 'Spinner',
                 'id' => 'spinner',
                 'unicode' => 'f110',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'loading',
                     1 => 'progress'
@@ -3484,7 +3484,7 @@ return [
                 'name' => 'Circle',
                 'id' => 'circle',
                 'unicode' => 'f111',
-                'created' => 3.0,
+                'created' => 3,
                 'filter' => [
                     0 => 'dot',
                     1 => 'notification'
@@ -3498,7 +3498,7 @@ return [
                 'name' => 'Reply',
                 'id' => 'reply',
                 'unicode' => 'f112',
-                'created' => 3.0,
+                'created' => 3,
                 'aliases' => [
                     0 => 'mail-reply'
                 ],
@@ -3510,7 +3510,7 @@ return [
                 'name' => 'GitHub Alt',
                 'id' => 'github-alt',
                 'unicode' => 'f113',
-                'created' => 3.0,
+                'created' => 3,
                 'url' => 'github.com/logos',
                 'filter' => [
                     0 => 'octocat'
@@ -3523,7 +3523,7 @@ return [
                 'name' => 'Folder Outlined',
                 'id' => 'folder-o',
                 'unicode' => 'f114',
-                'created' => 3.0,
+                'created' => 3,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -3532,7 +3532,7 @@ return [
                 'name' => 'Folder Open Outlined',
                 'id' => 'folder-open-o',
                 'unicode' => 'f115',
-                'created' => 3.0,
+                'created' => 3,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -4371,7 +4371,7 @@ return [
                 'name' => 'Russian Ruble (RUB)',
                 'id' => 'rub',
                 'unicode' => 'f158',
-                'created' => 4.0,
+                'created' => 4,
                 'aliases' => [
                     0 => 'ruble',
                     1 => 'rouble'
@@ -4935,7 +4935,7 @@ return [
                 'name' => 'Pagelines',
                 'id' => 'pagelines',
                 'unicode' => 'f18c',
-                'created' => 4.0,
+                'created' => 4,
                 'filter' => [
                     0 => 'leaf',
                     1 => 'leaves',
@@ -4952,7 +4952,7 @@ return [
                 'name' => 'Stack Exchange',
                 'id' => 'stack-exchange',
                 'unicode' => 'f18d',
-                'created' => 4.0,
+                'created' => 4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4961,7 +4961,7 @@ return [
                 'name' => 'Arrow Circle Outlined Right',
                 'id' => 'arrow-circle-o-right',
                 'unicode' => 'f18e',
-                'created' => 4.0,
+                'created' => 4,
                 'filter' => [
                     0 => 'next',
                     1 => 'forward'
@@ -4974,7 +4974,7 @@ return [
                 'name' => 'Arrow Circle Outlined Left',
                 'id' => 'arrow-circle-o-left',
                 'unicode' => 'f190',
-                'created' => 4.0,
+                'created' => 4,
                 'filter' => [
                     0 => 'previous',
                     1 => 'back'
@@ -4987,7 +4987,7 @@ return [
                 'name' => 'Caret Square Outlined Left',
                 'id' => 'caret-square-o-left',
                 'unicode' => 'f191',
-                'created' => 4.0,
+                'created' => 4,
                 'filter' => [
                     0 => 'previous',
                     1 => 'back'
@@ -5004,7 +5004,7 @@ return [
                 'name' => 'Dot Circle Outlined',
                 'id' => 'dot-circle-o',
                 'unicode' => 'f192',
-                'created' => 4.0,
+                'created' => 4,
                 'filter' => [
                     0 => 'target',
                     1 => 'bullseye',
@@ -5019,7 +5019,7 @@ return [
                 'name' => 'Wheelchair',
                 'id' => 'wheelchair',
                 'unicode' => 'f193',
-                'created' => 4.0,
+                'created' => 4,
                 'filter' => [
                     0 => 'handicap',
                     1 => 'person'
@@ -5035,7 +5035,7 @@ return [
                 'name' => 'Vimeo Square',
                 'id' => 'vimeo-square',
                 'unicode' => 'f194',
-                'created' => 4.0,
+                'created' => 4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5044,7 +5044,7 @@ return [
                 'name' => 'Turkish Lira (TRY)',
                 'id' => 'try',
                 'unicode' => 'f195',
-                'created' => 4.0,
+                'created' => 4,
                 'aliases' => [
                     0 => 'turkish-lira'
                 ],
@@ -5056,7 +5056,7 @@ return [
                 'name' => 'Plus Square Outlined',
                 'id' => 'plus-square-o',
                 'unicode' => 'f196',
-                'created' => 4.0,
+                'created' => 4,
                 'filter' => [
                     0 => 'add',
                     1 => 'new',

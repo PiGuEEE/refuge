@@ -16,10 +16,23 @@ $(document).ready(function(){
     
 	    var mainRefuge = {
 		  strings: ["REFUGE"],
-		  typeSpeed: 120
+		  typeSpeed: 100
 		}
 	
 		var typed = new Typed("#mainRefuge", mainRefuge);
+	};
+
+	// Every Journey Ends on homescreen
+	var typedDiv1 = $('#secondRefuge');
+	if (typedDiv1.length) {
+    
+	    var secondRefuge = {
+		  strings: ["EVERY JOURNEY ENDS"],
+		  startDelay: 1550,
+		  typeSpeed: 60
+		}
+	
+		var typed = new Typed("#secondRefuge", secondRefuge);
 	};
 
 	
@@ -27,8 +40,8 @@ $(document).ready(function(){
 	var typedDiv2 = $('#by');
 	if (typedDiv2.length) {
 		var notYet = {
-		  strings: ["A VIDEOGAME BY NOTYET"],
-		  startDelay: 1550,
+		  strings: ["A VIDEOGAME BY NOTYET - AVAILABLE THIS DECEMBER"],
+		  startDelay: 4550,
 		  typeSpeed: 50
 		}
 		var typed2 = new Typed("#by", notYet);

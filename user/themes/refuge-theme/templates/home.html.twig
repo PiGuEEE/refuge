@@ -14,10 +14,12 @@
 			<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});"></div>
 		{% endif %}
 		<section class="mainHome">
+			<video autoplay id="videoViewport" loop class="videoBg" src="user/themes/refuge-theme/video/refuge-every-journey-ends.mp4"></video>
 			<figure class="symbolTop"></figure>
 			<div class="mainContent">
 				<div class="refugeSymbol"></div>
 				<h1 class="refuge" id="mainRefuge"></h1>
+				<h2 class="refuge smaller" id="secondRefuge"></h2>
 				<p class="by" id="by"></p>
 				<a href="#" class="button" title="Download Now">DOWNLOAD NOW</a>
 			</div>
@@ -25,7 +27,6 @@
 				<div class="arrowDown"></div>
 				<div class="arrowDownSmall"></div>
 			</div>
-
 		</section>
 
 		<section class="yourDecision">
@@ -72,6 +73,17 @@
 			</div>
 		</div>
 	{% endblock %}
+
+	{% block javascripts %}
+
+        {% do assets.addJs('jquery', 101) %}
+        {% do assets.addJs('theme://js/typed/typed.min.js') %}
+        {% do assets.addJs('theme://js/main.min.js') %}
+        {% do assets.addJs('theme://js/imageSlider.min.js') %}
+        {% do assets.addJs('theme://js/home.min.js') %}
+
+    {% endblock %}
+
 
 {% endembed %}
 

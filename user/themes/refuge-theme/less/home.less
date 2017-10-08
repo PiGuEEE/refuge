@@ -18,41 +18,18 @@ body{
 	background-image: url(../img/home-bg.png);
 	background-repeat: repeat-x;
 	background-position: 0 100%;
-	.symbolTop{
-		.dim(12%, 115px);
+	.videoBg{
+		.dim(100%, 100%);
 		.absolute();
-		.fullBg();
-		.rotate(180deg);
-		.translate(-50%);
-		display: none;
-		// 
-
-
-
-
-
-
- 		// PROBABLY HAVE TO DELETE THIS
-
- 		// LETS MAKE IT LOOK GROSS
-
-
-
-
-
-
-
-		//
-		left: 50%;
-		top: 0;
-		background-image: url(../svg/symbol-refuge-rotated.svg);
+		.opacity(.1);
+		z-index: 0;
 	}
 	.mainContent{
 		.dim(100%);
 		.relative();
 		.clr();
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translateY(-55%);
 		.refugeSymbol{
 			.dim(140px, 140px);
 			.fullBg();
@@ -68,8 +45,12 @@ body{
 			.primaryFont();
 			margin: 0 auto;
 			text-align: center;
-			font-size: 32vh;
-			margin-bottom: 15px;
+			font-size: 15vw;
+		}
+		.smaller{
+			min-height: 80px;
+			font-size: 5vw;
+			margin-bottom: 25px;
 		}
 		.button{
 			.absolute();
