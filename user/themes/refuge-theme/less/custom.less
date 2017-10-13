@@ -7,6 +7,7 @@
 
 #body{
 	.relative();
+	overflow: hidden;
 	margin: 0 auto;
 }
 .headerHome{
@@ -19,6 +20,8 @@
 .headerInternal{
 	.dim(95%, 62px);
 	.absolute();
+	.transition(.2s);
+	max-width: 1280px;
 	margin: 0 auto;
 	border: 3px solid rgba(255, 255, 255, 0.85);
 	background-color: black;
@@ -38,6 +41,11 @@
 	.menu-btn{
 		right: 20px;
 	}
+}
+.fixed{
+	.fixed();
+	.transition(.2s);
+	top: 10px;
 }
 .downloadAt{
 	.fleft();
@@ -265,7 +273,7 @@
 		.dim(500px);
 		.fleft();
 		.clr();
-		iframe{border: 5px solid white;}
+		border: 5px solid white;
 		margin-left: 100px;
 		.gameplay{
 			.dim(100%, 300px);

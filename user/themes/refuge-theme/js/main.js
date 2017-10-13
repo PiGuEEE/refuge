@@ -6,8 +6,6 @@ $(document).ready(function(){
   		console.log('hehe');
     });
 
-
-
     // START ANIMATED TYPINGS
 
     // main REFUGE on homescreen

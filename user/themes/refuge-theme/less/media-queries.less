@@ -1,22 +1,237 @@
-@media only screen and (max-width : 500px){
+@import 'mixins.less';
+@media only screen and (max-width : 900px){
+	body{
+		overflow-x: hidden; 
+	}
 	.navOverlay{
 		.navigation{
+			height: 70vh;
 			.buttonBox{
+				width: 100%;
+				padding-left: 5%;
 				.button{
-					font-size: 2.7em;
+					font-size: 1.7em;
 				}
 			}
 		}
 	}
+	.mainHome{
+		.mainContent{
+			.refuge{
+				font-size: 30vw;
+			}
+			.smaller{
+				font-size: 10vw;
+			}
+		}
+	}
+	.yourDecision{
+		.container{
+			margin-top: 150px;
+		}
+		.decisionText{
+			width: 90%;
+			margin: 0 auto;
+			margin-bottom: 50px;
+			float: none;
+			.decision{
+				text-align: center;
+				font-size: 18vw;
+			}
+			.yours{
+				text-align: center;
+				font-size: 25vw;
+			}
+			.email{
+				font-size: 8vw;
+				text-align: center;
+			}
+		}
+		.gameplayBox{
+			width:90%;
+			height: 300px;
+			margin: 0 auto;
+			float: none;
+			.gameplay{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.testimonials{
+		margin-bottom: 100px;
+		background-size: 15%;
+	}
+	.gameScreenshots{
+		margin-bottom: 280px;
+		.image{
+			height: 300px;
+			width: 95%;
+			.previous, .next{
+				top: 330px;
+			}
+			.previous{
+				left: 60px;
+			}
+			.next{
+				right: 60px;
+			}
+		}
+	}
+	.theGame{
+		.yourCall{
+			max-width: 95%;
+			margin: 0 auto;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			font-size: 20vw;
+		}
+		.textContainer{
+			p{ margin-bottom: 50px; }
+			column-count: 1;
+		}
+	}
+	#footer{
+		background-size: 60%;
+		.downloadNow{
+			font-size: 15vw;
+		}
+	}
+
+	.blog-header{
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 100px;
+		h1{ font-size: 4em; }
+		.subtitle h2{ font-size: 1.5em; line-height: 2em; }
+		.subtitle .link{ padding: 0px 8px; }
+	}
+	.list-blog-header{
+		.p-name{
+			a{ font-size: 4em; }
+		}
+	}
+
+	.formContainer{
+		display: none;
+	}
 }
-@media only screen and (max-device-width : 500px){
+@media only screen and (max-device-width : 900px){
+	body{
+		overflow-x: hidden; 
+	}
 	.navOverlay{
 		.navigation{
+			height: 70vh;
 			.buttonBox{
+				width: 100%;
+				padding-left: 5%;
 				.button{
-					font-size: 2.7em;
+					font-size: 1.7em;
 				}
 			}
 		}
+	}
+	.mainHome{
+		.mainContent{
+			.refuge{
+				font-size: 30vw;
+			}
+			.smaller{
+				font-size: 10vw;
+			}
+		}
+	}
+	.yourDecision{
+		.container{
+			margin-top: 150px;
+		}
+		.decisionText{
+			width: 100%;
+			padding-left: 5%;
+			padding-right: 5%;
+			margin: 0 auto;
+			margin-bottom: 50px;
+			float: none;
+			.decision{
+				text-align: center;
+				font-size: 18vw;
+			}
+			.yours{
+				text-align: center;
+				font-size: 25vw;
+			}
+			.email{
+				font-size: 8vw;
+				text-align: center;
+			}
+		}
+		.gameplayBox{
+			width: 90%;
+			height: 300px;
+			margin: 0 auto;
+			float: none;
+			.gameplay{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.testimonials{
+		margin-bottom: 100px;
+		background-size: 15%;
+	}
+	.gameScreenshots{
+		margin-bottom: 280px;
+		.image{
+			height: 300px;
+			width: 95%;
+			.previous, .next{
+				top: 330px;
+			}
+			.previous{
+				left: 60px;
+			}
+			.next{
+				right: 60px;
+			}
+		}
+	}
+	.theGame{
+		.yourCall{
+			max-width: 95%;
+			margin: 0 auto;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			font-size: 20vw;
+		}
+		.textContainer{
+			p{ margin-bottom: 50px; }
+			column-count: 1;
+		}
+	}
+	#footer{
+		background-size: 60%;
+		.downloadNow{
+			font-size: 15vw;
+		}
+	}
+
+	.blog-header{
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 100px;
+		h1{ font-size: 4em; }
+		.subtitle h2{ font-size: 1.5em; line-height: 2em; }
+		.subtitle .link{ padding: 0px 8px; }
+	}
+	.list-blog-header{
+		.p-name{
+			a{ font-size: 4em; }
+		}
+	}
+
+	.formContainer{
+		display: none;
 	}
 }

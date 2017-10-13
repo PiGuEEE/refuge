@@ -34,5 +34,22 @@ $(document).ready(function(){
 	    jQuery('#videoViewport').scrollLeft((jQuery('video').width() - jQuery(window).width()) / 2);
 	    jQuery('#videoViewport').scrollTop((jQuery('video').height() - jQuery(window).height()) / 2);
 	 };
+
+	$(window).scroll(function(){
+
+		var height1 = $('.mainHome').height();
+
+    	if ($(window).scrollTop() >= height1 ) {
+			$('.headerInternal').addClass("fixed");
+		} else{
+			$('.headerInternal').removeClass("fixed");
+
+		}
+
+    });
+
+    $('.keepExploring').click(function(e){
+    	$('body,html').animate({ scrollTop: $('.mainHome').height() }, 900);
+    });
     
 });

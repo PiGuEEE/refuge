@@ -41,7 +41,7 @@
 				</div>
 				<div class="gameplayBox">
 					<div class="gameplay">
-						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0" frameborder="0" allowfullscreen></iframe>
+						<iframe width="100%" height="100%" title="Refuge Trailer" src="https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0" frameborder="0" allowfullscreen></iframe>
 					</div>
 					<a href="#" class="button moreGameplay" title="More Gameplay Videos">MORE GAMEPLAY VIDEOS</a>
 				</div>
@@ -72,6 +72,18 @@
                 {% endif %}
 			</div>
 		</div>
+
+		<script>
+		    (function(h,o,t,j,a,r){
+		        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+		        h._hjSettings={hjid:654180,hjsv:6};
+		        a=o.getElementsByTagName('head')[0];
+		        r=o.createElement('script');r.async=1;
+		        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+		        a.appendChild(r);
+		    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+
 	{% endblock %}
 
 	{% block javascripts %}
@@ -82,7 +94,7 @@
         {% do assets.addJs('theme://js/imageSlider.min.js') %}
         {% do assets.addJs('theme://js/home.min.js') %}
 
-    {% endblock %}
+    {% endblock %}	
 
 
 {% endembed %}
