@@ -119,10 +119,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["site"]) ? $context["site"] : null), "title", array()), "html");
         echo "</title>
 
-    <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 40
-        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/favicon.png");
-        echo "\" />
+    <link rel=\"icon\" type=\"image/png\" href=\"favicon.ico\" />
     <link rel=\"canonical\" href=\"";
         // line 41
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true, 1 => true), "method");
@@ -254,7 +251,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     public function getDebugInfo()
     {
-        return array (  226 => 80,  223 => 79,  218 => 75,  213 => 76,  211 => 75,  206 => 74,  203 => 73,  198 => 71,  194 => 69,  191 => 68,  188 => 67,  183 => 58,  180 => 57,  177 => 56,  174 => 55,  171 => 54,  168 => 53,  163 => 49,  160 => 48,  157 => 47,  154 => 46,  146 => 60,  144 => 53,  138 => 51,  136 => 46,  128 => 41,  124 => 40,  115 => 38,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 97,  66 => 79,  63 => 78,  61 => 73,  56 => 71,  53 => 70,  51 => 67,  48 => 66,  46 => 65,  42 => 64,  39 => 63,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
+        return array (  223 => 80,  220 => 79,  215 => 75,  210 => 76,  208 => 75,  203 => 74,  200 => 73,  195 => 71,  191 => 69,  188 => 68,  185 => 67,  180 => 58,  177 => 57,  174 => 56,  171 => 55,  168 => 54,  165 => 53,  160 => 49,  157 => 48,  154 => 47,  151 => 46,  143 => 60,  141 => 53,  135 => 51,  133 => 46,  125 => 41,  115 => 38,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 97,  66 => 79,  63 => 78,  61 => 73,  56 => 71,  53 => 70,  51 => 67,  48 => 66,  46 => 65,  42 => 64,  39 => 63,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -306,7 +303,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
 
-    <link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://images/favicon.png') }}\" />
+    <link rel=\"icon\" type=\"image/png\" href=\"favicon.ico\" />
     <link rel=\"canonical\" href=\"{{ page.url(true, true) }}\" />
     <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\">
 
