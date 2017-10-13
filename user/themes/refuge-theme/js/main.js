@@ -3,7 +3,6 @@ $(document).ready(function(){
     $('.menu-btn').click(function(){
     	$('body').toggleClass('overlayActive');
   		$('.navOverlay').fadeToggle(200);
-  		console.log('hehe');
     });
 
     // START ANIMATED TYPINGS
@@ -58,7 +57,6 @@ $(document).ready(function(){
 		  backDelay: 9000
 		}
 
-		console.log('HALO');
 		var typed3 = new Typed(".testimonials .testimonial", testimonials
 		);
 	};

@@ -18,10 +18,8 @@ $(document).ready(function(){
 	cycleItems();
 	}, 3000);
 
-		console.log('next');
 
 		$('.next').click(function() {
-			console.log('next');
 			clearInterval(autoSlide);
 			currentIndex += 1;
 			if (currentIndex > itemAmt - 1) {
