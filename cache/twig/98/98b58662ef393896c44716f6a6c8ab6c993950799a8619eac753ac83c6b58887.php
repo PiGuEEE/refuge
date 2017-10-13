@@ -11,7 +11,6 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
 
         $this->blocks = array(
             'head' => array($this, 'block_head'),
-            'stylesheets' => array($this, 'block_stylesheets'),
             'javascripts' => array($this, 'block_javascripts'),
             'header' => array($this, 'block_header'),
             'showcase' => array($this, 'block_showcase'),
@@ -35,36 +34,36 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
 ";
         // line 5
         $this->displayBlock('head', $context, $blocks);
-        // line 66
+        // line 59
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 67
+        // line 60
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "body_classes", array());
         echo "\">
     ";
-        // line 68
-        $this->loadTemplate("partials/navigation-overlay.html.twig", "partials/base-internal.html.twig", 68)->display($context);
-        // line 69
+        // line 61
+        $this->loadTemplate("partials/navigation-overlay.html.twig", "partials/base-internal.html.twig", 61)->display($context);
+        // line 62
         echo "    <div id=\"sb-site\">
         ";
-        // line 70
+        // line 63
         $this->displayBlock('header', $context, $blocks);
-        // line 73
+        // line 66
         echo "
        <!--  ";
-        // line 74
+        // line 67
         $this->displayBlock('showcase', $context, $blocks);
         echo " -->
 
         ";
-        // line 76
+        // line 69
         $this->displayBlock('body', $context, $blocks);
-        // line 81
+        // line 74
         echo "
         ";
-        // line 82
+        // line 75
         $this->displayBlock('footer', $context, $blocks);
-        // line 100
+        // line 93
         echo "    </div>
 </body>
 </html>
@@ -80,7 +79,7 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
         // line 7
         $this->loadTemplate("partials/metadata.html.twig", "partials/base-internal.html.twig", 7)->display($context);
         // line 8
-        echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
+        echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes\">
 
     <!-- facebook tags -->
     <meta property=\"og:description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
@@ -121,29 +120,31 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
         // line 38
         $this->loadTemplate("partials/metadata.html.twig", "partials/base-internal.html.twig", 38)->display($context);
         // line 39
-        echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
-    <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 40
-        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/favicon.png");
-        echo "\" />
+        echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes\">
+    <link rel=\"icon\" type=\"image/png\" href=\"favicon.ico\" />
+
     <link rel=\"canonical\" href=\"";
-        // line 41
+        // line 42
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true, 1 => true), "method");
         echo "\" />
     <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\">
 
+    
     ";
-        // line 44
-        $this->displayBlock('stylesheets', $context, $blocks);
-        // line 55
+        // line 46
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/blog.css", 1 => 100), "method");
+        // line 47
+        echo "    ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/custom.css", 1 => 100), "method");
+        // line 48
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "css", array(), "method");
         echo "
 
     ";
-        // line 57
+        // line 50
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 63
+        // line 56
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
@@ -151,95 +152,64 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
 ";
     }
 
-    // line 44
-    public function block_stylesheets($context, array $blocks = array())
-    {
-        // line 45
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/blog.css", 1 => 100), "method");
-        // line 46
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/custom.css", 1 => 100), "method");
-        // line 47
-        echo "
-        ";
-        // line 48
-        if ((($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getBrowser", array()) == "msie") && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) == 10))) {
-            // line 49
-            echo "            ";
-            $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/nucleus-ie10.css"), "method");
-            // line 50
-            echo "        ";
-        }
-        // line 51
-        echo "        ";
-        if (((($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getBrowser", array()) == "msie") && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) >= 8)) && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) <= 9))) {
-            // line 52
-            echo "            
-        ";
-        }
-        // line 54
-        echo "    ";
-    }
-
-    // line 57
+    // line 50
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 58
+        // line 51
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
-        // line 59
+        // line 52
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/typed/typed.min.js"), "method");
-        // line 60
+        // line 53
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/main.min.js"), "method");
-        // line 61
+        // line 54
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/imageSlider.min.js"), "method");
-        // line 62
+        // line 55
         echo "    ";
     }
 
-    // line 70
+    // line 63
     public function block_header($context, array $blocks = array())
     {
-        // line 71
+        // line 64
         echo "            ";
-        $this->loadTemplate("partials/header-internals.html.twig", "partials/base-internal.html.twig", 71)->display($context);
-        // line 72
+        $this->loadTemplate("partials/header-internals.html.twig", "partials/base-internal.html.twig", 64)->display($context);
+        // line 65
         echo "        ";
     }
 
-    // line 74
+    // line 67
     public function block_showcase($context, array $blocks = array())
     {
     }
 
-    // line 76
+    // line 69
     public function block_body($context, array $blocks = array())
     {
-        // line 77
+        // line 70
         echo "        <section id=\"body\" class=\"";
         echo (isset($context["class"]) ? $context["class"] : null);
         echo "\">
             ";
-        // line 78
+        // line 71
         $this->displayBlock('content', $context, $blocks);
-        // line 79
+        // line 72
         echo "        </section>
         ";
     }
 
-    // line 78
+    // line 71
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 82
+    // line 75
     public function block_footer($context, array $blocks = array())
     {
-        // line 83
+        // line 76
         echo "        <footer id=\"footer\">
 
             <div class=\"symbol\"></div>
@@ -271,7 +241,7 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
 
     public function getDebugInfo()
     {
-        return array (  243 => 83,  240 => 82,  235 => 78,  230 => 79,  228 => 78,  223 => 77,  220 => 76,  215 => 74,  211 => 72,  208 => 71,  205 => 70,  201 => 62,  198 => 61,  195 => 60,  192 => 59,  189 => 58,  186 => 57,  182 => 54,  178 => 52,  175 => 51,  172 => 50,  169 => 49,  167 => 48,  164 => 47,  161 => 46,  158 => 45,  155 => 44,  147 => 63,  145 => 57,  139 => 55,  137 => 44,  131 => 41,  127 => 40,  124 => 39,  122 => 38,  114 => 37,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 100,  66 => 82,  63 => 81,  61 => 76,  56 => 74,  53 => 73,  51 => 70,  48 => 69,  46 => 68,  42 => 67,  39 => 66,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
+        return array (  213 => 76,  210 => 75,  205 => 71,  200 => 72,  198 => 71,  193 => 70,  190 => 69,  185 => 67,  181 => 65,  178 => 64,  175 => 63,  171 => 55,  168 => 54,  165 => 53,  162 => 52,  159 => 51,  156 => 50,  148 => 56,  146 => 50,  140 => 48,  137 => 47,  135 => 46,  128 => 42,  123 => 39,  121 => 38,  113 => 37,  82 => 8,  80 => 7,  77 => 6,  74 => 5,  67 => 93,  65 => 75,  62 => 74,  60 => 69,  55 => 67,  52 => 66,  50 => 63,  47 => 62,  45 => 61,  41 => 60,  38 => 59,  36 => 5,  31 => 3,  28 => 2,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -291,7 +261,7 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
 {% block head %}
    <meta charset=\"utf-8\" />
     {% include 'partials/metadata.html.twig' %}
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes\">
 
     <!-- facebook tags -->
     <meta property=\"og:description\" content=\"Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. \">
@@ -322,22 +292,15 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
     <meta name=\"mobile-web-app-capable\" content=\"yes\">
     <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
     {% include 'partials/metadata.html.twig' %}
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
-    <link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://images/favicon.png') }}\" />
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes\">
+    <link rel=\"icon\" type=\"image/png\" href=\"favicon.ico\" />
+
     <link rel=\"canonical\" href=\"{{ page.url(true, true) }}\" />
     <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\">
 
-    {% block stylesheets %}
-        {% do assets.addCss('theme://css/blog.css', 100) %}
-        {% do assets.addCss('theme://css/custom.css', 100) %}
-
-        {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
-            {% do assets.addCss('theme://css/nucleus-ie10.css') %}
-        {% endif %}
-        {% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}
-            
-        {% endif %}
-    {% endblock %}
+    
+    {% do assets.addCss('theme://css/blog.css', 100) %}
+    {% do assets.addCss('theme://css/custom.css', 100) %}
     {{ assets.css() }}
 
     {% block javascripts %}

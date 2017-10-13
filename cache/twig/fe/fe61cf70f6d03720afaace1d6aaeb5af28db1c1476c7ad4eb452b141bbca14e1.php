@@ -124,7 +124,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         // line 41
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true, 1 => true), "method");
         echo "\" />
-    <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\">
+    <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\" async>
 
 
 
@@ -152,7 +152,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
     {
         // line 47
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/blog.css", 1 => 100), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/home.css", 1 => 100), "method");
         // line 48
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/custom.css", 1 => 100), "method");
@@ -231,7 +231,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
             </div>
 
             <div class=\"copyright\">
-                <p class=\"refuge\">Refuge</p>
+                <p class=\"refuge\">Refuge - NotYet</p>
                 <p>Copyright 2017 - All rights reserved.</p>
             </div>
 
@@ -305,12 +305,12 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     <link rel=\"icon\" type=\"image/png\" href=\"favicon.ico\" />
     <link rel=\"canonical\" href=\"{{ page.url(true, true) }}\" />
-    <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\">
+    <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\" async>
 
 
 
     {% block stylesheets %}
-        {% do assets.addCss('theme://css/blog.css', 100) %}
+        {% do assets.addCss('theme://css/home.css', 100) %}
         {% do assets.addCss('theme://css/custom.css', 100) %}
 
     {% endblock %}
@@ -354,7 +354,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
             </div>
 
             <div class=\"copyright\">
-                <p class=\"refuge\">Refuge</p>
+                <p class=\"refuge\">Refuge - NotYet</p>
                 <p>Copyright 2017 - All rights reserved.</p>
             </div>
 

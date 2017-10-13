@@ -19,8 +19,8 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1638730457")->display($context);
-        // line 101
+        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "239540745")->display($context);
+        // line 106
         echo "
 
 ";
@@ -51,7 +51,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
     public function getDebugInfo()
     {
-        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 101,  22 => 6,  20 => 1,);
+        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 106,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -83,6 +83,10 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t<video autoplay id=\"videoViewport\" loop class=\"videoBg\" src=\"user/themes/refuge-theme/video/refuge-every-journey-ends.mp4\"></video>
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
+\t\t\t\t<div class=\"character said\"></div>
+\t\t\t\t<div class=\"character feliz\"></div>
+\t\t\t\t<div class=\"character horse\"></div>
+\t\t\t\t<div class=\"character hey\"></div>
 \t\t\t\t<div class=\"refugeSymbol\"></div>
 \t\t\t\t<h1 class=\"refuge\" id=\"mainRefuge\"></h1>
 \t\t\t\t<h2 class=\"refuge smaller\" id=\"secondRefuge\"></h2>
@@ -150,15 +154,16 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 \t\t</script>
 
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/imageSlider.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/typed/typed.min.js\"></script>
+
 \t{% endblock %}
 
 \t{% block javascripts %}
 
         {% do assets.addJs('jquery', 101) %}
-        {% do assets.addJs('theme://js/typed/typed.min.js') %}
-        {% do assets.addJs('theme://js/main.min.js') %}
-        {% do assets.addJs('theme://js/imageSlider.min.js') %}
-        {% do assets.addJs('theme://js/home.min.js') %}
 
     {% endblock %}\t
 
@@ -172,7 +177,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 
 /* home.html.twig */
-class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_1638730457 extends Twig_Template
+class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_239540745 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -221,6 +226,10 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t<video autoplay id=\"videoViewport\" loop class=\"videoBg\" src=\"user/themes/refuge-theme/video/refuge-every-journey-ends.mp4\"></video>
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
+\t\t\t\t<div class=\"character said\"></div>
+\t\t\t\t<div class=\"character feliz\"></div>
+\t\t\t\t<div class=\"character horse\"></div>
+\t\t\t\t<div class=\"character hey\"></div>
 \t\t\t\t<div class=\"refugeSymbol\"></div>
 \t\t\t\t<h1 class=\"refuge\" id=\"mainRefuge\"></h1>
 \t\t\t\t<h2 class=\"refuge smaller\" id=\"secondRefuge\"></h2>
@@ -236,15 +245,15 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t<section class=\"yourDecision\">
        \t\t
        \t\t";
-        // line 34
-        $this->loadTemplate("partials/header-internals.html.twig", "home.html.twig", 34)->display($context);
-        // line 35
+        // line 38
+        $this->loadTemplate("partials/header-internals.html.twig", "home.html.twig", 38)->display($context);
+        // line 39
         echo "\t\t\t
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"decisionText\">
 \t\t\t\t\t
 \t\t\t\t\t";
-        // line 39
+        // line 43
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
 
@@ -265,14 +274,14 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t</section>
 
 \t\t";
-        // line 57
-        $this->loadTemplate("partials/image-slider.html.twig", "home.html.twig", 57)->display($context);
-        // line 58
+        // line 61
+        $this->loadTemplate("partials/image-slider.html.twig", "home.html.twig", 61)->display($context);
+        // line 62
         echo "
 \t\t";
-        // line 59
-        $this->loadTemplate("the-game.html.twig", "home.html.twig", 59)->display($context);
-        // line 60
+        // line 63
+        $this->loadTemplate("the-game.html.twig", "home.html.twig", 63)->display($context);
+        // line 64
         echo "
 \t\t<!-- <div class=\"blog-header\">
 \t\t</div> -->
@@ -280,7 +289,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t<div class=\"content-wrapper blog-content-list grid pure-g\">
 \t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 \t\t\t\t";
-        // line 66
+        // line 70
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -297,10 +306,10 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 67
+            // line 71
             echo "\t\t\t        ";
-            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 67)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
-            // line 68
+            $this->loadTemplate("partials/blog_item.html.twig", "home.html.twig", 71)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
+            // line 72
             echo "\t\t\t    ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -314,18 +323,18 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 69
+        // line 73
         echo "
                 ";
-        // line 70
+        // line 74
         if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))) {
-            // line 71
+            // line 75
             echo "                    ";
-            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 71)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
-            // line 72
+            $this->loadTemplate("partials/pagination.html.twig", "home.html.twig", 75)->display(array_merge($context, array("base_url" => $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array()), "pagination" => $this->getAttribute($this->getAttribute((isset($context["collection"]) ? $context["collection"] : null), "params", array()), "pagination", array()))));
+            // line 76
             echo "                ";
         }
-        // line 73
+        // line 77
         echo "\t\t\t</div>
 \t\t</div>
 
@@ -340,30 +349,23 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 \t\t</script>
 
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/imageSlider.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/typed/typed.min.js\"></script>
+
 \t";
     }
 
-    // line 89
+    // line 98
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 90
+        // line 99
         echo "
         ";
-        // line 91
+        // line 100
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
-        // line 92
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/typed/typed.min.js"), "method");
-        // line 93
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/main.min.js"), "method");
-        // line 94
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/imageSlider.min.js"), "method");
-        // line 95
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/home.min.js"), "method");
-        // line 96
+        // line 101
         echo "
     ";
     }
@@ -380,7 +382,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
     public function getDebugInfo()
     {
-        return array (  367 => 96,  364 => 95,  361 => 94,  358 => 93,  355 => 92,  353 => 91,  350 => 90,  347 => 89,  329 => 73,  326 => 72,  323 => 71,  321 => 70,  318 => 69,  304 => 68,  301 => 67,  284 => 66,  276 => 60,  274 => 59,  271 => 58,  269 => 57,  248 => 39,  242 => 35,  240 => 34,  220 => 16,  214 => 14,  212 => 13,  209 => 12,  206 => 11,  203 => 10,  199 => 6,  197 => 8,  182 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 101,  22 => 6,  20 => 1,);
+        return array (  369 => 101,  367 => 100,  364 => 99,  361 => 98,  338 => 77,  335 => 76,  332 => 75,  330 => 74,  327 => 73,  313 => 72,  310 => 71,  293 => 70,  285 => 64,  283 => 63,  280 => 62,  278 => 61,  257 => 43,  251 => 39,  249 => 38,  225 => 16,  219 => 14,  217 => 13,  214 => 12,  211 => 11,  208 => 10,  204 => 6,  202 => 8,  187 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 106,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -412,6 +414,10 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t<video autoplay id=\"videoViewport\" loop class=\"videoBg\" src=\"user/themes/refuge-theme/video/refuge-every-journey-ends.mp4\"></video>
 \t\t\t<figure class=\"symbolTop\"></figure>
 \t\t\t<div class=\"mainContent\">
+\t\t\t\t<div class=\"character said\"></div>
+\t\t\t\t<div class=\"character feliz\"></div>
+\t\t\t\t<div class=\"character horse\"></div>
+\t\t\t\t<div class=\"character hey\"></div>
 \t\t\t\t<div class=\"refugeSymbol\"></div>
 \t\t\t\t<h1 class=\"refuge\" id=\"mainRefuge\"></h1>
 \t\t\t\t<h2 class=\"refuge smaller\" id=\"secondRefuge\"></h2>
@@ -479,15 +485,16 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 \t\t</script>
 
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/imageSlider.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/typed/typed.min.js\"></script>
+
 \t{% endblock %}
 
 \t{% block javascripts %}
 
         {% do assets.addJs('jquery', 101) %}
-        {% do assets.addJs('theme://js/typed/typed.min.js') %}
-        {% do assets.addJs('theme://js/main.min.js') %}
-        {% do assets.addJs('theme://js/imageSlider.min.js') %}
-        {% do assets.addJs('theme://js/home.min.js') %}
 
     {% endblock %}\t
 

@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('.menu-btn').click(function(){
     	$('body').toggleClass('overlayActive');
-  		$('.navOverlay').fadeToggle(200);
+  		$('.navOverlay').fadeToggle(100);
     });
 
     // START ANIMATED TYPINGS

@@ -39,12 +39,12 @@
 
     <link rel="icon" type="image/png" href="favicon.ico" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet" async>
 
 
 
     {% block stylesheets %}
-        {% do assets.addCss('theme://css/blog.css', 100) %}
+        {% do assets.addCss('theme://css/home.css', 100) %}
         {% do assets.addCss('theme://css/custom.css', 100) %}
 
     {% endblock %}
@@ -88,7 +88,7 @@
             </div>
 
             <div class="copyright">
-                <p class="refuge">Refuge</p>
+                <p class="refuge">Refuge - NotYet</p>
                 <p>Copyright 2017 - All rights reserved.</p>
             </div>
 

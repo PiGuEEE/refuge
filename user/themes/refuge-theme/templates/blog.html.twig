@@ -2,7 +2,12 @@
 
 	{% set collection = page.collection() %}
 
+
 	{% block content %}
+	 {% block stylesheets %}
+    {% do assets.addCss('theme://css/blog.css', 100) %}
+
+{% endblock %}
 		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 		{% if blog_image %}

@@ -16,8 +16,8 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "7895934")->display($context);
-        // line 29
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "624810892")->display($context);
+        // line 34
         echo "
 
 ";
@@ -35,7 +35,7 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
 
     public function getDebugInfo()
     {
-        return array (  21 => 29,  19 => 1,);
+        return array (  21 => 34,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -52,7 +52,12 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
 
 \t{% set collection = page.collection() %}
 
+
 \t{% block content %}
+\t {% block stylesheets %}
+    {% do assets.addCss('theme://css/blog.css', 100) %}
+
+{% endblock %}
 \t\t{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 \t\t{% if blog_image %}
@@ -84,7 +89,7 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
 
 
 /* blog.html.twig */
-class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a7937d_7895934 extends Twig_Template
+class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a7937d_624810892 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -94,6 +99,7 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
         $this->parent = $this->loadTemplate("partials/base-internal.html.twig", "blog.html.twig", 1);
         $this->blocks = array(
             'content' => array($this, 'block_content'),
+            'stylesheets' => array($this, 'block_stylesheets'),
         );
     }
 
@@ -110,33 +116,36 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 5
+    // line 6
     public function block_content($context, array $blocks = array())
     {
-        // line 6
+        // line 7
+        echo "\t ";
+        $this->displayBlock('stylesheets', $context, $blocks);
+        // line 11
         echo "\t\t";
         $context["blog_image"] = $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array())), "grayscale", array(), "method"), "contrast", array(0 => 20), "method"), "brightness", array(0 =>  -100), "method"), "colorize", array(0 =>  -35, 1 => 81, 2 => 122), "method");
-        // line 7
+        // line 12
         echo "
 \t\t";
-        // line 8
+        // line 13
         if ((isset($context["blog_image"]) ? $context["blog_image"] : null)) {
-            // line 9
+            // line 14
             echo "\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url(";
             echo $this->getAttribute((isset($context["blog_image"]) ? $context["blog_image"] : null), "url", array());
             echo ");\">
 \t\t";
         } else {
-            // line 11
+            // line 16
             echo "\t\t<div class=\"blog-header\">
 \t\t";
         }
-        // line 13
+        // line 18
         echo "\t\t\t<h1>";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
         echo "</h1>
 \t\t\t<div class=\"subtitle\">";
-        // line 14
+        // line 19
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "</div>
 \t\t</div>
@@ -145,7 +154,7 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
 \t\t\t<div id=\"listing\" class=\"block pure-u-2-3 h-feed\">
 
 \t\t\t\t";
-        // line 20
+        // line 25
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["collection"]) ? $context["collection"] : null));
         $context['loop'] = array(
@@ -162,10 +171,10 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 21
+            // line 26
             echo "\t\t\t        ";
-            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 21)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
-            // line 22
+            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 26)->display(array_merge($context, array("blog" => (isset($context["page"]) ? $context["page"] : null), "page" => $context["child"], "truncate" => true)));
+            // line 27
             echo "\t\t\t    ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -179,11 +188,22 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 23
+        // line 28
         echo "
 \t\t\t</div>
 \t\t</div>
 \t";
+    }
+
+    // line 7
+    public function block_stylesheets($context, array $blocks = array())
+    {
+        // line 8
+        echo "    ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/blog.css", 1 => 100), "method");
+        // line 9
+        echo "
+";
     }
 
     public function getTemplateName()
@@ -198,7 +218,7 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
 
     public function getDebugInfo()
     {
-        return array (  183 => 23,  169 => 22,  166 => 21,  149 => 20,  140 => 14,  135 => 13,  131 => 11,  125 => 9,  123 => 8,  120 => 7,  117 => 6,  114 => 5,  110 => 1,  108 => 3,  94 => 1,  21 => 29,  19 => 1,);
+        return array (  205 => 9,  202 => 8,  199 => 7,  192 => 28,  178 => 27,  175 => 26,  158 => 25,  149 => 19,  144 => 18,  140 => 16,  134 => 14,  132 => 13,  129 => 12,  126 => 11,  123 => 7,  120 => 6,  116 => 1,  114 => 3,  99 => 1,  21 => 34,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -215,7 +235,12 @@ class __TwigTemplate_9c4f95fd7db72d8e77b265e5bafc757970cc5e7ccd623a26480c3cbe95a
 
 \t{% set collection = page.collection() %}
 
+
 \t{% block content %}
+\t {% block stylesheets %}
+    {% do assets.addCss('theme://css/blog.css', 100) %}
+
+{% endblock %}
 \t\t{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 \t\t{% if blog_image %}
