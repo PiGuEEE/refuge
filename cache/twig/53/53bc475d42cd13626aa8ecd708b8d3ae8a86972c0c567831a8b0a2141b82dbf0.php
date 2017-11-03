@@ -19,8 +19,8 @@ class __TwigTemplate_ab7a9183d2cd22cb48241e035025f2dbdbe2d890e4afe187df9fac0db29
         echo "<header class=\"headerInternal\">
     <a href=\"http://www.refugethegame.com/\" title=\"Back to Homepage\" class=\"logoWhite\"></a>
     <div class=\"downloadAt\">
-        <a href=\"#\" class=\"link steam\" title=\"Download Refuge on Steam\"></a>
-        <a href=\"#\" class=\"link itchio\" title=\"Download Refuge on Itch.io\"></a>
+        <a href=\"\" class=\"link steam\" title=\"Download Refuge on Steam | Available next December\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Steam\"></a>
+        <a href=\"\" class=\"link itchio\" title=\"Download Refuge on Itch.io | Available next December\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Itch.io\"></a>
     </div>
     <div class=\"panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars\">
         <div class=\"left\">
@@ -58,8 +58,8 @@ class __TwigTemplate_ab7a9183d2cd22cb48241e035025f2dbdbe2d890e4afe187df9fac0db29
         return new Twig_Source("<header class=\"headerInternal\">
     <a href=\"http://www.refugethegame.com/\" title=\"Back to Homepage\" class=\"logoWhite\"></a>
     <div class=\"downloadAt\">
-        <a href=\"#\" class=\"link steam\" title=\"Download Refuge on Steam\"></a>
-        <a href=\"#\" class=\"link itchio\" title=\"Download Refuge on Itch.io\"></a>
+        <a href=\"\" class=\"link steam\" title=\"Download Refuge on Steam | Available next December\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Steam\"></a>
+        <a href=\"\" class=\"link itchio\" title=\"Download Refuge on Itch.io | Available next December\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Itch.io\"></a>
     </div>
     <div class=\"panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars\">
         <div class=\"left\">

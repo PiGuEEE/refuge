@@ -32,6 +32,18 @@
 	z-index: 999;
 	left: 50%;
 	.translate(-50%);
+	.downloadAt{
+		margin-left: 50px;
+		.opacity(.3);
+		.link{
+			.dim(20px, 20px);
+			margin-top: 6px;
+		}
+		&:hover{
+			.transition(.2s);
+			.opacity(1);
+		}
+	}
 	.logoWhite{
 		.dim(120px, 40px);
 		.iblock();
@@ -59,8 +71,11 @@
 	}
 }
 
-.steam{ .steam(); display: none !important;}
-.itchio{ .itchio(); display: none !important;}
+.steam{ .steam(); }
+.itchio{ .itchio(); }
+.facebook{ .facebook(); }
+.twitter{ .twitter(); }
+
 .logoWhite{
 	background-image: url(../svg/logo-horizontal-white.svg);	
 	.fullBg();
@@ -142,9 +157,9 @@
 		}
 	}
 	.navigation{
-		height: 78vh;
+		height: 74vh;
 		.buttonBox{
-			.dim(85%, 25%);
+			.dim(90%, 25%);
 			.relative();
 			margin: 0 auto;
 			z-index: 1;
@@ -240,6 +255,33 @@
 		margin-top: 150px;
 		margin-bottom: 150px;
 	}
+}
+
+.characters{
+	.dim(100%, 50px);
+	margin-top: 100px;
+	text-align: center;
+}
+.character{
+	.dim(60px, 70px);
+	.relative();
+	.fullBg();
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline-table;
+}
+.said{
+	background-size: 100%;
+	background-image: url(../svg/character-1.png);
+}
+.feliz{
+	background-image: url(../svg/character-2.png);
+}
+.horse{
+	background-image: url(../svg/character-3.png);
+}
+.hey{
+	background-image: url(../svg/character-4.png);
 }
 
 
@@ -356,18 +398,37 @@
 		font-size: 5vw;
 		margin-top: 80px;
 	}
-	.copyright{
-		.dim(95%);
-		margin: 0 auto;
+	.line{
+		.dim(95%, 2px);
 		max-width: 1280px;
-		padding-top: 150px; 
-		padding-bottom: 150px; 
+		margin: 0 auto;
 		border-top: 2px solid white;
+		margin-top: 140px;
+		margin-bottom: 140px;
+	}
+	.copyright{
+		.dim(50%);
+		.fleft();
 		text-align: left;
+		padding-left: 40px;
+		padding-bottom: 150px;
 		p{ font-size: 1.2em; }
 		.refuge{
+			.dim(100%);
 			margin-bottom: 10px;
 			font-size: 2.2em;
+		}
+	}
+	.social{
+		.dim(50%, 50px);
+		.fleft();
+		text-align: right;
+		padding-right: 40px;
+		padding-bottom: 150px;
+		a{ 
+			.dim(30px, 30px); 
+			.iblock();
+			&:first-child{margin-right: 20px;}
 		}
 	}
 }

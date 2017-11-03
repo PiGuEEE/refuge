@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/refuge/system/config/media.yaml',
-    'modified' => 1506904925,
+    'modified' => 1509669049,
     'data' => [
         'types' => [
             'defaults' => [

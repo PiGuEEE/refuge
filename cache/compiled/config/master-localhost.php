@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1507608287,
-    'checksum' => '2179f3d9ae93028e2f351bad802a5d02',
+    'timestamp' => 1509672594,
+    'checksum' => '4fc8df11bbc95381fbaa91f0c361114b',
     'files' => [
         'user/config' => [
             'media' => [
@@ -37,19 +37,19 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1506904925
+                'modified' => 1509669049
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1506904925
+                'modified' => 1509669049
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1506904925
+                'modified' => 1509669049
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1506904925
+                'modified' => 1509669049
             ]
         ],
         'user/plugins' => [
@@ -59,11 +59,11 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1506904925
+                'modified' => 1509672594
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1507448958
+                'modified' => 1509672567
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -75,11 +75,11 @@ return [
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1506904925
+                'modified' => 1509672586
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1506904925
+                'modified' => 1509672579
             ]
         ]
     ],
@@ -102,10 +102,10 @@ return [
                 'files' => [
                     'multiple' => false,
                     'limit' => 10,
-                    'filesize' => 5,
                     'destination' => 'self@',
                     'avoid_overwriting' => false,
                     'random_name' => false,
+                    'filesize' => 0,
                     'accept' => [
                         0 => 'image/*'
                     ]
@@ -233,7 +233,7 @@ return [
                 'to' => NULL,
                 'to_name' => NULL,
                 'mailer' => [
-                    'engine' => 'mail',
+                    'engine' => 'sendmail',
                     'smtp' => [
                         'server' => 'localhost',
                         'port' => 25,
@@ -242,7 +242,7 @@ return [
                         'password' => ''
                     ],
                     'sendmail' => [
-                        'bin' => '/usr/sbin/sendmail'
+                        'bin' => '/usr/sbin/sendmail -bs'
                     ]
                 ],
                 'content_type' => 'text/html',
@@ -722,7 +722,6 @@ return [
             ],
             'media' => [
                 'enable_media_timestamp' => false,
-                'upload_limit' => 0,
                 'unsupported_inline_types' => [
                     
                 ],

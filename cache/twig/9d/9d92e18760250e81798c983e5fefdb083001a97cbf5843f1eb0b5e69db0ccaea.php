@@ -27,12 +27,20 @@ class __TwigTemplate_62447a1cb3480388633f2f42e8644d3349740629ea3451f4a56bb14f9a0
 \t\t<p>Escaping from a country devastaded by war and that is still under control of both army and rebels is a terrifying experience that set families apart and ruines entire civilization's cultures.</p>
 \t\t<p>Feliz has got the chance to start his journey, but wise decisions have to be made in order to successfully making it to a new place, safe to restart his life besides his loved ones.</p>
 \t</div>
+
+\t<div class=\"characters\">
+\t\t<div class=\"character said\"></div>
+\t\t<div class=\"character feliz\"></div>
+\t\t<div class=\"character horse\"></div>
+\t\t<div class=\"character hey\"></div>
+\t</div>
+
 \t<p class=\"yourCall\">Every journey ends.</p>
 
 \t<!-- ";
-        // line 13
+        // line 21
         $this->displayBlock('content', $context, $blocks);
-        // line 15
+        // line 23
         echo " -->
 
 </section>
@@ -43,10 +51,10 @@ class __TwigTemplate_62447a1cb3480388633f2f42e8644d3349740629ea3451f4a56bb14f9a0
 ";
     }
 
-    // line 13
+    // line 21
     public function block_content($context, array $blocks = array())
     {
-        // line 14
+        // line 22
         echo "\t\t";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
@@ -60,7 +68,7 @@ class __TwigTemplate_62447a1cb3480388633f2f42e8644d3349740629ea3451f4a56bb14f9a0
 
     public function getDebugInfo()
     {
-        return array (  50 => 14,  47 => 13,  36 => 15,  34 => 13,  20 => 1,);
+        return array (  58 => 22,  55 => 21,  44 => 23,  42 => 21,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -83,6 +91,14 @@ class __TwigTemplate_62447a1cb3480388633f2f42e8644d3349740629ea3451f4a56bb14f9a0
 \t\t<p>Escaping from a country devastaded by war and that is still under control of both army and rebels is a terrifying experience that set families apart and ruines entire civilization's cultures.</p>
 \t\t<p>Feliz has got the chance to start his journey, but wise decisions have to be made in order to successfully making it to a new place, safe to restart his life besides his loved ones.</p>
 \t</div>
+
+\t<div class=\"characters\">
+\t\t<div class=\"character said\"></div>
+\t\t<div class=\"character feliz\"></div>
+\t\t<div class=\"character horse\"></div>
+\t\t<div class=\"character hey\"></div>
+\t</div>
+
 \t<p class=\"yourCall\">Every journey ends.</p>
 
 \t<!-- {% block content %}

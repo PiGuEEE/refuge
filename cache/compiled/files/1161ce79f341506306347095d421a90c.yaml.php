@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/refuge/user/plugins/form/blueprints.yaml',
-    'modified' => 1506904925,
+    'modified' => 1509672594,
     'data' => [
         'name' => 'Form',
-        'version' => '2.9.2',
+        'version' => '2.10.0',
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',
         'author' => [
@@ -20,7 +20,7 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.3.0-rc.3'
+                'version' => '>=1.3.5'
             ]
         ],
         'form' => [
@@ -90,8 +90,20 @@ return [
                                 'type' => 'bool'
                             ]
                         ],
+                        'files.limit' => [
+                            'type' => 'text',
+                            'size' => 'x-small',
+                            'label' => 'PLUGIN_FORM.LIMIT',
+                            'help' => 'PLUGIN_FORM.LIMIT_HELP',
+                            'default' => 10,
+                            'validate' => [
+                                'type' => 'number',
+                                'min' => 1
+                            ]
+                        ],
                         'files.destination' => [
                             'type' => 'text',
+                            'size' => 'large',
                             'label' => 'PLUGIN_FORM.DESTINATION',
                             'help' => 'PLUGIN_FORM.DESTINATION_HELP',
                             'default' => '@self'
@@ -107,6 +119,45 @@ return [
                             ],
                             'validate' => [
                                 'type' => 'commalist'
+                            ]
+                        ],
+                        'files.filesize' => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_FORM.FILESIZE',
+                            'help' => 'PLUGIN_FORM.FILESIZE_HELP',
+                            'size' => 'x-small',
+                            'default' => 5,
+                            'validate' => [
+                                'type' => 'number',
+                                'min' => 0
+                            ]
+                        ],
+                        'files.avoid_overwriting' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_FORM.AVOID_OVERWRITING',
+                            'help' => 'PLUGIN_FORM.AVOID_OVERWRITING_HELP',
+                            'highlight' => 0,
+                            'default' => 0,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.ENABLED',
+                                0 => 'PLUGIN_ADMIN.DISABLED'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'files.random_name' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_FORM.RANDOM_NAME',
+                            'help' => 'PLUGIN_FORM.RANDOM_NAME_HELP',
+                            'highlight' => 0,
+                            'default' => 0,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.ENABLED',
+                                0 => 'PLUGIN_ADMIN.DISABLED'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
                             ]
                         ]
                     ]

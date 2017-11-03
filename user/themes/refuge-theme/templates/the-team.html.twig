@@ -1,0 +1,60 @@
+{% block stylesheets %}
+    
+    {% do assets.addCss('theme://css/team.css', 103) %}
+    
+{% endblock %}
+
+{% embed 'partials/base-internal.html.twig' %}
+
+{% set collection = page.collection() %} 
+
+{% block content %}
+	<section class="theTeam">
+
+
+		<h2 class="pageTitle">MEET THE TEAM</h2>
+
+		<div class="member">
+			<div class="image jordon"></div>
+			<div class="titles">
+				<p class="name">Jordon Dodds</p>
+				<p class="job">Project Manager, Programmer, External Talent Liaison</p>
+			</div>
+			<p class="description">Originally from Cairns, Queensland, Jordon now lives in Brisbane finishing off his bachelor in video game development. In addition to a borderline obsession with anything zombie related, Jordon also enjoys Marvel Comics and binge watching seasons of tv shows at a time.</p>
+		</div>
+
+		<div class="member">
+			<div class="image jacob"></div>
+			<div class="titles">
+				<p class="name">Jacob Duniam</p>
+				<p class="job">Vision Holder, Designer, Team Lead, External Talent Liaison</p>
+			</div>
+			<p class="description">Jacob is basically the mind responsible for our game aesthetics and storyline.</p>
+		</div>
+
+		<div class="member">
+			<div class="image arthur"></div>
+			<div class="titles">
+				<p class="name">Arthur Finkler</p>
+				<p class="job">Web Designer</p>
+			</div>
+			<p class="description">Arthur is responsible for our online presence. He gave life to this website, designing and coding it from scratch. He also takes care of our Social Medias occasionally. Currently, Arthur works @ CareerHub as an UX/UI Designer</p>
+		</div>
+
+		<div class="member">
+			<div class="image alex"></div>
+			<div class="titles">
+				<p class="name">Alex Luthe</p>
+				<p class="job">Lead Programmer</p>
+			</div>
+			<p class="description">Alex is our mysterious Lead Programmer.</p>
+		</div>
+
+	</section>
+
+
+{% endblock %}
+
+
+{% endembed %}
+

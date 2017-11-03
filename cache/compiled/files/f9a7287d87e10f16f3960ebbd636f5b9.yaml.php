@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/refuge/system/blueprints/config/system.yaml',
-    'modified' => 1506904925,
+    'modified' => 1509669049,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
@@ -1080,16 +1080,6 @@ return [
                             ],
                             'validate' => [
                                 'type' => 'bool'
-                            ]
-                        ],
-                        'media.upload_limit' => [
-                            'type' => 'text',
-                            'append' => 'bytes',
-                            'label' => 'PLUGIN_ADMIN.UPLOAD_LIMIT',
-                            'help' => 'PLUGIN_ADMIN.UPLOAD_LIMIT_HELP',
-                            'classes' => 'small',
-                            'validate' => [
-                                'type' => 'number'
                             ]
                         ],
                         'media.enable_media_timestamp' => [

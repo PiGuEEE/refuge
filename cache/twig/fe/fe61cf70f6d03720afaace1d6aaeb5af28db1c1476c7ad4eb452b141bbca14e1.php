@@ -64,7 +64,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         ";
         // line 79
         $this->displayBlock('footer', $context, $blocks);
-        // line 97
+        // line 104
         echo "    </div>
 </body>
 </html>
@@ -230,9 +230,16 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
                 <a href=\"#\" class=\"downloadBtn itchio\">refugethegame</a>
             </div>
 
+            <div class=\"line\"></div>
+
             <div class=\"copyright\">
-                <p class=\"refuge\">Refuge - NotYet</p>
+                <p class=\"refuge\">Refuge</p>
                 <p>Copyright 2017 - All rights reserved.</p>
+            </div>
+
+            <div class=\"social\">
+                <a href=\"https://www.facebook.com/GetRefugeTheGame/\" class=\"facebook\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Facebook\"></a>
+                <a href=\"https://twitter.com/refugethegame\" class=\"twitter\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Twitter\" ></a>
             </div>
 
         </footer>
@@ -251,7 +258,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     public function getDebugInfo()
     {
-        return array (  223 => 80,  220 => 79,  215 => 75,  210 => 76,  208 => 75,  203 => 74,  200 => 73,  195 => 71,  191 => 69,  188 => 68,  185 => 67,  180 => 58,  177 => 57,  174 => 56,  171 => 55,  168 => 54,  165 => 53,  160 => 49,  157 => 48,  154 => 47,  151 => 46,  143 => 60,  141 => 53,  135 => 51,  133 => 46,  125 => 41,  115 => 38,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 97,  66 => 79,  63 => 78,  61 => 73,  56 => 71,  53 => 70,  51 => 67,  48 => 66,  46 => 65,  42 => 64,  39 => 63,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
+        return array (  223 => 80,  220 => 79,  215 => 75,  210 => 76,  208 => 75,  203 => 74,  200 => 73,  195 => 71,  191 => 69,  188 => 68,  185 => 67,  180 => 58,  177 => 57,  174 => 56,  171 => 55,  168 => 54,  165 => 53,  160 => 49,  157 => 48,  154 => 47,  151 => 46,  143 => 60,  141 => 53,  135 => 51,  133 => 46,  125 => 41,  115 => 38,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 104,  66 => 79,  63 => 78,  61 => 73,  56 => 71,  53 => 70,  51 => 67,  48 => 66,  46 => 65,  42 => 64,  39 => 63,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -353,9 +360,16 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
                 <a href=\"#\" class=\"downloadBtn itchio\">refugethegame</a>
             </div>
 
+            <div class=\"line\"></div>
+
             <div class=\"copyright\">
-                <p class=\"refuge\">Refuge - NotYet</p>
+                <p class=\"refuge\">Refuge</p>
                 <p>Copyright 2017 - All rights reserved.</p>
+            </div>
+
+            <div class=\"social\">
+                <a href=\"https://www.facebook.com/GetRefugeTheGame/\" class=\"facebook\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Facebook\"></a>
+                <a href=\"https://twitter.com/refugethegame\" class=\"twitter\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Twitter\" ></a>
             </div>
 
         </footer>
