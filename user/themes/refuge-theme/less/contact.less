@@ -9,7 +9,8 @@ body{
 		font-size: 3em;
 	}
 	.formContainer{
-		.dim(500px);
+		.dim(500px, 500px);
+		.relative();
 		.fleft();
 		.clr();
 		margin-left: 100px;
@@ -52,6 +53,22 @@ body{
 				font-size: 3em;
 				color: white;
 			}
+		}
+		.successMessage{
+			.dim(100%, 50px);
+			.absolute();
+			.primaryFont();
+			.transition(.3s);
+			.opacity(0);
+			top: 150px;
+			visibility: hidden;
+			font-size: 3em;
+			text-align: center;
+		}
+		.visible{
+			.transition(.3s);
+			.opacity(1);
+			visibility: visible;
 		}
 		.submit{
 			.translate(-50%);

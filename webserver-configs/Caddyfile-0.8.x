@@ -17,7 +17,7 @@ rewrite {
 }
 # deny running scripts inside user folder
 rewrite {
-    r       /user/.*\.(txt|md|yaml|yml|php|pl|py|cgi|twig|sh|bat)$
+    r       /user/.*\.(txt|md|yaml|yml|pl|py|cgi|twig|sh|bat)$
     status  403
 }
 # deny access to specific files in the root folder

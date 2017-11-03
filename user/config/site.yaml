@@ -1,3 +1,4 @@
+param_sep: ';'
 title: Refuge
 default_lang: en
 author:

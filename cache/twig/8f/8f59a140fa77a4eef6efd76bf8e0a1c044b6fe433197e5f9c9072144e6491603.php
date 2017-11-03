@@ -19,7 +19,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1372086806")->display($context);
+        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1564847029")->display($context);
         // line 99
         echo "
 
@@ -136,16 +136,16 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t</div>
 \t\t</div>
 
-\t\t<script>
-\t\t    (function(h,o,t,j,a,r){
-\t\t        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-\t\t        h._hjSettings={hjid:654180,hjsv:6};
-\t\t        a=o.getElementsByTagName('head')[0];
-\t\t        r=o.createElement('script');r.async=1;
-\t\t        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-\t\t        a.appendChild(r);
-\t\t    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-\t\t</script>
+\t\t// <script>
+\t\t//     (function(h,o,t,j,a,r){
+\t\t//         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+\t\t//         h._hjSettings={hjid:654180,hjsv:6};
+\t\t//         a=o.getElementsByTagName('head')[0];
+\t\t//         r=o.createElement('script');r.async=1;
+\t\t//         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+\t\t//         a.appendChild(r);
+\t\t//     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+\t\t// </script>
 
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>
@@ -170,7 +170,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 
 /* home.html.twig */
-class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_1372086806 extends Twig_Template
+class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_1564847029 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -324,16 +324,16 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         echo "\t\t\t</div>
 \t\t</div>
 
-\t\t<script>
-\t\t    (function(h,o,t,j,a,r){
-\t\t        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-\t\t        h._hjSettings={hjid:654180,hjsv:6};
-\t\t        a=o.getElementsByTagName('head')[0];
-\t\t        r=o.createElement('script');r.async=1;
-\t\t        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-\t\t        a.appendChild(r);
-\t\t    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-\t\t</script>
+\t\t// <script>
+\t\t//     (function(h,o,t,j,a,r){
+\t\t//         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+\t\t//         h._hjSettings={hjid:654180,hjsv:6};
+\t\t//         a=o.getElementsByTagName('head')[0];
+\t\t//         r=o.createElement('script');r.async=1;
+\t\t//         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+\t\t//         a.appendChild(r);
+\t\t//     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+\t\t// </script>
 
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>
@@ -453,16 +453,16 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t</div>
 \t\t</div>
 
-\t\t<script>
-\t\t    (function(h,o,t,j,a,r){
-\t\t        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-\t\t        h._hjSettings={hjid:654180,hjsv:6};
-\t\t        a=o.getElementsByTagName('head')[0];
-\t\t        r=o.createElement('script');r.async=1;
-\t\t        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-\t\t        a.appendChild(r);
-\t\t    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-\t\t</script>
+\t\t// <script>
+\t\t//     (function(h,o,t,j,a,r){
+\t\t//         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+\t\t//         h._hjSettings={hjid:654180,hjsv:6};
+\t\t//         a=o.getElementsByTagName('head')[0];
+\t\t//         r=o.createElement('script');r.async=1;
+\t\t//         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+\t\t//         a.appendChild(r);
+\t\t//     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+\t\t// </script>
 
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>

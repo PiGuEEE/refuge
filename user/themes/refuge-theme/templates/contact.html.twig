@@ -5,18 +5,15 @@
 {% endblock %}
 {% embed 'partials/base-internal.html.twig' %}
 
-	{% set collection = page.collection() %}
+    
 
+	
 	{% block content %}
-		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
-
-		{% if blog_image %}
-			<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});"></div>
-		{% endif %}
 
 		<section class="yourDecision">
        		
        		{% include 'partials/header-internals.html.twig' %}
+			
 			
 			<div class="container">
 				<div class="decisionText">
@@ -42,9 +39,12 @@
 							<input type="submit" value="SEND" class="button submit" class="submit">
 						</div>
 					</form>
+					<p class="successMessage">EMAIL SENT, THANKS!</p>
 				</div>
 			</div>
 		</section>
+
+		<script type="text/javascript" src="user/themes/refuge-theme/js/contact-form.js"></script>
 
 	{% endblock %}
 

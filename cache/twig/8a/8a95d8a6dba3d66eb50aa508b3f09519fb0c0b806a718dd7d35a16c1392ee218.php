@@ -19,7 +19,7 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("contact.html.twig", "contact.html.twig", 6, "1022080061")->display($context);
+        $this->loadTemplate("contact.html.twig", "contact.html.twig", 6, "2006962642")->display($context);
         // line 52
         echo "
 
@@ -71,18 +71,15 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
 {% endblock %}
 {% embed 'partials/base-internal.html.twig' %}
 
-\t{% set collection = page.collection() %}
+    
 
+\t
 \t{% block content %}
-\t\t{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
-
-\t\t{% if blog_image %}
-\t\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url({{ blog_image.url }});\"></div>
-\t\t{% endif %}
 
 \t\t<section class=\"yourDecision\">
        \t\t
        \t\t{% include 'partials/header-internals.html.twig' %}
+\t\t\t
 \t\t\t
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"decisionText\">
@@ -108,9 +105,12 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
 \t\t\t\t\t\t\t<input type=\"submit\" value=\"SEND\" class=\"button submit\" class=\"submit\">
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</form>
+\t\t\t\t\t<p class=\"successMessage\">EMAIL SENT, THANKS!</p>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</section>
+
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/contact-form.js\"></script>
 
 \t{% endblock %}
 
@@ -123,7 +123,7 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
 
 
 /* contact.html.twig */
-class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b10351743955d_1022080061 extends Twig_Template
+class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b10351743955d_2006962642 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -143,43 +143,27 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        // line 8
-        $context["collection"] = $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "collection", array(), "method");
-        // line 6
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 10
+    // line 11
     public function block_content($context, array $blocks = array())
     {
-        // line 11
-        echo "\t\t";
-        $context["blog_image"] = $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array())), "grayscale", array(), "method"), "contrast", array(0 => 20), "method"), "brightness", array(0 =>  -100), "method"), "colorize", array(0 =>  -35, 1 => 81, 2 => 122), "method");
         // line 12
-        echo "
-\t\t";
-        // line 13
-        if ((isset($context["blog_image"]) ? $context["blog_image"] : null)) {
-            // line 14
-            echo "\t\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url(";
-            echo $this->getAttribute((isset($context["blog_image"]) ? $context["blog_image"] : null), "url", array());
-            echo ");\"></div>
-\t\t";
-        }
-        // line 16
         echo "
 \t\t<section class=\"yourDecision\">
        \t\t
        \t\t";
-        // line 19
-        $this->loadTemplate("partials/header-internals.html.twig", "contact.html.twig", 19)->display($context);
-        // line 20
+        // line 15
+        $this->loadTemplate("partials/header-internals.html.twig", "contact.html.twig", 15)->display($context);
+        // line 16
         echo "\t\t\t
+\t\t\t
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"decisionText\">
 \t\t\t\t\t
 \t\t\t\t\t";
-        // line 24
+        // line 21
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
 
@@ -202,9 +186,12 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
 \t\t\t\t\t\t\t<input type=\"submit\" value=\"SEND\" class=\"button submit\" class=\"submit\">
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</form>
+\t\t\t\t\t<p class=\"successMessage\">EMAIL SENT, THANKS!</p>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</section>
+
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/contact-form.js\"></script>
 
 \t";
     }
@@ -221,7 +208,7 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
 
     public function getDebugInfo()
     {
-        return array (  183 => 24,  177 => 20,  175 => 19,  170 => 16,  164 => 14,  162 => 13,  159 => 12,  156 => 11,  153 => 10,  149 => 6,  147 => 8,  133 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 52,  22 => 6,  20 => 1,);
+        return array (  167 => 21,  160 => 16,  158 => 15,  153 => 12,  150 => 11,  133 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 52,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -241,18 +228,15 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
 {% endblock %}
 {% embed 'partials/base-internal.html.twig' %}
 
-\t{% set collection = page.collection() %}
+    
 
+\t
 \t{% block content %}
-\t\t{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
-
-\t\t{% if blog_image %}
-\t\t\t<div class=\"flush-top blog-header blog-header-image\" style=\"background-image: url({{ blog_image.url }});\"></div>
-\t\t{% endif %}
 
 \t\t<section class=\"yourDecision\">
        \t\t
        \t\t{% include 'partials/header-internals.html.twig' %}
+\t\t\t
 \t\t\t
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"decisionText\">
@@ -278,9 +262,12 @@ class __TwigTemplate_1e4cbff56e0097e14a707396989a75efbbb3ac84986514ae280b1035174
 \t\t\t\t\t\t\t<input type=\"submit\" value=\"SEND\" class=\"button submit\" class=\"submit\">
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</form>
+\t\t\t\t\t<p class=\"successMessage\">EMAIL SENT, THANKS!</p>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</section>
+
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/contact-form.js\"></script>
 
 \t{% endblock %}
 
