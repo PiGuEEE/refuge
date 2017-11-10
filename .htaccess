@@ -9,9 +9,9 @@ RewriteEngine On
 # along the lines of: RewriteBase /<your_sub_folder>
 ##
 
-# RewriteBase /
+# RewriteBase /Arthur
 
-## End - RewriteBase
+##End - RewriteBase
 
 ## Begin - X-Forwarded-Proto
 # In some hosted or load balanced environments, SSL negotiation happens upstream.

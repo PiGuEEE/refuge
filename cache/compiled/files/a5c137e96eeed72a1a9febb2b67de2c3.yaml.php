@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/refuge/system/blueprints/pages/default.yaml',
-    'modified' => 1506904925,
+    'modified' => 1509669049,
     'data' => [
         'title' => 'PLUGIN_ADMIN.DEFAULT',
         'rules' => [
@@ -35,7 +35,7 @@ return [
                                         'type' => 'textarea'
                                     ]
                                 ],
-                                'uploads' => [
+                                'header.media_order' => [
                                     'type' => 'pagemedia',
                                     'label' => 'PLUGIN_ADMIN.PAGE_MEDIA'
                                 ]

@@ -23,9 +23,9 @@ class __TwigTemplate_a374470df464d3369c3168400acb82b0dc3d6ab84dc407b3ac4f2c5028a
             <div class=\"button next\"> > </div>
             
             <div class=\"imageBox\">
-            \t<img src=\"user/themes/refuge-theme/img/screenshot3.png\" alt=\"Screenshot 1\" class=\"sliderImage\">
-            \t<img src=\"user/themes/refuge-theme/img/screenshot2.png\" alt=\"Screenshot 1\" class=\"sliderImage\">
-            \t<img src=\"user/themes/refuge-theme/img/screenshot1.png\" alt=\"Screenshot 1\" class=\"sliderImage\">
+            \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot3.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+            \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot2.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+            \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot1.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
             </div>
             
         </div>
@@ -60,9 +60,9 @@ class __TwigTemplate_a374470df464d3369c3168400acb82b0dc3d6ab84dc407b3ac4f2c5028a
             <div class=\"button next\"> > </div>
             
             <div class=\"imageBox\">
-            \t<img src=\"user/themes/refuge-theme/img/screenshot3.png\" alt=\"Screenshot 1\" class=\"sliderImage\">
-            \t<img src=\"user/themes/refuge-theme/img/screenshot2.png\" alt=\"Screenshot 1\" class=\"sliderImage\">
-            \t<img src=\"user/themes/refuge-theme/img/screenshot1.png\" alt=\"Screenshot 1\" class=\"sliderImage\">
+            \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot3.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+            \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot2.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+            \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot1.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
             </div>
             
         </div>

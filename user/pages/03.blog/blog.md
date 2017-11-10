@@ -1,5 +1,5 @@
 ---
-title: 'Developers Diary - Blog'
+title: Blog
 content:
     items: '@self.children'
     limit: 5

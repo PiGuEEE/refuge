@@ -36,4 +36,12 @@ $(document).ready(function(){
 		}
 		cycleItems();
 		});
+
+		;(function() {
+            // Initialize
+            var bLazy = new Blazy({
+            	selector: '.b-lazy',
+            	loadInvisible: true
+            });
+        })();
 });

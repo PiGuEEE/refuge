@@ -19,8 +19,8 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 6
-        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "1564847029")->display($context);
-        // line 99
+        $this->loadTemplate("home.html.twig", "home.html.twig", 6, "296794346")->display($context);
+        // line 100
         echo "
 
 ";
@@ -51,7 +51,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
     public function getDebugInfo()
     {
-        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 99,  22 => 6,  20 => 1,);
+        return array (  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 100,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -107,7 +107,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
 \t\t\t\t\t<div class=\"gameplay\">
-\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" title=\"Refuge Trailer\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" title=\"Refuge Trailer\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" class=\"b-lazy\" frameborder=\"0\" allowfullscreen></iframe>
 \t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button moreGameplay\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
@@ -136,7 +136,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t</div>
 \t\t</div>
 
-\t\t// <script>
+\t\t<!-- // <script>
 \t\t//     (function(h,o,t,j,a,r){
 \t\t//         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
 \t\t//         h._hjSettings={hjid:654180,hjsv:6};
@@ -145,11 +145,12 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t//         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 \t\t//         a.appendChild(r);
 \t\t//     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-\t\t// </script>
+\t\t// </script> -->
 
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/imageSlider.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/lazy-load.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/typed/typed.min.js\"></script>
 
 \t{% endblock %}
@@ -170,7 +171,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
 
 /* home.html.twig */
-class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_1564847029 extends Twig_Template
+class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa66af47_296794346 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -249,7 +250,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
 \t\t\t\t\t<div class=\"gameplay\">
-\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" title=\"Refuge Trailer\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" title=\"Refuge Trailer\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" class=\"b-lazy\" frameborder=\"0\" allowfullscreen></iframe>
 \t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button moreGameplay\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
@@ -324,7 +325,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
         echo "\t\t\t</div>
 \t\t</div>
 
-\t\t// <script>
+\t\t<!-- // <script>
 \t\t//     (function(h,o,t,j,a,r){
 \t\t//         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
 \t\t//         h._hjSettings={hjid:654180,hjsv:6};
@@ -333,25 +334,26 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t//         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 \t\t//         a.appendChild(r);
 \t\t//     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-\t\t// </script>
+\t\t// </script> -->
 
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/imageSlider.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/lazy-load.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/typed/typed.min.js\"></script>
 
 \t";
     }
 
-    // line 91
+    // line 92
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 92
+        // line 93
         echo "
         ";
-        // line 93
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
         // line 94
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
+        // line 95
         echo "
     ";
     }
@@ -368,7 +370,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 
     public function getDebugInfo()
     {
-        return array (  355 => 94,  353 => 93,  350 => 92,  347 => 91,  324 => 70,  321 => 69,  318 => 68,  316 => 67,  313 => 66,  299 => 65,  296 => 64,  279 => 63,  274 => 60,  272 => 59,  269 => 58,  267 => 57,  246 => 39,  240 => 35,  238 => 34,  218 => 16,  212 => 14,  210 => 13,  207 => 12,  204 => 11,  201 => 10,  197 => 6,  195 => 8,  180 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 99,  22 => 6,  20 => 1,);
+        return array (  357 => 95,  355 => 94,  352 => 93,  349 => 92,  325 => 70,  322 => 69,  319 => 68,  317 => 67,  314 => 66,  300 => 65,  297 => 64,  280 => 63,  275 => 60,  273 => 59,  270 => 58,  268 => 57,  247 => 39,  241 => 35,  239 => 34,  219 => 16,  213 => 14,  211 => 13,  208 => 12,  205 => 11,  202 => 10,  198 => 6,  196 => 8,  181 => 6,  38 => 4,  36 => 3,  33 => 2,  30 => 1,  24 => 100,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -424,7 +426,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t\t</div>
 \t\t\t\t<div class=\"gameplayBox\">
 \t\t\t\t\t<div class=\"gameplay\">
-\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" title=\"Refuge Trailer\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" frameborder=\"0\" allowfullscreen></iframe>
+\t\t\t\t\t\t<iframe width=\"100%\" height=\"100%\" title=\"Refuge Trailer\" src=\"https://www.youtube.com/embed/cC0YUB8Lx0Y?rel=0\" class=\"b-lazy\" frameborder=\"0\" allowfullscreen></iframe>
 \t\t\t\t\t</div>
 \t\t\t\t\t<a href=\"#\" class=\"button moreGameplay\" title=\"More Gameplay Videos\">MORE GAMEPLAY VIDEOS</a>
 \t\t\t\t</div>
@@ -453,7 +455,7 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t\t</div>
 \t\t</div>
 
-\t\t// <script>
+\t\t<!-- // <script>
 \t\t//     (function(h,o,t,j,a,r){
 \t\t//         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
 \t\t//         h._hjSettings={hjid:654180,hjsv:6};
@@ -462,11 +464,12 @@ class __TwigTemplate_16b7ccf9b14fbeef31ada4e2190cce8b104e691958039ef9ef30bdedaa6
 \t\t//         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 \t\t//         a.appendChild(r);
 \t\t//     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-\t\t// </script>
+\t\t// </script> -->
 
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/main.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/home.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/imageSlider.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/lazy-load.min.js\"></script>
 \t\t<script type=\"text/javascript\" src=\"user/themes/refuge-theme/js/typed/typed.min.js\"></script>
 
 \t{% endblock %}

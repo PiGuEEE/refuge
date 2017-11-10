@@ -59,22 +59,34 @@ class __TwigTemplate_d183b8cadfa5b8e1569f040bb7a243dd44b66bdb62a0d1b47a722f4c266
              data-dropzone-options=\"";
             // line 16
             echo twig_escape_filter($this->env, twig_jsonencode_filter((isset($context["dropzoneSettings"]) ? $context["dropzoneSettings"] : null)), "html_attr");
-            echo "\"></div>
-        <span>";
+            echo "\"
+             data-dropzone-field=\"";
             // line 17
-            echo twig_escape_filter($this->env, twig_join_filter((isset($context["value"]) ? $context["value"] : null), "
-"), "html", null, true);
-            echo "</span>
-    </div>
+            echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter(((isset($context["scope"]) ? $context["scope"] : null) . $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "name", array()))), "html", null, true);
+            echo "\"></div>
+
+        ";
+            // line 19
+            if (($this->getAttribute($this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "session", array()), "expert", array()) == "0")) {
+                // line 20
+                echo "        <input type=\"hidden\" name=\"";
+                echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter(((isset($context["scope"]) ? $context["scope"] : null) . $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "name", array()))), "html", null, true);
+                echo "\" value=\"";
+                echo twig_escape_filter($this->env, (isset($context["value"]) ? $context["value"] : null));
+                echo "\" />
+        ";
+            }
+            // line 22
+            echo "    </div>
 </div>
 ";
         } else {
-            // line 21
+            // line 25
             echo "<div class=\"form-tab\">
     <div class=\"form-field\">
         <div class=\"form-label\">
             ";
-            // line 24
+            // line 28
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Plugin\Admin\AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.CANNOT_ADD_MEDIA_FILES_PAGE_NOT_SAVED"), "html", null, true);
             echo "
         </div>
@@ -96,7 +108,7 @@ class __TwigTemplate_d183b8cadfa5b8e1569f040bb7a243dd44b66bdb62a0d1b47a722f4c266
 
     public function getDebugInfo()
     {
-        return array (  78 => 24,  73 => 21,  65 => 17,  61 => 16,  57 => 15,  51 => 14,  45 => 13,  41 => 11,  38 => 10,  36 => 9,  30 => 6,  26 => 4,  24 => 3,  21 => 2,  19 => 1,);
+        return array (  90 => 28,  85 => 25,  80 => 22,  72 => 20,  70 => 19,  65 => 17,  61 => 16,  57 => 15,  51 => 14,  45 => 13,  41 => 11,  38 => 10,  36 => 9,  30 => 6,  26 => 4,  24 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -124,8 +136,12 @@ class __TwigTemplate_d183b8cadfa5b8e1569f040bb7a243dd44b66bdb62a0d1b47a722f4c266
              data-media-url=\"{{ base_url }}/media/{{ admin.route|trim('/') }}.json\"
              data-media-local=\"{{ base_url_relative_frontend|rtrim('/') }}/{{ admin.route|trim('/') }}\"
              data-media-path=\"{{ url(context.relativePagePath) }}\"
-             data-dropzone-options=\"{{ dropzoneSettings|json_encode|e('html_attr') }}\"></div>
-        <span>{{ value|join(\"\\n\") }}</span>
+             data-dropzone-options=\"{{ dropzoneSettings|json_encode|e('html_attr') }}\"
+             data-dropzone-field=\"{{ (scope ~ field.name)|fieldName }}\"></div>
+
+        {% if admin.session.expert == '0' %}
+        <input type=\"hidden\" name=\"{{ (scope ~ field.name)|fieldName }}\" value=\"{{ value|e }}\" />
+        {% endif %}
     </div>
 </div>
 {% else %}

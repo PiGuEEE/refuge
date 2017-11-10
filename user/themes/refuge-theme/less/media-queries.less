@@ -34,10 +34,23 @@
 		.navigation{
 			height: 70vh;
 			.buttonBox{
-				width: 100%;
-				padding-left: 5%;
+				padding-left: 0;
+				padding-top: 5%;
+				&:before{
+					display: none;
+				}
 				.button{
-					font-size: 1.7em;
+					width: 80%;
+					max-width: 500px;
+					display: block;
+					margin: 0 auto;
+					font-size: 2em;
+					padding: 13px 25px;
+				}
+			}
+			.navigationBottom{
+				.download{
+					p{ text-align: center; float: none; margin-bottom: 10px;}
 				}
 			}
 		}
@@ -109,7 +122,7 @@
 		.yourCall{
 			max-width: 95%;
 			margin: 0 auto;
-			margin-top: 40px;
+			margin-top: 80px;
 			margin-bottom: 40px;
 			font-size: 20vw;
 		}
@@ -142,7 +155,12 @@
 	.formContainer{
 		display: none;
 	}
+
+	.character{
+		.dim(40px, 50px);
+	}
 }
+
 @media only screen and (max-device-width : 1100px){
 	.theTeam{
 		.member{
@@ -178,11 +196,24 @@
 		.navigation{
 			height: 70vh;
 			.buttonBox{
-				width: 100%;
-				padding-left: 5%;
-				.button{
-					font-size: 1.7em;
+				padding-left: 0;
+				padding-top: 5%;
+				&:before{
+					display: none;
 				}
+				.button{
+					width: 80%;
+					max-width: 500px;
+					display: block;
+					margin: 0 auto;
+					font-size: 2em;
+					padding: 13px 25px;
+				}
+			}
+		}
+		.navigationBottom{
+			.download{
+				p{ text-align: center; float: none; margin-bottom: 10px;}
 			}
 		}
 	}
@@ -255,7 +286,7 @@
 		.yourCall{
 			max-width: 95%;
 			margin: 0 auto;
-			margin-top: 40px;
+			margin-top: 80px;
 			margin-bottom: 40px;
 			font-size: 20vw;
 		}
@@ -287,5 +318,9 @@
 
 	.formContainer{
 		display: none;
+	}
+
+	.character{
+		.dim(40px, 50px);
 	}
 }
