@@ -22,8 +22,8 @@ class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c84
         echo "
 ";
         // line 7
-        $this->loadTemplate("the-team.html.twig", "the-team.html.twig", 7, "389774456")->display($context);
-        // line 60
+        $this->loadTemplate("the-team.html.twig", "the-team.html.twig", 7, "1475524534")->display($context);
+        // line 59
         echo "
 ";
     }
@@ -53,7 +53,7 @@ class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c84
 
     public function getDebugInfo()
     {
-        return array (  40 => 4,  38 => 3,  35 => 2,  32 => 1,  27 => 60,  25 => 7,  22 => 6,  20 => 1,);
+        return array (  40 => 4,  38 => 3,  35 => 2,  32 => 1,  27 => 59,  25 => 7,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -79,10 +79,9 @@ class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c84
 {% block content %}
 \t<section class=\"theTeam\">
 
-
 \t\t<h2 class=\"pageTitle\">MEET THE TEAM</h2>
 
-\t\t<div class=\"member\">
+\t\t<div class=\"member marginTop\">
 \t\t\t<div class=\"image jordon\"></div>
 \t\t\t<div class=\"titles\">
 \t\t\t\t<p class=\"name\">Jordon Dodds</p>
@@ -132,7 +131,7 @@ class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c84
 
 
 /* the-team.html.twig */
-class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c840403a_389774456 extends Twig_Template
+class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c840403a_1475524534 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -164,10 +163,9 @@ class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c84
         // line 12
         echo "\t<section class=\"theTeam\">
 
-
 \t\t<h2 class=\"pageTitle\">MEET THE TEAM</h2>
 
-\t\t<div class=\"member\">
+\t\t<div class=\"member marginTop\">
 \t\t\t<div class=\"image jordon\"></div>
 \t\t\t<div class=\"titles\">
 \t\t\t\t<p class=\"name\">Jordon Dodds</p>
@@ -221,7 +219,7 @@ class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c84
 
     public function getDebugInfo()
     {
-        return array (  165 => 12,  162 => 11,  158 => 7,  156 => 9,  142 => 7,  40 => 4,  38 => 3,  35 => 2,  32 => 1,  27 => 60,  25 => 7,  22 => 6,  20 => 1,);
+        return array (  164 => 12,  161 => 11,  157 => 7,  155 => 9,  141 => 7,  40 => 4,  38 => 3,  35 => 2,  32 => 1,  27 => 59,  25 => 7,  22 => 6,  20 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -247,10 +245,9 @@ class __TwigTemplate_c2d101bb3754e8268d70a6691a189b33feb435b9bf537d3f566b3266c84
 {% block content %}
 \t<section class=\"theTeam\">
 
-
 \t\t<h2 class=\"pageTitle\">MEET THE TEAM</h2>
 
-\t\t<div class=\"member\">
+\t\t<div class=\"member marginTop\">
 \t\t\t<div class=\"image jordon\"></div>
 \t\t\t<div class=\"titles\">
 \t\t\t\t<p class=\"name\">Jordon Dodds</p>

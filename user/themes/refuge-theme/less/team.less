@@ -12,15 +12,12 @@ body{
 		.primaryFont();
 		text-align: center;
 		font-size: 6em;
-		margin-bottom: 200px;
 	}
-
 	.member{
 		.dim(95%);
 		.primaryFont();
 		max-width: 1100px;
 		margin: 0 auto;
-		margin-top: 90px;
 		margin-bottom: 90px;
 		.image{
 			.dim(320px, 320px);
@@ -28,7 +25,7 @@ body{
 			.relative();
 			background-size: cover;
 			margin-right: 90px;
-			&:after{
+			&:before{
 				content: ' ';
 				.dim(100%, 100%);
 				.absolute();
@@ -71,7 +68,9 @@ body{
 			color: #FFF;
 		}
 	}
-
+	.marginTop{
+		margin-top: 200px;
+	}
 }
 
 @import 'media-queries.less';
