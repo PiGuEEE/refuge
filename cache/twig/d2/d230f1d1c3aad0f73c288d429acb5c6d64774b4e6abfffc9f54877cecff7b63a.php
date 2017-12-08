@@ -30,7 +30,7 @@ class __TwigTemplate_9a54dc090d402805b8645c903b5cfb6c5ef2c84546252f59bf96bfea675
     {
         // line 4
         echo "    data-grav-selectize=\"";
-        echo twig_escape_filter($this->env, twig_jsonencode_filter((($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "selectize", array(), "any", true, true)) ? (twig_array_merge($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "selectize", array()), array("create" => true))) : (array("create" => true)))), "html_attr");
+        echo twig_escape_filter($this->env, twig_jsonencode_filter((($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "selectize", array(), "any", true, true)) ? (twig_array_merge(twig_array_merge($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "selectize", array()), array("create" => true)), array("items" => (isset($context["value"]) ? $context["value"] : null)))) : (array("create" => true)))), "html_attr");
         echo "\"
     ";
         // line 5
@@ -79,7 +79,7 @@ class __TwigTemplate_9a54dc090d402805b8645c903b5cfb6c5ef2c84546252f59bf96bfea675
         return new Twig_Source("{% extends \"forms/field.html.twig\" %}
 
 {% block global_attributes %}
-    data-grav-selectize=\"{{ (field.selectize is defined ? field.selectize|merge({'create': true}) : {'create': true})|json_encode()|e('html_attr') }}\"
+    data-grav-selectize=\"{{ (field.selectize is defined ? field.selectize|merge({'create': true})|merge({'items':value}) : {'create': true})|json_encode()|e('html_attr') }}\"
     {{ parent() }}
 {% endblock %}
 
