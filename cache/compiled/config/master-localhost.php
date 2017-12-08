@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1512690538,
-    'checksum' => 'bb53df807eb47cf37e329c790c61515e',
+    'timestamp' => 1512702018,
+    'checksum' => 'e698a6e677ca4e074f77648abf3bc47b',
     'files' => [
         'user/config' => [
             'media' => [
@@ -37,19 +37,19 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1509669049
+                'modified' => 1512702001
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1509669049
+                'modified' => 1512702001
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1509669049
+                'modified' => 1512702001
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1509669049
+                'modified' => 1512702001
             ]
         ],
         'user/plugins' => [
@@ -574,9 +574,11 @@ return [
             'wrapped_site' => false,
             'reverse_proxy_setup' => false,
             'force_ssl' => false,
+            'force_lowercase_urls' => true,
             'custom_base_url' => '',
             'username_regex' => '^[a-z0-9_-]{3,16}$',
             'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
+            'intl_enabled' => true,
             'languages' => [
                 'supported' => [
                     
