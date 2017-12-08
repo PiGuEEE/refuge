@@ -18,7 +18,7 @@ class __TwigTemplate_18b2c6e22d885ea3bfe6b6b4810aa151447aa399f1b2f6950bd809e58a5
         // line 1
         echo "<header class=\"headerHome\">
     <div class=\"downloadAt\">
-        <a href=\"\" class=\"link itchio\" title=\"Download Refuge on Itch.io | Available next December\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Itch.io\"></a>
+        <a href=\"https://notyet.itch.io/refuge/\" class=\"link itchio\" title=\"Download Refuge on Itch.io | Available next December\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Itch.io\"></a>
     </div>
     <div class=\"panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars\">
         <div class=\"left\">
@@ -55,7 +55,7 @@ class __TwigTemplate_18b2c6e22d885ea3bfe6b6b4810aa151447aa399f1b2f6950bd809e58a5
     {
         return new Twig_Source("<header class=\"headerHome\">
     <div class=\"downloadAt\">
-        <a href=\"\" class=\"link itchio\" title=\"Download Refuge on Itch.io | Available next December\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Itch.io\"></a>
+        <a href=\"https://notyet.itch.io/refuge/\" class=\"link itchio\" title=\"Download Refuge on Itch.io | Available next December\" rel=\"noopener\" target=\"_blank\" title=\"Refuge on Itch.io\"></a>
     </div>
     <div class=\"panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars\">
         <div class=\"left\">

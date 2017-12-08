@@ -222,10 +222,10 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         echo "        <footer id=\"footer\">
 
             <div class=\"symbol\"></div>
-            <p class=\"downloadNow\">Available this December</p>
+            <p class=\"downloadNow\">AVAILABLE NOW</p>
             
             <div class=\"downloadBtns\">
-                <a href=\"https://refuge.itch.io/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
+                <a href=\"https://notyet.itch.io/refuge/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
             </div>
 
             <div class=\"line\"></div>
@@ -349,10 +349,10 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         <footer id=\"footer\">
 
             <div class=\"symbol\"></div>
-            <p class=\"downloadNow\">Available this December</p>
+            <p class=\"downloadNow\">AVAILABLE NOW</p>
             
             <div class=\"downloadBtns\">
-                <a href=\"https://refuge.itch.io/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
+                <a href=\"https://notyet.itch.io/refuge/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
             </div>
 
             <div class=\"line\"></div>

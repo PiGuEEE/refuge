@@ -107,8 +107,8 @@ class __TwigTemplate_19ea5c039e18d11ef3d48138cc5a67f03e97b422c143e8435b9e3bf3742
 
 <div class=\"navigationBottom\">
     <div class=\"download\">
-        <p>AVAILABLE THIS DECEMBER</p>
-        <a href=\"https://refuge.itch.io/\" class=\"downloadLink itchio\" title=\"Download Refuge on Itch.io\" target=\"_blank\" rel=\"noopener\"></a>
+        <p>AVAILABLE NOW</p>
+        <a href=\"https://notyet.itch.io/refuge//\" class=\"downloadLink itchio\" title=\"Download Refuge on Itch.io\" target=\"_blank\" rel=\"noopener\"></a>
     </div>
 </div>";
     }
@@ -174,8 +174,8 @@ class __TwigTemplate_19ea5c039e18d11ef3d48138cc5a67f03e97b422c143e8435b9e3bf3742
 
 <div class=\"navigationBottom\">
     <div class=\"download\">
-        <p>AVAILABLE THIS DECEMBER</p>
-        <a href=\"https://refuge.itch.io/\" class=\"downloadLink itchio\" title=\"Download Refuge on Itch.io\" target=\"_blank\" rel=\"noopener\"></a>
+        <p>AVAILABLE NOW</p>
+        <a href=\"https://notyet.itch.io/refuge//\" class=\"downloadLink itchio\" title=\"Download Refuge on Itch.io\" target=\"_blank\" rel=\"noopener\"></a>
     </div>
 </div>", "partials/navigation.html.twig", "/Applications/MAMP/htdocs/refuge/user/themes/refuge-theme/templates/partials/navigation.html.twig");
     }
