@@ -55,15 +55,27 @@ RewriteRule .* index.php [L]
 ## Begin - Security
 # Block all direct access for these folders
 RewriteRule ^(\.git|cache|bin|logs|backup|webserver-configs|tests)/(.*) error [F]
+
 # Block access to specific file types for these system folders
 RewriteRule ^(system|vendor)/(.*)\.(txt|xml|md|html|yaml|yml|php|pl|py|cgi|twig|sh|bat)$ error [F]
+
 # Block access to specific file types for these user folders
 RewriteRule ^(user)/(.*)\.(txt|md|yaml|yml|pl|py|cgi|twig|sh|bat)$ error [F]
+
 # Block all direct access to .md files:
 RewriteRule \.md$ error [F]
+
 # Block all direct access to files and folders beginning with a dot
 RewriteRule (^|/)\.(?!well-known) - [F]
+
 # Block access to specific files in the root folder
+#Gzip
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+#End Gzip
+
+
 RewriteRule ^(LICENSE\.txt|composer\.lock|composer\.json|\.htaccess)$ error [F]
 ## End - Security
 
