@@ -64,7 +64,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         ";
         // line 77
         $this->displayBlock('footer', $context, $blocks);
-        // line 102
+        // line 101
         echo "    </div>
 </body>
 </html>
@@ -225,7 +225,6 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
             <p class=\"downloadNow\">Available this December</p>
             
             <div class=\"downloadBtns\">
-                <a href=\"http://steamcommunity.com/id/refugethegame/\" rel=\"noopener\" target=\"_blank\" title=\"Available on Steam\" class=\"downloadBtn steam steamFooter\">refugethegame</a>
                 <a href=\"https://refuge.itch.io/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
             </div>
 
@@ -257,7 +256,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     public function getDebugInfo()
     {
-        return array (  222 => 78,  219 => 77,  214 => 73,  209 => 74,  207 => 73,  202 => 72,  199 => 71,  194 => 69,  190 => 67,  187 => 66,  184 => 65,  179 => 56,  176 => 55,  173 => 54,  170 => 53,  167 => 52,  164 => 51,  160 => 47,  157 => 46,  154 => 45,  151 => 44,  143 => 58,  141 => 51,  136 => 49,  133 => 48,  131 => 44,  125 => 41,  115 => 38,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 102,  66 => 77,  63 => 76,  61 => 71,  56 => 69,  53 => 68,  51 => 65,  48 => 64,  46 => 63,  42 => 62,  39 => 61,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
+        return array (  222 => 78,  219 => 77,  214 => 73,  209 => 74,  207 => 73,  202 => 72,  199 => 71,  194 => 69,  190 => 67,  187 => 66,  184 => 65,  179 => 56,  176 => 55,  173 => 54,  170 => 53,  167 => 52,  164 => 51,  160 => 47,  157 => 46,  154 => 45,  151 => 44,  143 => 58,  141 => 51,  136 => 49,  133 => 48,  131 => 44,  125 => 41,  115 => 38,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 101,  66 => 77,  63 => 76,  61 => 71,  56 => 69,  53 => 68,  51 => 65,  48 => 64,  46 => 63,  42 => 62,  39 => 61,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -353,7 +352,6 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
             <p class=\"downloadNow\">Available this December</p>
             
             <div class=\"downloadBtns\">
-                <a href=\"http://steamcommunity.com/id/refugethegame/\" rel=\"noopener\" target=\"_blank\" title=\"Available on Steam\" class=\"downloadBtn steam steamFooter\">refugethegame</a>
                 <a href=\"https://refuge.itch.io/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
             </div>
 

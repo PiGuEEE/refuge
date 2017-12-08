@@ -57,7 +57,7 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
         ";
         // line 71
         $this->displayBlock('footer', $context, $blocks);
-        // line 97
+        // line 96
         echo "    </div>
 </body>
 </html>
@@ -107,7 +107,7 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
 
     <!-- android -->
     <meta name=\"mobile-web-app-capable\" content=\"yes\">
-    
+
     <title>";
         // line 40
         if ($this->getAttribute((isset($context["header"]) ? $context["header"] : null), "title", array())) {
@@ -199,7 +199,6 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
             <p class=\"downloadNow\">Available this December</p>
             
             <div class=\"downloadBtns\">
-                <a href=\"http://steamcommunity.com/id/refugethegame/\" rel=\"noopener\" target=\"_blank\" title=\"Available on Steam\" class=\"downloadBtn steam steamFooter\">refugethegame</a>
                 <a href=\"https://refuge.itch.io/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
             </div>
 
@@ -231,7 +230,7 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
 
     public function getDebugInfo()
     {
-        return array (  195 => 72,  192 => 71,  187 => 68,  183 => 69,  180 => 68,  177 => 67,  173 => 65,  170 => 64,  167 => 63,  163 => 55,  160 => 54,  157 => 53,  154 => 52,  146 => 56,  144 => 52,  139 => 50,  136 => 49,  134 => 48,  127 => 44,  123 => 42,  121 => 41,  113 => 40,  81 => 10,  79 => 9,  76 => 8,  74 => 7,  71 => 6,  68 => 5,  61 => 97,  59 => 71,  56 => 70,  54 => 67,  51 => 66,  49 => 63,  46 => 62,  44 => 61,  40 => 60,  37 => 59,  35 => 5,  30 => 3,  27 => 2,  25 => 1,);
+        return array (  195 => 72,  192 => 71,  187 => 68,  183 => 69,  180 => 68,  177 => 67,  173 => 65,  170 => 64,  167 => 63,  163 => 55,  160 => 54,  157 => 53,  154 => 52,  146 => 56,  144 => 52,  139 => 50,  136 => 49,  134 => 48,  127 => 44,  123 => 42,  121 => 41,  113 => 40,  81 => 10,  79 => 9,  76 => 8,  74 => 7,  71 => 6,  68 => 5,  61 => 96,  59 => 71,  56 => 70,  54 => 67,  51 => 66,  49 => 63,  46 => 62,  44 => 61,  40 => 60,  37 => 59,  35 => 5,  30 => 3,  27 => 2,  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -282,7 +281,7 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
 
     <!-- android -->
     <meta name=\"mobile-web-app-capable\" content=\"yes\">
-    
+
     <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
     {% include 'partials/metadata.html.twig' %}
     <link rel=\"icon\" type=\"image/png\" href=\"favicon.ico\" />
@@ -322,7 +321,6 @@ class __TwigTemplate_a58fa2ca7690f9b65eab04071c7478c5404e30b0af7a16763909608f8f6
             <p class=\"downloadNow\">Available this December</p>
             
             <div class=\"downloadBtns\">
-                <a href=\"http://steamcommunity.com/id/refugethegame/\" rel=\"noopener\" target=\"_blank\" title=\"Available on Steam\" class=\"downloadBtn steam steamFooter\">refugethegame</a>
                 <a href=\"https://refuge.itch.io/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
             </div>
 
