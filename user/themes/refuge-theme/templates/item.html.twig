@@ -1,3 +1,6 @@
+{% block stylesheets %}
+	{% do assets.addCss('theme://css/blog.css', 103) %}
+{% endblock %}
 {% embed 'partials/base-internal.html.twig' %}
 
 	{% block content %}
