@@ -1,5 +1,40 @@
 @import 'mixins.less';
+@media only screen and (max-device-width : 1150px){
+	.yourDecision{
+		.decisionText{
+			.dim(100%);
+			max-width: 700px;
+			margin: 0 auto;
+			text-align: center;
+			float: none;
+			margin-bottom: 100px;
+		}
+		.gameplayBox{
+			float: none;
+			margin: 0 auto;
+		}
+	}
+
+}
+@media only screen and (max-width : 1150px){
+	.yourDecision{
+		.decisionText{
+			.dim(100%);
+			max-width: 700px;
+			margin: 0 auto;
+			text-align: center;
+			float: none;
+			margin-bottom: 100px;
+		}
+		.gameplayBox{
+			float: none;
+			margin: 0 auto;
+		}
+	}
+
+}
 @media only screen and (max-width : 1100px){
+
 	.theTeam{
 		.member{
 			.dim(92%);
@@ -29,6 +64,10 @@
 @media only screen and (max-width : 900px){
 	body{
 		overflow-x: hidden; 
+	}
+	.theGame{
+		margin-top: 40px;
+		padding-top: 0px;
 	}
 	.navOverlay{
 		.navigation{
@@ -191,6 +230,9 @@
 @media only screen and (max-device-width : 900px){
 	body{
 		overflow-x: hidden; 
+	}
+	.theGame{
+		margin-top: 50px;
 	}
 	.navOverlay{
 		.navigation{

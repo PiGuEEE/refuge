@@ -76,8 +76,8 @@ class MarkdownNoticesPlugin extends Plugin
     public function onTwigSiteVariables()
     {
         if ($this->config->get('plugins.markdown-notices.built_in_css')) {
-            $this->grav['assets']
-                ->add('plugin://markdown-notices/assets/notices.css');
+           // $this->grav['assets']
+             //   ->add('plugin://markdown-notices/assets/notices.css');
         }
     }
 

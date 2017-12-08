@@ -41,13 +41,11 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet" async>
 
-
-
     {% block stylesheets %}
         {% do assets.addCss('theme://css/home.css', 100) %}
         {% do assets.addCss('theme://css/custom.css', 100) %}
-
     {% endblock %}
+
     {{ assets.css() }}
 
     {% block javascripts %}
@@ -83,8 +81,8 @@
             <p class="downloadNow">Available this December</p>
             
             <div class="downloadBtns">
-                <a href="#" class="downloadBtn steam">refugethegame</a>
-                <a href="#" class="downloadBtn itchio">refugethegame</a>
+                <a href="http://steamcommunity.com/id/refugethegame/" rel="noopener" target="_blank" title="Available on Steam" class="downloadBtn steam steamFooter">refugethegame</a>
+                <a href="https://refuge.itch.io/" target="_blank" rel="noopener" title="Available on Itch.io" class="downloadBtn itchio itchFooter">refuge</a>
             </div>
 
             <div class="line"></div>

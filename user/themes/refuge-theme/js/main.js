@@ -14,7 +14,7 @@ $(document).ready(function(){
 	if (typedDiv3.length) {
 		
 		var testimonials = {
-		strings: [, "<div class='text'>Refuge is a hell of an immersive game! The fact it tackles real world issues creates even more empathy towards the game and its story. Loved it!</div><div class='author'>Jason @ SAE</div>", "<div class='text'>I am really proud to see what Refuge has become, and to be part of such a great team. These Devs really love what they do, and the quality of the game reflects that.</div><div class='author'>Arthur - Web Designer @ NotYet</div>" ],
+		strings: [, "<div class='text'>It has been impressive to watch Notyet learn and grow as they wrangle with an intentionally complex topic.</div><div class='author'>Tony Parmenter - Games Lecturer @ SAE Institute</div>" ],
 		  loop: true,
 		  typeSpeed: 35,
 		  backSpeed: 6,

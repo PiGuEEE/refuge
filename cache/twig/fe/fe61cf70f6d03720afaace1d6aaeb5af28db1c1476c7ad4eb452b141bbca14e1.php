@@ -35,36 +35,36 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 ";
         // line 5
         $this->displayBlock('head', $context, $blocks);
-        // line 63
+        // line 61
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 64
+        // line 62
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "body_classes", array());
         echo "\">
     ";
-        // line 65
-        $this->loadTemplate("partials/navigation-overlay.html.twig", "partials/base-home.html.twig", 65)->display($context);
-        // line 66
+        // line 63
+        $this->loadTemplate("partials/navigation-overlay.html.twig", "partials/base-home.html.twig", 63)->display($context);
+        // line 64
         echo "    <div id=\"sb-site\">
         ";
-        // line 67
+        // line 65
         $this->displayBlock('header', $context, $blocks);
-        // line 70
+        // line 68
         echo "
        <!--  ";
-        // line 71
+        // line 69
         $this->displayBlock('showcase', $context, $blocks);
         echo " -->
 
         ";
-        // line 73
+        // line 71
         $this->displayBlock('body', $context, $blocks);
-        // line 78
+        // line 76
         echo "
         ";
-        // line 79
+        // line 77
         $this->displayBlock('footer', $context, $blocks);
-        // line 104
+        // line 102
         echo "    </div>
 </body>
 </html>
@@ -126,20 +126,20 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
         echo "\" />
     <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\" async>
 
-
-
     ";
-        // line 46
+        // line 44
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 51
-        echo "    ";
+        // line 48
+        echo "
+    ";
+        // line 49
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "css", array(), "method");
         echo "
 
     ";
-        // line 53
+        // line 51
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 60
+        // line 58
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
@@ -147,87 +147,86 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 ";
     }
 
-    // line 46
+    // line 44
     public function block_stylesheets($context, array $blocks = array())
     {
-        // line 47
+        // line 45
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/home.css", 1 => 100), "method");
-        // line 48
+        // line 46
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/custom.css", 1 => 100), "method");
-        // line 49
-        echo "
-    ";
+        // line 47
+        echo "    ";
     }
 
-    // line 53
+    // line 51
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 54
+        // line 52
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
-        // line 55
+        // line 53
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/typed/typed.min.js"), "method");
-        // line 56
+        // line 54
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/main.min.js"), "method");
-        // line 57
+        // line 55
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/imageSlider.min.js"), "method");
-        // line 58
+        // line 56
         echo "
     ";
     }
 
-    // line 67
+    // line 65
     public function block_header($context, array $blocks = array())
     {
-        // line 68
+        // line 66
         echo "            ";
-        $this->loadTemplate("partials/header.html.twig", "partials/base-home.html.twig", 68)->display($context);
-        // line 69
+        $this->loadTemplate("partials/header.html.twig", "partials/base-home.html.twig", 66)->display($context);
+        // line 67
         echo "        ";
     }
 
-    // line 71
+    // line 69
     public function block_showcase($context, array $blocks = array())
     {
     }
 
-    // line 73
+    // line 71
     public function block_body($context, array $blocks = array())
     {
-        // line 74
+        // line 72
         echo "        <section id=\"body\" class=\"";
         echo (isset($context["class"]) ? $context["class"] : null);
         echo "\">
             ";
-        // line 75
+        // line 73
         $this->displayBlock('content', $context, $blocks);
-        // line 76
+        // line 74
         echo "        </section>
         ";
     }
 
-    // line 75
+    // line 73
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 79
+    // line 77
     public function block_footer($context, array $blocks = array())
     {
-        // line 80
+        // line 78
         echo "        <footer id=\"footer\">
 
             <div class=\"symbol\"></div>
             <p class=\"downloadNow\">Available this December</p>
             
             <div class=\"downloadBtns\">
-                <a href=\"#\" class=\"downloadBtn steam\">refugethegame</a>
-                <a href=\"#\" class=\"downloadBtn itchio\">refugethegame</a>
+                <a href=\"http://steamcommunity.com/id/refugethegame/\" rel=\"noopener\" target=\"_blank\" title=\"Available on Steam\" class=\"downloadBtn steam steamFooter\">refugethegame</a>
+                <a href=\"https://refuge.itch.io/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
             </div>
 
             <div class=\"line\"></div>
@@ -258,7 +257,7 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
 
     public function getDebugInfo()
     {
-        return array (  223 => 80,  220 => 79,  215 => 75,  210 => 76,  208 => 75,  203 => 74,  200 => 73,  195 => 71,  191 => 69,  188 => 68,  185 => 67,  180 => 58,  177 => 57,  174 => 56,  171 => 55,  168 => 54,  165 => 53,  160 => 49,  157 => 48,  154 => 47,  151 => 46,  143 => 60,  141 => 53,  135 => 51,  133 => 46,  125 => 41,  115 => 38,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 104,  66 => 79,  63 => 78,  61 => 73,  56 => 71,  53 => 70,  51 => 67,  48 => 66,  46 => 65,  42 => 64,  39 => 63,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
+        return array (  222 => 78,  219 => 77,  214 => 73,  209 => 74,  207 => 73,  202 => 72,  199 => 71,  194 => 69,  190 => 67,  187 => 66,  184 => 65,  179 => 56,  176 => 55,  173 => 54,  170 => 53,  167 => 52,  164 => 51,  160 => 47,  157 => 46,  154 => 45,  151 => 44,  143 => 58,  141 => 51,  136 => 49,  133 => 48,  131 => 44,  125 => 41,  115 => 38,  83 => 8,  81 => 7,  78 => 6,  75 => 5,  68 => 102,  66 => 77,  63 => 76,  61 => 71,  56 => 69,  53 => 68,  51 => 65,  48 => 64,  46 => 63,  42 => 62,  39 => 61,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -314,13 +313,11 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
     <link rel=\"canonical\" href=\"{{ page.url(true, true) }}\" />
     <link href=\"https://fonts.googleapis.com/css?family=VT323\" rel=\"stylesheet\" async>
 
-
-
     {% block stylesheets %}
         {% do assets.addCss('theme://css/home.css', 100) %}
         {% do assets.addCss('theme://css/custom.css', 100) %}
-
     {% endblock %}
+
     {{ assets.css() }}
 
     {% block javascripts %}
@@ -356,8 +353,8 @@ class __TwigTemplate_ecdd703438dd54272a73fbf397794e83472ff6bff791f542081da6ed65b
             <p class=\"downloadNow\">Available this December</p>
             
             <div class=\"downloadBtns\">
-                <a href=\"#\" class=\"downloadBtn steam\">refugethegame</a>
-                <a href=\"#\" class=\"downloadBtn itchio\">refugethegame</a>
+                <a href=\"http://steamcommunity.com/id/refugethegame/\" rel=\"noopener\" target=\"_blank\" title=\"Available on Steam\" class=\"downloadBtn steam steamFooter\">refugethegame</a>
+                <a href=\"https://refuge.itch.io/\" target=\"_blank\" rel=\"noopener\" title=\"Available on Itch.io\" class=\"downloadBtn itchio itchFooter\">refuge</a>
             </div>
 
             <div class=\"line\"></div>

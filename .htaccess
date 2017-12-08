@@ -18,8 +18,8 @@ RewriteEngine On
 # In order for Grav to recognize the connection as secure, you need to uncomment
 # the following lines.
 #
-# RewriteCond %{HTTP:X-Forwarded-Proto} https
-# RewriteRule .* - [E=HTTPS:on]
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 #
 ## End - X-Forwarded-Proto
 

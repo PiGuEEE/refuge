@@ -232,7 +232,7 @@
 }
 
 .theGame{
-	padding-top: 70px;
+	padding-top: 1px;
 	padding-bottom: 70px;
 	.primaryFont();
 	h2{
@@ -382,17 +382,22 @@
 	.downloadBtns{
 		margin-top: 60px;
 		margin-bottom: 150px;
+		.itchFooter{
+			width: 140px;
+		}
+		.steamFooter{
+			width: 200px;
+			padding-left: 30px;
+		}
 		.downloadBtn{
-			.dim(100px, 30px);
-			display: inline-table;
+			display: inline-block;
 			font-size: 2em;
-			padding-left: 45px;
 			background-repeat: no-repeat;
 			background-size: 20% 100%;
 			background-position: top left;
 			&:first-child{
 				.steam();
-				margin-right: 60px;
+				margin-right: 40px;
 			}
 		}
 		.steam{

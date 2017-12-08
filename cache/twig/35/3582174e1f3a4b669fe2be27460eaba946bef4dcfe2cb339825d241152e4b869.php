@@ -102,15 +102,6 @@ class __TwigTemplate_19ea5c039e18d11ef3d48138cc5a67f03e97b422c143e8435b9e3bf3742
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['mitem'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 32
-        echo "    ";
-        if (($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "login", array()), "enabled", array()) && $this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "user", array()), "username", array()))) {
-            // line 33
-            echo "        <li><i class=\"fa fa-lock\"></i> ";
-            $this->loadTemplate("partials/login-status.html.twig", "partials/navigation.html.twig", 33)->display($context);
-            echo "</li>
-    ";
-        }
-        // line 35
         echo "
 </ul>
 
@@ -135,7 +126,7 @@ class __TwigTemplate_19ea5c039e18d11ef3d48138cc5a67f03e97b422c143e8435b9e3bf3742
 
     public function getDebugInfo()
     {
-        return array (  114 => 35,  108 => 33,  105 => 32,  93 => 27,  87 => 26,  83 => 25,  79 => 23,  74 => 22,  71 => 21,  59 => 16,  53 => 15,  48 => 13,  43 => 12,  40 => 11,  35 => 10,  29 => 8,  27 => 7,  19 => 1,);
+        return array (  105 => 32,  93 => 27,  87 => 26,  83 => 25,  79 => 23,  74 => 22,  71 => 21,  59 => 16,  53 => 15,  48 => 13,  43 => 12,  40 => 11,  35 => 10,  29 => 8,  27 => 7,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -179,9 +170,6 @@ class __TwigTemplate_19ea5c039e18d11ef3d48138cc5a67f03e97b422c143e8435b9e3bf3742
             </div>
         </li>
     {% endfor %}
-    {% if config.plugins.login.enabled and grav.user.username %}
-        <li><i class=\"fa fa-lock\"></i> {% include 'partials/login-status.html.twig' %}</li>
-    {% endif %}
 
 </ul>
 

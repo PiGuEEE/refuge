@@ -87,7 +87,7 @@ $(document).ready(function(){
 	var typedDiv2 = $('#by');
 	if (typedDiv2.length) {
 		var notYet = {
-		  strings: ["A GAME BY NOTYET - AVAILABLE THIS DECEMBER"],
+		  strings: ["A GAME BY NOTYET"],
 		  startDelay: 4550,
 		  typeSpeed: 50
 		}
