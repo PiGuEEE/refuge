@@ -5,7 +5,9 @@
 {% block head %}
    <meta charset="utf-8" />
     {% include 'partials/metadata.html.twig' %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8" />
+    {% include 'partials/metadata.html.twig' %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 
     <!-- facebook tags -->
     <meta property="og:description" content="Refuge takes place in a war torn world, in a nation in chaos. Citizens are arrested by the military and executed for minor offences every day. The player takes control of Sayid, who gets arrested for missing curfew and finds himself leading a small group of refugees when they are forced to run to escape execution. ">
@@ -34,9 +36,9 @@
 
     <!-- android -->
     <meta name="mobile-web-app-capable" content="yes">
+    
     <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
     {% include 'partials/metadata.html.twig' %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <link rel="icon" type="image/png" href="favicon.ico" />
 
     <link rel="canonical" href="{{ page.url(true, true) }}" />
@@ -74,8 +76,8 @@
             <p class="downloadNow">Available this December</p>
             
             <div class="downloadBtns">
-                <a href="http://steamcommunity.com/id/refugethegame/" class="downloadBtn steam" target="_blank" rel="noopener" title="Available on Steam">refugethegame</a>
-                <a href="https://refuge.itch.io/" class="downloadBtn itchio" target="_blank" rel="noopener" title="Available on Itch.io">refuge</a>
+                <a href="http://steamcommunity.com/id/refugethegame/" rel="noopener" target="_blank" title="Available on Steam" class="downloadBtn steam steamFooter">refugethegame</a>
+                <a href="https://refuge.itch.io/" target="_blank" rel="noopener" title="Available on Itch.io" class="downloadBtn itchio itchFooter">refuge</a>
             </div>
 
             <div class="line"></div>
