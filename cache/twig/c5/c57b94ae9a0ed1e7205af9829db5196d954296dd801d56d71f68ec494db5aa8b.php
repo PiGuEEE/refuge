@@ -23,6 +23,14 @@ class __TwigTemplate_a374470df464d3369c3168400acb82b0dc3d6ab84dc407b3ac4f2c5028a
             <div class=\"button next\"> > </div>
             
             <div class=\"imageBox\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot11.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot10.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot9.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot8.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot7.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot6.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot5.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot4.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
             \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot3.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
             \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot2.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
             \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot1.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
@@ -60,6 +68,14 @@ class __TwigTemplate_a374470df464d3369c3168400acb82b0dc3d6ab84dc407b3ac4f2c5028a
             <div class=\"button next\"> > </div>
             
             <div class=\"imageBox\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot11.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot10.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot9.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot8.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot7.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot6.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot5.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
+                <img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot4.jpg\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
             \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot3.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
             \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot2.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
             \t<img src=\"user/themes/refuge-theme/img/alex.jpg\"  data-src=\"user/themes/refuge-theme/img/screenshot1.png\" alt=\"Screenshot 1\" class=\"sliderImage b-lazy\">
